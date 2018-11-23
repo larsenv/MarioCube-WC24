@@ -1,0 +1,58 @@
+
+location
+{
+	font-family: Verdana;
+    font-size: 17px;
+	color: #e1e1e1;
+	font-weight: bold;
+	text-align:center;
+	
+}
+grade
+{
+	font-family: Verdana;
+    font-size: 58.8px;
+	color: #f1f1f1;
+	font-weight: regular;
+	text-align:justify;
+}
+interval
+{
+	font-family: Myriad Pro;
+    font-size: 12px;
+	color: #d2d2d2;
+	font-weight: bold;
+	text-align:justify;
+}
+condition
+{
+	font-family: Myriad Pro;
+    font-size: 12px;
+	color: #f1f1f1;
+	font-weight: bold;
+	text-align:justify;
+}
+day
+{
+	font-family: Myriad Pro;
+    font-size: 12px;
+	color: #d2d2d2;
+	font-weight: bold;
+	text-align:justify;
+}
+info
+{
+	font-family: Verdana;
+    font-size: 11px;
+	color: #ffffff;
+	font-weight: normal;
+	text-align:justify;
+}
+SearchTitle
+{
+	font-family: Verdana;
+    font-size: 15px;
+	color: #585858;
+	font-weight: bold;
+	text-align:justify;
+}

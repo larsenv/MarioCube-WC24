@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Wii.com">
+<meta name="description" content=""><title>Wii.com Europe</title>
+<link href="vol1/css/flvplayer.css" rel="stylesheet" type="text/css" media="all">
+<script language="javascript" type="text/javascript" src="vol1/js/swfobject.js"></script>
+<script language="javascript" type="text/javascript" src="vol1/js/if_call_this.js"></script>
+</head>
+<body>
+	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	  <tr>
+	    <td align="center" valign="middle"><div id="swfcontent"><!--<img src="/images/nofla.gif" width="320" height="305">--></div>
+		</td>
+	  </tr>
+	</table>	
+
+<script type="text/javascript">
+
+var slide = new Object();
+slide["000"] = "slide000";
+slide["008"] = "slide008";
+slide["039"] = "slide039";
+slide["040"] = "slide040";
+slide["074"] = "slide074";
+slide["119"] = "slide119";
+slide["123"] = "slide123";
+slide["141"] = "slide141";
+slide["156"] = "slide156";
+slide["165"] = "slide165";
+slide["166"] = "slide166";
+slide["182"] = "slide182";
+
+setTimeout(function() {
+
+var movieDomain = 'http://' + location.href.split('/')[2] + '/';
+
+if (typeof params.id != 'undefined') {
+	setImage(params.id);
+}
+
+}, 800);
+
+</script>
+
+</body></html>

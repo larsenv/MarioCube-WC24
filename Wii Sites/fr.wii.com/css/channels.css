@@ -1,0 +1,41 @@
+/* Movie Overview */
+#cont_left table.movieitem {
+	margin:0px 0px 20px 14px;
+	padding:0px;
+	width:148px;
+	float: left;
+}
+#cont_left table.movieitemleft {
+	clear: left;
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	width:148px;
+	float: left;
+}
+#cont_left td.moviethumb {
+	background-repeat:no-repeat;
+}
+#cont_left td.movieblow {
+	height:6px;
+	background-image: url(../images/common/blow_up.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#cont_left td.movietxt {
+	background-color: #ffffff;
+	background-image: url(../images/common/dot_pat.gif);
+	padding: 0px 1px 1px 1px;
+	background-position: -1px;
+}
+#cont_left td.movietxt div {
+	width:146px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#cont_left span.movietext {
+	font-size: 10px;
+	padding:5px 5px 5px 5px;
+	display: block;
+	line-height:15px;
+}

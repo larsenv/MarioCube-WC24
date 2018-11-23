@@ -1,0 +1,53 @@
+#quickbms script by chrrox
+#Super Smash Brothers U
+#tool available at http://aluigi.altervista.org/
+Open FDSE "ls" 0
+comtype zlib_dynamic
+get UNL long
+get FILES long
+for i = 0 < FILES
+get HASH long
+get OFFSET long
+get SIZE long
+get VOL short
+get FLAG short
+set ARC string "dt0"
+string ARC + VOL
+Open FDSE ARC 1
+string NAME p= "%08X" HASH
+set FLDR string ARC
+string FLDR + \
+string FLDR + NAME
+log MEMORY_FILE OFFSET SIZE 1
+if size > 0
+get TYPE short MEMORY_FILE
+else
+set TYPE string "NULL"
+endif
+if TYPE == 40056
+clog MEMORY_FILE OFFSET SIZE SIZE 1
+get TYPE short MEMORY_FILE
+endif
+if TYPE == 21838
+set TYPE string "NUS"
+elif TYPE == 21582
+set TYPE string "NUT"
+elif TYPE == 20819
+set TYPE string "SQB"
+elif TYPE == 52428
+set TYPE string "SSBUM"
+elif TYPE == 18002
+set TYPE string "RF"
+elif TYPE == 16726
+set TYPE string "VAT"
+elif TYPE == 28003
+set TYPE string "cms"
+elif TYPE == 65535
+set TYPE string "FF"
+elif TYPE == 0
+set TYPE string "LVD"
+endif
+string FLDR + "."
+string FLDR + TYPE
+log FLDR 0 SIZE MEMORY_FILE
+next i

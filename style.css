@@ -1,0 +1,24 @@
+html {
+	min-height:100%;
+	color:#61666c;
+	font-weight:400;
+	font-size:1em;
+	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height:2em;
+}
+
+html {
+  padding: 45px 25px;
+  font: 13px 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: cover !important;
+  margin: 0px;
+  cursor:url("https://wc24.mariocube.com/Cursors/wii.cur"), default;
+  color: #000000;
+}
+
+a
+{
+  color: #2D5369;
+  cursor:url("https://wc24.mariocube.com/Cursors/wii-hover.cur"), default;
+  text-decoration: none;
+}

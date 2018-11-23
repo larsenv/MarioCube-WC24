@@ -1,0 +1,86 @@
+#contents {
+	background-image: url(../images/index/mainimg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#contents a:link {
+	text-decoration: none;
+	color: #8c8c8c;
+}
+#contents a:visited {
+	color: #8c8c8c;
+}
+#contents a:hover {
+	text-decoration: underline;
+	color: #8c8c8c;
+}
+#contents h2 {
+	margin:0px 0px 9px 0px;
+	padding:0px;
+}
+#contents p {
+	margin:0px 0px 40px 0px;
+	padding:0px;
+	font-size: 92%;
+}
+#movie_items_left {
+	float: left;
+	width: 290px;
+}
+#movie_items_left dl,dt,dd,span {
+	margin:0px;
+	padding:0px;
+}
+#movie_items_left dl {
+	margin:0px 0px 20px 0px;
+	text-align: left;
+}
+#movie_items_left dt{
+	width: 120px;
+	float: left;
+}
+#movie_items_left dd {
+	width: 160px;
+	float: right;
+}
+#movie_items_left dd span{
+	margin:2px 0px 5px 0px;
+	font-size: 85%;
+	display: block;
+}
+#movie_items_left dd span.indpx1{
+	text-indent: 1px;
+}
+#movie_items_right {
+	float: right;
+	width: 290px;
+}
+#movie_items_right dl,dt,dd,span {
+	margin:0px;
+	padding:0px;
+}
+#movie_items_right dl {
+	margin:0px 0px 20px 0px;
+	text-align: right;
+}
+#movie_items_right dt{
+	width: 120px;
+	float: right;
+}
+#movie_items_right dd {
+	width: 160px;
+	float: left;
+}
+#movie_items_right dd span{
+	margin:2px 0px 5px 0px;
+	font-size: 85%;
+	display: block;
+	text-align: left;
+}
+#details {
+	text-align: right;
+	float: right;
+	width: 120px;
+}

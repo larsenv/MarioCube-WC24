@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Wii, ウィー">
+<meta name="description" content=""><title>Wii.com JP</title>
+<link href="css/flvplayer.css" rel="stylesheet" type="text/css" media="all">
+<script language="javascript" type="text/javascript" src="js/swfobject.js"></script>
+<script language="javascript" type="text/javascript" src="js/if_call_this.js"></script>
+<script type="text/javascript">
+<!--
+goBackTo("soft_anicrossing.jsp", "id");
+//-->
+</script>
+</head>
+<body>
+	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	  <tr>
+	    <td align="center" valign="middle"><div id="swfcontent"><!--<img src="/images/nofla.gif" width="320" height="305">--></div>
+		</td>
+	  </tr>
+	</table>	
+
+<script type="text/javascript">
+setTimeout(function() {
+var movieDomain = 'http://' + location.href.split('/')[2] + '/';
+var flvfile = params.mv;
+var cc = location.href.split('/')[3];
+if (cc == 'jp' && location.href.indexOf('wii.com') != -1) {
+	flvfile = 'rtmp://fms.wii.com/wii/_definst_/' + params.mv + '.flv';
+} else {
+	flvfile = '../../movies/flv/animalcrossing/' + params.mv + '.flv';
+}
+var so = new SWFObject("/swf/flvplayer_iwata.swf", "flvplayer", params.width, params.height, "7", "#666666");
+if (typeof params.mv != 'undefined') {
+so.addVariable("flv", flvfile);
+so.addVariable("totalTime", params.tt);
+var _title = document.title;
+so.write("swfcontent");
+document.title = _title;
+}
+}, 800);
+
+</script>
+
+</body></html>

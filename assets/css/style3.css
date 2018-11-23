@@ -1,0 +1,58 @@
+
+location
+{
+	font-family: Verdana;
+    font-size: 10px;
+	color: #cccccc;
+	font-weight: bold;
+	text-align: center;
+	
+}
+grade
+{
+	font-family: Verdana;
+    font-size: 30px;
+	color: #646464;
+	font-weight: bold;
+	text-align: justify;
+}
+interval
+{
+	font-family: Verdana;
+    font-size: 10px;
+	color: #cccccc;
+	font-weight: bold;
+	text-align: justify;
+}
+condition
+{
+	font-family: Verdana;
+    font-size: 10px;
+	color: #646464;
+	font-weight: bold;
+	text-align: justify;
+}
+day
+{
+	font-family: Verdana;
+    font-size: 8px;
+	color: #646464;
+	font-weight: bold;
+	text-align: center;
+}
+info
+{
+	font-family: Verdana;
+    font-size: 9px;
+	color: #646464;
+	font-weight: normal;
+	text-align: justify;
+}
+SearchTitle
+{
+	font-family: Verdana;
+    font-size: 16px;
+	color: #646464;
+	font-weight: bold;
+	text-align:justify;
+}

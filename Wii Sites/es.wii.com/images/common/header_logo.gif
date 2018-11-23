@@ -1,0 +1,125 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><!-- PageID 1860 - published by RedDot 7.5 - 7.5.1.91 - 23907 -->
+        <title>Wii.com - Error Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="es"  />
+        <meta name="date" content="2008-09-25 02:14:29" />        
+
+        
+        
+        
+        
+        
+        <link rel="stylesheet" media="all" type="text/css" href="/wii/css/modal.css" /><link rel="stylesheet" media="all" type="text/css" href="/wii/css/base.css" /><link rel="stylesheet" media="all" type="text/css" href="" />
+        <!--[if lte IE 6]>
+            <link rel="stylesheet" media="all" type="text/css" href="/wii/css/ie_modifications.css" />
+        <![endif]-->
+        
+        <script type="text/javascript" src="/wii/js/prototype.js"></script><script type="text/javascript" src="/wii/js/helper.js"></script><script type="text/javascript" src="/wii/js/window.js"></script><script type="text/javascript" src="/wii/js/flvplayer.js"></script><script type="text/javascript" src="/wii/js/swfobject.js"></script>
+
+        
+    </head>
+
+    <body onload="documentViewHelper.init();">
+    
+    
+            
+
+
+        <div id="wrapper">
+            <a name="top" id="top">&nbsp;</a>
+            <div id="header">
+                <a href="/wii/es_ES/index.html"><img class="left" src="/wii/images/navigation/header_logo.gif" alt="" title="" /></a>
+                
+
+<ul class="nav">
+    <li id="experience" class="">
+        <a href="/wii/es_ES/experiencia_wii_11.html" title="Experiencia Wii">
+        <img id="experience_img" src="/wii/images/navigation/gnavi_exp_es.gif"/>
+        </a>
+    </li>
+</ul>
+ <ul class="nav">
+    <li id="channel" class="">
+        <a href="/wii/es_ES/canales_wii_12.html" title="Canales Wii">
+        <img id="channel_img" src="/wii/images/navigation/gnavi_chnl_es.gif"/>
+        </a>
+    </li>
+</ul>
+ <ul class="nav">
+    <li id="tv" class="">
+        <a href="/wii/es_ES/wii_tv_14.html" title="Wii TV">
+        <img id="tv_img" src="/wii/images/navigation/gnavi_wiitv_es.gif"/>
+        </a>
+    </li>
+</ul>
+ <ul class="nav">
+    <li id="software" class="">
+        <a href="/wii/es_ES/software_wii_3.html" title="Software Wii">
+        <img id="software_img" src="/wii/images/navigation/gnavi_software_es.gif"/>
+        </a>
+    </li>
+</ul>
+ <ul class="nav">
+    <li id="wiiware" class="">
+        <a href="/wii/es_ES/wiiware_13.html" title="WiiWare">
+        <img id="wiiware_img" src="/wii/images/navigation/gnavi_wiiware_es.gif"/>
+        </a>
+    </li>
+</ul>
+ 
+                <ul class="wiicom_logo">
+<li><a href="http://www.wii.com"><img src="/wii/images/navigation/header_b_global.gif" alt="Wii.com" title="Wii.com" /></a></li>
+</ul>
+            </div>
+
+            
+            <div id="content" class="clearfix">
+                
+                
+                <div class="single_title_row dot_blue clearfix">
+                    <div class="h1_title">
+                        <img src="/wii/images/headlines/perdn_34beed.gif" alt="&iexcl;Perd&oacute;n!" title="&iexcl;Perd&oacute;n!" />
+                        <!--&iexcl;Perd&oacute;n!-->
+                    </div>
+                </div>
+                
+    
+                
+                 
+             
+                            
+                
+
+
+
+<div class="error">
+    <div class="error_text">
+        <h2 title="&iexcl;Perd&oacute;n!">&iexcl;Perd&oacute;n!</h2>
+        <p>Por trabajos de mantenimiento, algunos enlaces viejos o marcadodes han podido dejar de funcionar. <A href="/wii/es_ES/index.html">Haz clic aqu&iacute; para visitar Wii.com.</A></p>
+    </div>
+</div> 
+            </div>
+
+            
+
+            <div id="footer" class="clearfix">
+    <ul class="subnav">
+        <li><a href="http://wiiportal.nintendo-europe.com/499.html" target="_blank" title="M&aacute;s informaci&oacute;n sobre Wii"><img title="M&aacute;s informaci&oacute;n sobre Wii" alt="M&aacute;s informaci&oacute;n sobre Wii" src="/wii/images/navigation/footer_b_detail_es.gif"/></a></li>
+        <li><img height="29" width="1" src="/wii/images/siteware/34beed.gif"/></li>
+        <li><a href="http://www.nintendo.es/NOE/es_ES/service/contact_2095.html" target="_blank"><img alt="Contacto" title="Contacto" src="/wii/images/navigation/footer_b_contact_es.gif#/wii/images/navigation/footernavi_Contact_es.jpg"/></a></li>
+        <li><a href="http://www.nintendo.es/NOE/es_ES/news/index_newsletter.jsp?source=es.wii.com&amp;interest=wii,virtualconsole" target="_blank"><img alt="Boletin" title="Boletin" src="/wii/images/navigation/footer_b_newsletter_es.gif#/wii/images/navigation/footernavi_Newsletter_es.jpg"/></a></li> 
+        <li><a href="/wii/es_ES/teacuterminos_y_condiciones_1461.html" target="_self"><img alt="Terminos y Condiciones" title="Terminos y Condiciones" src="/wii/images/navigation/footer_b_terms_es.gif#/wii/images/navigation/footernavi_TermsConditions_es.jpg"/></a></li>
+    </ul>
+    <div class="nintendo_logo">
+        <a href="http://www.nintendo.es/"><img height="34" width="85" alt="Nintendo of Europe" title="Nintendo of Europe" src="/wii/images/navigation/footer_nintendo_logo.gif"/></a></div>
+    </div>
+</div>            
+        </div>
+  
+    </body>
+</html>

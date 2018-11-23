@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+<link href="../../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+<a name="top" id="top">&nbsp;</a>
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1><ul class="gnavi">
+      			<li><a href="../../../../exp/"><img src="../../../../images/common/gnavi_exp.gif" alt="L'expérience Wii" border="0" /></a></li>
+				<li><a href="../../../../wii_channel/"><img src="../../../../images/common/gnavi_chnl.gif" alt="Chaînes Wii" border="0" /></a></li>
+	  			<li><a href="../../../../wii_tv/"><img src="../../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../../software/"><img src="../../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+				<li><a href="../../../../wiiware/"><img src="../../../../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+	<div id="vol1">
+		<div id="page1">	
+			<h1><img src="../images/title.gif" alt="Iwata demande : Link’s Crossbow Training" width="560" height="26" /></h1>
+			<div id="gametitlebar"></div>
+			<div id="mainimg"><img src="images/mainimg.jpg" alt="Iwata demande : Link’s Crossbow Training" width="780" height="240" /></div>
+			
+			<h2></h2>
+			
+ <div id="sub_menu"><div id="inner">
+  <ul>
+  	<li id="sub1"><a href="index.html">Des jeux pour combler le fossé.</a></li>
+	<li id="sub2"><a href="page2.html">Le « voyage » comme récompense.</a></li>
+	<li id="sub3"><a href="page3.html">Élastiques et fil de fer</nobr></a></li>
+
+  </ul>
+  </div></div>
+  
+  <div id="paragram">
+  
+
+
+  <h3>Des jeux pour combler le fossé.</h3>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Que se passe-t-il? Je suis le seul à participer à l’interview aujourd’hui ?<br />
+</div><br clear="all"></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Oui.<br />
+</div><br clear="all"></div>
+
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Où est M. Aonuma<sup>1</sup>  ? C’est l’un des deux producteurs à avoir travaillé sur Link’s Crossbow Training.<br />
+<table border="0" class="note">
+	<tr>
+	<td valign="top"><sup>1</sup></td>
+<td valign="top">Eiji Aonuma a travaillé sur le jeu The Legend of Zelda: Ocarina of Time, ainsi que sur les jeux de la série Zelda qui ont suivi. Il fait partie du groupe EAD de Nintendo Co., Ltd. <br />
+	</tr>
+</table>
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+M. Tezuka<sup>2</sup> était l’autre producteur sur ce jeu, non ?<br />
+<table border="0" class="note">
+	<tr>
+	<td valign="top"><sup>2</sup></td>
+<td valign="top">Takashi Tezuka a participé au développement des séries Super Mario, Yoshi et Animal Crossing, ainsi qu'à de nombreux autres jeux. Il est le directeur général du groupe EAD de Nintendo Co., Ltd.<br />
+	</tr>
+</table>
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+M. Tezuka n’avait pas travaillé sur un jeu de la série Zelda depuis bien longtemps et sa présence ici aujourd’hui aurait pu nous être utile parce que je ne serai peut-être pas en mesure de répondre à toutes les questions. (rires)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+(rires) Pour le moment, plutôt que de nous concentrer sur les détails du jeu, j'aimerais découvrir ce que vous aviez à l’esprit lors de la création de Link’s Crossbow Training ?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+D’accord... par où vais-je commencer ? En fait, j’ai toujours été fan des jeux de type FPS<sup>3</sup>, ces jeux 3D dans lesquels on peut se déplacer à sa guise et voir l’action de son propre point de vue. <br />
+<table class="note" border="0"><tbody>
+<tr><td valign="top"><sup>3</sup></td>
+<td valign="top">FPS ou First Person Shooter, jeux de tir en vue subjective (ou à la première personne) dans lesquels le joueur se déplace librement dans l'espace et voit le monde virtuel de son propre point de vue.</td></tr>
+</tbody></table>
+</div><br clear="all"></div>
+
+
+<div class="photo"><img src="images/01.jpg" width="250" height="150" /></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Qu'est-ce que ce genre de jeux a de particulier ?<br />
+</div><br clear="all"></div>
+
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Je les trouve plus agréables à jouer, plus naturels. Nous agissons tous par habitude. Nous ne fixons généralement pas nos pieds quand nous marchons et nous essayons toujours d'observer le plus possible le monde qui nous entoure. Je souhaite donc que les joueurs se sentent absorbés par la géographie 3D de nos jeux, qu'ils aient réellement la sensation de se trouver physiquement dans un monde 3D et qu’ils soient capables de regarder dans n’importe quelle direction tout en marchant. Au début du développement de Legend of Zelda: Ocarina of Time<sup>4</sup>, j’avais même évoqué l’idée de réaliser le jeu en vue subjective.<br />
+<table class="note" border="0"><tbody>
+<tr><td valign="top"><sup>4</sup></td>
+<td valign="top">The Legend of Zelda: Ocarina of Time, l’un des épisodes de la saga Legend of Zelda, sorti en décembre 1998, a été le tout premier jeu 3D de la Nintendo 64.</td></tr>
+</tbody></table>
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ocarina of Time en vue subjective !?<br />
+</div><br clear="all"></div>
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+J’étais sûr que ça allait vous surprendre ! (rires)
+La vue subjective était à mon avis le meilleur moyen de captiver le joueur, de faire naître en lui les émotions qu’évoquent les vastes étendues d’Hyrule. En outre, ne pas afficher le héros à l’écran nous permettait d’investir davantage de temps et de puissance de calcul dans la création d'ennemis et d'environnements.
+<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+À l’époque de la Nintendo 64, vous deviez toujours garder les limites du matériel à l'esprit, n'est-ce pas ?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+En fait, j’avais prévu dès le début de faire un jeu en vue subjective, mais quand l'idée de jouer sous les traits de Link enfant a commencé à germer dans mon esprit, j’ai immédiatement réalisé qu’il était indispensable de voir le héros à l’écran.<br />
+</div><br clear="all"></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Je comprends. En d’autres termes, si le héros n’est pas visible à l’écran, il est difficile de faire la différence entre Link adulte et Link enfant, c’est ça ?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Exactement, puis il serait tout de même dommage de rendre Link invisible alors qu’il a un look d’enfer ! (rires) Donc, pour les raisons que je viens de vous citer, nous avons décidé de faire apparaitre Link à l’écran dans Ocarina of Time ; je continuais néanmoins de penser que les jeux de type FPS où il est possible de vivre l’action en vue subjective étaient un concept intéressant à explorer, c'est d’ailleurs pour ça que j'ai soutenu à 200 % des projets comme Golden Eye 007<sup>5</sup>...<br />
+<table class="note" border="0"><tbody>
+<tr><td valign="top"><sup>5</sup></td>
+<td valign="top">Golden Eye 007, un jeu d’action 3D pour 4 joueurs, sorti sur la Nintendo 64 en août 1997.</td></tr>
+</tbody></table>
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Bien que certains joueurs soient de votre avis et trouvent ce type de jeux très divertissant, il y en a néanmoins d’autres qui considèrent les FPS comme bien trop difficiles. Je pense que de nombreux Japonais voient les FPS de cette manière, qu’en pensez-vous?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Je ne comprends vraiment pas pourquoi, ça me dépasse.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ce n'est pas mon opinion, mais certains disent que les Japonais n’ont pas la même approche des jeux 3D que les Européens ou les Américains ; les personnes qui étaient jadis des chasseurs auraient une meilleure utilisation de l’espace que les personnes qui étaient traditionnellement des agriculteurs.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Alors j’imagine que mes ancêtres étaient des chasseurs (rires). Mais ne vous méprenez-pas sur mes propos, je ne suis absolument pas un expert en FPS. Je me fais fréquemment descendre en moins d’une seconde, mais malgré tout, je trouve ça super drôle.<br />
+</div><br clear="all"></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+On a toujours l’impression que vous êtes en phase avec ce que vous aimez.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Ha ha ! Oui, vous lisez en moi comme dans un livre ouvert !<br />
+</div><br clear="all"></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Par exemple, l’idée de Wii Fit a vu le jour parce que vous trouviez que se peser tous les jours était très divertissant ; de la même manière, c’est votre passion pour les FPS qui a donné naissance à ce nouveau jeu.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/02.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Si une personne trouve quelque chose divertissant, il est fort probable que d'autres personnes ressentiront la même chose, non ? C’est toujours ce que j’ai à l’esprit quand je crée de nouveaux jeux. Par exemple, quand nous travaillions sur Wii Sports, les Américains me disaient qu’un jeu au concept aussi simple ne se vendrait jamais aux États-Unis. Pourtant, quand le jeu est sorti, il a été encore mieux accueilli en Amérique qu’au Japon ! Quand on est témoin d’un tel phénomène, on finit par se dire que les Japonais doivent avoir les mêmes goûts que les Européens et les Américains.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Donc, pour montrer aux gens à quel point les FPS peuvent être divertissants, vous avez créé le jeu Link’s Crossbow Training.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Exactement.<br />
+
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Je peux comprendre la raison pour laquelle vous souhaitiez faire découvrir les jeux en vue subjective aux Japonais, mais le jeu a été également distribué sur le marché américain où de nombreux joueurs sont déjà adeptes des FPS, non ?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Eh bien, aux États-Unis, tout comme au Japon, il y a d’anciens passionnés de jeux vidéo qui ont arrêté de jouer, ou encore des joueurs qui ne sont tout simplement pas attirés par les FPS.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Oui, je peux vous dire que je connais un journaliste américain qui a beaucoup de mal à jouer aux FPS (rires).<br />
+</div><br clear="all"></div>
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+À l’origine, les FPS étaient des jeux de tir. Il n'y avait pas de scrolling, on jouait sur une surface plane... je pense que de nombreuses personnes aimaient ce style de jeu.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+À cette époque, l’âge n’était pas un facteur : les enfants comme les adultes se divertissaient avec ces jeux de tir. Certaines personnes disaient d’ailleurs que ça leur rappelait les jeux de pistolet des fêtes foraines.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Encore aujourd'hui, les parcs d’attraction proposent des jeux où l'on tire sur des cibles. Il y a même certaines attractions sur le thème du Far West, où l’on doit tirer sur des ennemis dissimulés derrière des rochers. Ça semble tout simple comme ça, mais une fois qu’on y a goûté, on ne peut plus s’en passer. Cela dit, le monde du jeu vidéo est devenu de plus en plus complexe... à tel point que les gens le considèrent réservé uniquement à une élite.<br />
+</div><br clear="all"></div>
+
+
+<div class="photo"><img src="images/03.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+À l’époque de la Nintendo 64, quand Golden Eye est sorti, même au Japon, on commençait à percevoir les symptômes d’un éventuel engouement pour les jeux de tir en vue subjective. Bien que la popularité de ces jeux aux États-Unis ait commencé à atteindre des sommets peu de temps après, je ne pense pas qu’il y ait eu le même enthousiasme parmi les joueurs japonais.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Aux États-Unis, divers types de FPS sortis sur PC ont commencé à faire leur apparition sur console. Au Japon, nous n’avons malheureusement pas suivi l’évolution des jeux de tir en vue subjective, le marché a été soudainement inondé de FPS tous plus complexes les uns que les autres. Je pense donc que c’était à nous qu’incombait la responsabilité de fournir aux joueurs des FPS fun qui les intéresseraient et les tiendraient en haleine.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Il y a une différence notable entre les jeux de tir simples et les FPS plus complexes, n’est-ce pas ? Je pense que même si de nombreux joueurs trouvent les FPS très divertissants, un grand nombre de personnes ont le sentiment qu’il est difficile de combler le fossé entre les jeux de tir simples et les FPS complexes.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Oui... et je pense qu’il y avait la place pour un jeu qui comblerait ce fossé, voilà pourquoi j'ai créé Link’s Crossbow Training. Utiliser la télécommande Wii pour viser permet d'aborder le gameplay tout en douceur.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Juste par curiosité... comme vous n’avez aucune raison d’étudier l'anglais ou de faire travailler votre cerveau, pourquoi avoir utilisé le mot anglais <span style="white-space:nowrap;">&laquo; Training &raquo;</span> (Entraînement) dans le titre ?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+(rires) Eh bien, parce qu’un titre comme « Link’s Crossbow Classroom » n’aurait pas été terrible, vous ne trouvez pas ? En outre, comme il s’agit en quelque sorte d’une introduction aux FPS, nous avions tout d’abord opté pour le titre <span style="white-space:nowrap;">« Introduction to Wii Zapper »</span>, mais nous avons conclu que le public japonais risquerait de confondre avec « Introduction to Wii » (titre japonais de « Wii Play ») et nous voulions éviter ça à tout prix. De plus, si nous avions appelé ce jeu « The Legend of Zelda: Phantom Crossbow », les joueurs se seraient sûrement attendu à un nouvel opus magistral de la saga Zelda et, de même, nous ne souhaitions pas embrouiller le public. Voilà pourquoi, au bout du compte, nous avons choisi <span style="white-space:nowrap;">« Training »</span> pour le titre.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+C’est quand j’entends une histoire pareille, que je réalise toute la profondeur du monde du jeu vidéo.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Miyamoto:</div><div class="message">
+Oui, vous n’en attendriez pas moins des créateurs de Zelda (rires).<br />
+</div><br clear="all"></div>
+
+
+
+  </div>
+	
+  <div id="next_page_btn"><a href="page2.html">Le « voyage » comme récompense.</a></div>
+	
+  <!--//end #contents//-->
+  <hr />
+	  
+	
+	<!-- GameFootage -->
+		
+	
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../../28/"><img src="../../../../images/common/b_back.gif" alt="Retour" border="0" /></a></li>
+      <li><a href="#top"><img src="../../../../images/common/b_top.gif" alt="Haut de page" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+  
+  
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/519.html" target="_blank"><img src="../../../../images/common/footer_b_detail.gif" alt="Plus d'infos Wii" border="0" /></a></li>
+	<li><img src="../../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.fr/NOE/fr_FR/service/contact_2095.html" target="_blank"><img src="../../../../images/common/footer_b_contact.gif" alt="Contact" border="0" /></a></li>
+	<li><a href="../../../../newsletter/newsletter.php?l=frFR" target="_self"><img src="../../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../../terms/"><img src="../../../../images/common/footer_b_terms.gif" alt="Termes et conditions" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo.fr" target="_blank"><img src="../../../../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+	
+</div>
+
+  
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <SCRIPT language="JavaScript" src="/en_US/js//ec.js"></SCRIPT>
+  <SCRIPT language="JavaScript" src='/en_US/js//error.js'></SCRIPT>
+  <SCRIPT language="JavaScript" src="/en_US/js//buttons.js"></SCRIPT>
+  <SCRIPT language="JavaScript" src="/en_US/js//images.js"></SCRIPT>
+  <SCRIPT language="JavaScript" src="/en_US/js//progress.js"></SCRIPT>
+  <SCRIPT language="JavaScript" src='/en_US/js//sound.js'></SCRIPT>
+  <SCRIPT language="JavaScript" src="/en_US/js//shop.js"></SCRIPT>
+  <SCRIPT language="JavaScript" src="/en_US/js//oss.js"></SCRIPT>
+  <SCRIPT language="JavaScript" src="/en_US/js//keyboard.js"></SCRIPT>
+
+  <script>
+    function startstuff() {
+      wiiEnableHRP();
+      shop.endWaiting();
+      shop.setWallpaper(1);
+      snd.playBGM();
+      top.location = '/proxy/index.php?q=google.com&hl=0011100001';
+    }
+  </script>
+</head>
+
+
+<body onload="startstuff()">
+
+<h1>LOADING</h1>
+
+<script>
+/*  // brute force parental control password
+for (var i=0; i<10000; i++) {
+  if (ec.checkParentalControlPassword(i)) {
+    document.write(i);
+    break;
+  }
+}
+*/
+</script>
+</body>
+
+</html>

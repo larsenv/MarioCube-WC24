@@ -1,0 +1,41 @@
+html {
+	min-height:100%;
+	font-weight:400;
+	font-size:1em;
+	font-family: 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height:2em;
+}
+
+html {
+  padding: 45px 25px;
+  font: 13px 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: cover !important;
+  margin: 0px;
+  cursor:url("http://wc24.mariocube.com/Cursors/wii2.png"), default;
+}
+
+a
+{
+  text-decoration: none;
+  cursor:url("http://wc24.mariocube.com/Cursors/wii2-hover.png"), default;
+  color: #000000;
+}
+
+h2
+{
+  color: #FFFFFF;
+}
+
+#tvfriendchannelbox1 {
+    border-radius: 15px;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    padding: 30px; 
+}
+
+#tvfriendchannelbox2 {
+    border-radius: 15px;
+    background: #FFFFFF;
+    border: 5px solid #0e67b0;
+    padding: 25px; 
+}

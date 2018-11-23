@@ -1,0 +1,396 @@
+216 Texture Tracks:
+
+Railing Mine
+Moonshine Circuit
+Blue Cape
+Forest of Demons
+Ash Volcano
+Super Mario Jungle
+Icy Road
+Forest Castle
+Galaxy Road in the Toy Time Galaxy
+Seaside Hill
+Autumn Falls
+Pac Zone 256
+Superman Raceway
+Sub4Box Raceway
+Bowser's Beach
+Apotos
+Turbo's Waceqayaluigi R
+Dry Dry City
+Stickboy's Castle
+Nocturne Jungle
+Royal Circuit
+Lunar Base
+Bowser Gardens
+Pumpkin Hill
+Purple Bowser Castle
+Luigi Circuit at Night
+Weird Weird Meadows
+Black 'n Blue Mushroom Gorge
+Planet Wisp
+Sleepy Circuit
+Wario's Garage
+Deep Woods
+NFS Most Wanted
+Burnout Paradise
+NFS Carbon
+NFS Porsche
+Wii Sports Resort
+NFS ProStreet
+NFS Undercover
+NFS Underground
+NFS Shift
+NFS Underground 2
+Rally 3D 1
+Rally 3D 2
+NFS Hot Pursuit 2
+NFS Hot Pursuit
+Track Mania
+Darky Circuit (Luigi Circuit)
+Rollercoasting (Luigi Circuit)
+Moo Moo Caverns
+Country Gorge
+Sky Sanctuary
+Humongous Fungus
+Mushroom Hill
+Prison Lane
+Chemical Plant
+Fleet Guide Galaxy
+Megalo Stadium
+Security Hall
+Darky Circuit (Mario Circuit)
+Rollercoasting (Mario Circuit)
+Darky Gallery
+Pic Plains
+Sweet Mountain
+Windy Valley
+Casino Park
+Tropical Resort
+Windmill Isle Day
+Emerald Coast 2
+Aquarium Park 2
+Forest Maze
+Dragon Road
+Asteroide Coaster
+Ice Cap
+Castle of Time
+Sand Ocean
+Snow Ruins
+City Escape
+Morning Sun
+Speed Highway
+Bowser's Galaxy Generator
+Dark Bowser's Castle
+Lost World
+Darky Road
+Heaven Road
+Starlight Carnival
+Aquarium Park
+Beach Bowl Galaxy
+Egg Volcano
+DK Cruiser
+Terminal Velocity
+Darky Raceway
+Midnight Meadows
+Silvergrass Farm
+Alien Gorge
+Snow Capped Mushrooms
+Home Depot Factory
+Cold Factory
+Green World
+Fire Mario Circuit
+Coconut Treehouse
+Velvet Cake Summit
+Emerald Mine
+Glacier Mine
+Gold Water Island
+Bullet Bill Spaceport
+Hurricane Waterslide
+Spring Treeway
+Crystal Volcano
+Martian Ruins
+Venus Sand Trap
+Robotic Derby
+Bowser's Home Makeover
+Astro Ice Road
+Silver Spaceway
+Paradise Moon
+Jungle Crater
+Ghostly Dancefloor
+Verde Raceway
+Deep Freeze
+Oil Ocean Zone
+Springtime Square
+Volcanic Stadium
+Moonlight Desert Hills
+Oasis Hills
+Lava Garden
+North Pole Parkway
+Cloud Park
+Space Cruiser Circuit
+Shady Courtyard
+Choco Volcano
+White Castle
+Black Castle
+DS Desert Hills at Night
+Grassland Resort
+Opposite World
+SM64 Style Mario Circuit
+Tristeza Castle
+SM64 Peach's Castle
+Ice Cavern
+Pink Town
+Weird Stadium
+Golden Luigi Circuit
+Toad Park
+Bowser's Shop
+Koopa Jungle
+Lemon Volcano
+Jungle Temple
+Rosalina's Abandoned Castle
+GCN Gardevoir Beach (Night)
+GCN Gardevoir Beach (Day)
+Snowcapped Meadows
+Bowser's Airship Port
+Noki Cape
+Snowy Treeway
+Frozen Volcano
+Dark Ruins
+Bowser's Dreaded Castle
+Jungle Falls
+Giratina Boardwalk
+Blue Shell Raceway
+Purple Gardens
+DK's Nighttime Parkway
+Mercutio Circuit
+Christmas Gardens
+Molten Mountain
+Nightmare Castle
+Mario Kart Festival
+White Park
+Dark Circuit
+1:00AM Mountain
+Bowser's Castle at Night
+Black and White Mushroom Gorge
+Rainbow Glow Circuit
+Neon Mall
+
+216 Custom Tracks:
+
+Boost - Strobenz Desert
+Boost - Athletic Raceway
+Boost - GCN Luigi Circuit
+Boost - Darkness Temple
+Boost - Delfino Village
+Boost - N64 Choco Mountain
+Boost - Factory Course
+Boost - Luna City
+Boost - Moonlight Downtown
+Boost - Moonlight Way
+Boost - Nightmare to Dream World
+Boost - Putt Putt Raceway
+Boost - Rapid Street
+Boost - Rockside River
+Boost - Rooster Island
+Boost - SADX Twinkle Circuit
+Boost - Sunset Raceway
+Boost - Wetland Woods
+Boost - Kinoko Cave
+Boost - Raceway District
+Yoshi Jungle
+Yoshi Lagoon
+GCN Yoshi Winter Circuit
+GCN Terracotta Circuit
+Winter Paradise
+Boost - Ice Cave
+GCN Dino Dino Jungle
+GBA Riverside Park
+SNES Bowser Castle 3
+Glacial Peak
+Glacial Bay
+Autumn Leavesway
+Autumn Raceway
+Toxic Forest
+LosIsland
+3DS Bowser's Castle
+3DS Neo Bowser City
+3DS Toad Circuit
+3DS Wuhu Loop
+SNES Vanilla Lake 2
+DS Dokan Course
+DS Tick-Tock Clock: Neo Edition
+DS Luigi's Cookie Pinball
+GBA Cheese Land
+GBA Lakeside Park
+GBA Sunset Wilds
+Spike Desert
+Big World Way
+Blackrose Castle
+Nebula Lava Factory
+Digitally Enhanced
+Delfino Dock
+Royal Canyon
+Dash Cannon Woods
+Purple Route
+Delfino Beach
+Lost Fortress
+Alpine Skyway
+Jungle Cliff
+Color Course
+LEGO Racers Imperial Grand Prix
+Traffic Lights
+Wong Speed
+The Chamber
+Resistance to Fate
+Festival Track
+Cold Circuit
+Nivurbia
+Alpine Peak
+Garden Path
+Area 28 (Offline Only)
+Undiscovered Offlimit
+Water Rock World
+Kinoko Valley 2014
+Melting Magma Melee
+N64 Toad's Turnpike
+GBA Yoshi Desert
+Twin Peaks
+Star Cometway
+DKR Star City
+Abe Abbott
+Halogen Highway
+Abyssal Ruins
+Galaxy Base
+Fishdom Island
+GBA Peach Circuit
+Color Wonderland
+Divine Temple
+GCN Wario Colosseum
+GBA Bowser Castle 4
+F-Zero Big Blue
+Cloud Carpet
+Sand Speedway
+Pipeland Sewer
+Slot Circuit
+Sky Beach
+Retro Raceway
+SNES Donut Plains 3
+Subspace Factory
+Autumn Forest
+CBFD Underworld
+Ibuki Luigi's Mansion
+Purple Peaks
+F-Zero White Land
+Temple Bay
+Sandcastle Beach
+DS Waluigi Pinball
+Volcano Beach 3
+Candy Mountains
+Bayside Boulevard
+Celestial Ruins
+Cyberstate
+Cookie Village
+Daisy Gardens
+Disco Fever
+Powerpuff Funpark
+Concord China Town
+Concord Frozen Town
+Concord Town NinYoda1 Edition
+Wolf Castlegrounds
+Skyline Avenue
+Windmill Village
+Space City
+Royal Castleway
+Horror Mansion
+Luigi's Ghost Castle
+Ghostly Mansion
+King Boo's Area
+Volcanic Wasteland
+Volcano Bay
+Volcano Canyon
+Volcano Island
+Zelda WW Outset Island
+Castle Island
+Castle Raceway
+Incendia Castle
+8-Bit Road
+Compact Highway
+Downtown Underground
+Mushroom Fort
+Darky Cliff
+Nightmare
+Mushroom Peaks Texture
+Magnetic City
+Alpha Boost Road
+Blue Sky Beach
+SM64 Cool, Cool Mountain Slide
+Eclipse Cove
+Green Hill Zone 2
+Herbae Field
+Hillside Circuit
+Rural Raceway
+Bowser's Lair
+Concrete Road
+Sunshine Road
+Nostalgic Bowser's Castle
+Canary Bay
+Canyon Pass
+Canyon Run
+Desert Raceway
+Fire Cave
+Fire Palace
+Hell Pyramid
+Item Fireland
+Cannon City II
+Wheel Rock
+Rocky Hillside
+River of Dreams
+Rosalina's Starlight Cruiser
+Gate of Dreams
+Rainbow Slide
+Fireworks Race
+Crazy Road
+Mrs. Flynn's Desert Oasis
+Poison Lagoon
+Top City
+Narshe Circuit
+Toad Town
+Sunset Island
+Seaside Drome
+Lava Castle Road
+Lava Holes
+Ibuki Bowser Valley
+Jungle Ruins
+Nitro Desert
+Night Desert
+Sunset Rocks
+Sphynx Road
+Weegee Race
+Water Wood
+Underground Mine
+Toby's Road
+Vulcan Mine
+Snore Circuit
+SMS Sirena Beach
+Shining Town
+ExciteBike Arena: MKW Inspiration
+Ruin Factory
+River Bridge
+RemparRoad
+Refresh Road
+Ocean Circuit
+Ocean Circuit Defi
+Paradiz Kanyon
+N64 Rainbow Road: MK8 Inspiration
+Paradoxic Worldway
+Pipeline Skyway
+Delfino Town
+Night Mountain
+DK Jungle Tour II
+Crossingville
+Nocturne Circuit
+Boost - Thwomp Factory
+Thwomp Desert
+Thwomp Loop
+GBA Bowser Castle 3: MK8 Edition

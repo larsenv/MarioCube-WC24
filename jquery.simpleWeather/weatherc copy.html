@@ -1,0 +1,374 @@
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths -moz-" style=""><head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>CodePen - simpleWeather.demo.js v3.0.2</title>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="/assets/reset/normalize.css">
+
+    
+        <style>
+      /*
+  Docs at http://http://simpleweatherjs.com
+
+  Look inspired by http://www.degreees.com/
+  Used for demo purposes.
+
+  Weather icon font from http://fonts.artill.de/collection/artill-weather-icons
+
+  DO NOT hotlink the assets/font included in this demo. If you wish to use the same font icon then download it to your local assets at the link above. If you use the links below odds are at some point they will be removed and your version will break.
+*/
+
+body {
+  padding: 45px 25px;
+  font: 13px 'Wii NTLG PGothic', "Wii NTLG Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #1192d3;
+  height: 100% !important;
+  margin: 0px;
+  cursor:url("http://wc24.mariocube.com/Cursors/wii.cur"), default;
+  color: #000000;
+}
+
+a
+{
+  color: #2D5369;
+  cursor:url("http://wc24.mariocube.com/Cursors/wii-hover.cur"), default;
+  text-decoration: none;
+}
+
+a:hover
+{
+    color: #537284;
+}
+
+a .image
+{
+    border: 4px solid #000000;
+}
+
+a:hover .image,
+a:active .image
+{
+    border: 4px solid #379AC1;
+}
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#weather {
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+i {
+  color: #fff;
+  font-family: Wii NTLG PGothic;
+  font-size: 150px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  width: 140px;
+  padding: 5px;
+  background: transparent;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+    </style>
+
+    <script>
+  window.console = window.console || function(t) {};
+  window.open = function(){ console.log("window.open is disabled."); };
+  window.print   = function(){ console.log("window.print is disabled."); };
+</script>
+
+        <script src="//assets.codepen.io/assets/libs/prefixfree.min-de773054e90c52a3c2631c944681b64e.js"></script>
+
+    
+  <style type="text/css">/* This is a compiled file, you should be editing the file in the templates directory */
+.pace {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -moz-user-select: none;
+
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 12px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 25px;
+  border: 2px solid #2299dd;
+  background-color: #fff;
+}
+
+.pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  max-width: 190px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  height: 15px;
+  font-size: 12px;
+  background: #2299dd;
+  color: #2299dd;
+  line-height: 60px;
+  font-weight: bold;
+  font-family:  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.pace .pace-progress:after {
+  content: attr(data-progress-text);
+  display: inline-block;
+}
+
+.pace.pace-inactive {
+  display: none;
+}</style><style type="text/css">body > *:not(.pace), body:before, body:after { -webkit-transition: opacity .4s ease-in-out; -moz-transition: opacity .4s ease-in-out; -o-transition: opacity .4s ease-in-out; -ms-transition: opacity .4s ease-in-out; transition: opacity .4s ease-in-out } body:not(.pace-done) > *:not(.pace), body:not(.pace-done):before, body:not(.pace-done):after { opacity: 0 }</style><script src="//fast.eager.io/xTpjtbgTsv/20150521190947-7405.js"></script></head>
+
+  <body class="  pace-done"><div class="pace  pace-inactive"><div data-progress="99" data-progress-text="100%" style="width: 100%;" class="pace-progress">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+    <!-- Docs at http://http://simpleweatherjs.com -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="apple-touch-icon" sizes="57x57" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-57x57.png"> 
+<link rel="apple-touch-icon" sizes="114x114" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/iOS%20Icons/Forecast%20Channel/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/iOS%20Icons/Forecast%20Channel/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/iOS%20Icons/Forecast%20Channel/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/iOS%20Icons/Forecast%20Channel/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/iOS%20Icons/Forecast%20Channel/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/iOS%20Icons/Forecast%20Channel/favicon-32x32.png" sizes="32x32">
+<script src="//fast.eager.io/xTpjtbgTsv.js"></script>
+<br>
+<img src="http://wc24.mariocube.com/clock/dg1.png" name="hr1"><img src="http://wc24.mariocube.com/clock/dg0.png" name="hr2"><img src="http://wc24.mariocube.com/clock/dgc.png"><img src="http://wc24.mariocube.com/clock/dg5.png" name="mn1"><img src="http://wc24.mariocube.com/clock/dg3.png" name="mn2">
+<script type="text/javascript">
+// (c) 2000-2014 ricocheting.com
+dg = new Array();
+dg[0]=new Image();dg[0].src="http://wc24.mariocube.com/clock/dg0.png";
+dg[1]=new Image();dg[1].src="http://wc24.mariocube.com/clock/dg1.png";
+dg[2]=new Image();dg[2].src="http://wc24.mariocube.com/clock/dg2.png";
+dg[3]=new Image();dg[3].src="http://wc24.mariocube.com/clock/dg3.png";
+dg[4]=new Image();dg[4].src="http://wc24.mariocube.com/clock/dg4.png";
+dg[5]=new Image();dg[5].src="http://wc24.mariocube.com/clock/dg5.png";
+dg[6]=new Image();dg[6].src="http://wc24.mariocube.com/clock/dg6.png";
+dg[7]=new Image();dg[7].src="http://wc24.mariocube.com/clock/dg7.png";
+dg[8]=new Image();dg[8].src="http://wc24.mariocube.com/clock/dg8.png";
+dg[9]=new Image();dg[9].src="http://wc24.mariocube.com/clock/dg9.png";
+dgam=new Image();dgam.src="http://wc24.mariocube.com/clock/dgam.png";
+dgpm=new Image();dgpm.src="http://wc24.mariocube.com/clock/dgpm.png";
+
+function dotime(){ 
+	var d=new Date();
+	var hr=d.getHours(),mn=d.getMinutes(),se=d.getSeconds();
+
+	// adjust from 24hr clock
+	if(hr==0){hr=12;}
+	else if(hr>12){hr-=12;}
+
+	document.hr1.src = getSrc(hr,10);
+	document.hr2.src = getSrc(hr,1);
+	document.mn1.src = getSrc(mn,10);
+	document.mn2.src = getSrc(mn,1);
+}
+
+function getSrc(digit,index){
+	return dg[(Math.floor(digit/index)%10)].src;
+}
+
+window.onload=function(){
+	dotime();
+	setInterval(dotime,1000);
+}
+</script>
+<div id="weather"><style>body {    background: url(http://wc24.mariocube.com/Borders/Forecast%20Channel%20Border%20Top.png) left top no-repeat, url(http://wc24.mariocube.com/Borders/Forecast%20Channel%20Border%20Bottom.png) left bottom no-repeat, url(http://wc24.mariocube.com/Background%20Images/Forecast%20Channel.png) left bottom no-repeat;    background-size: 100%, 100%, auto;}</style><style>h2.pos_fixed {    position: fixed;    top: 28px;    right: 1100px;}</style><a href="http://wc24.mariocube.com/weather/weatheruvindexc.html"><style>img.pos_fixed {    position: fixed;    top: 41px;    right: 1400px;}</style><img src="http://mariocube.com/wii/Extracted%20Data/Extracted%20Channel%20Data/Channels/Weather%20Channel/Weather%20Layout/PNG/i_triangle1.png" class="pos_fixed" height="40" width="72"><b><h2 style="color: #000000; font-size: 50px;" class="pos_fixed"><b>UV Index</b></h2></b></a><br><br><br><br><br><img style="float:right;" src="http://wc24.mariocube.com/assets/icons/34.png" height="192" width="192"><h2 style="text-shadow: 2px 2px #000000; font-size: 120px;">20°C</h2><h2 style="text-shadow: 2px 1px #000000; font-size: 30px;" class="currently">Fair</h2><style>h2.pos_fixed2 {    position: fixed;    top: 115px;    right: 850px;}</style><h2 style="text-shadow: 2px 1px #000000; font-size: 48px;" class="pos_fixed2">New York</h2><a href="http://mariocube.com" style="text-decoration:none; color:#000000;"><style>h2.pos_fixed3 {    position: fixed;    top: 887px;    right: 2000px;}</style></a><h2 style="color: #000000; font-size: 50px;" class="pos_fixed3"><a href="http://mariocube.com" style="text-decoration:none; color:#000000;"><b>Wii Menu</b></a></h2><style>h2.pos_fixed4 {    position: fixed;    top: 887px;    right: 1140px;}</style><a href="http://wc24.mariocube.com/weather/weathertodayc.html"><style>img.pos_fixed2 {    position: fixed;    top: 900px;        -ms-transform: rotate(-180deg); /* IE 9 */-webkit-transform: rotate(-180deg); /* Chrome, Safari, Opera */transform: rotate(-180deg);right: 1400px;}</style><img src="https://mariocube.com/wii/Extracted%20Data/Extracted%20Channel%20Data/Channels/Weather%20Channel/Weather%20Layout/PNG/i_triangle1.png" class="pos_fixed2" height="40" width="72"><b><h2 style="color: #000000; font-size: 50px;" class="pos_fixed4"><b>Today</b></h2></b></a><b><a href="http://wc24.mariocube.com/weather/globe1.html" style="text-decoration:none; color:#000000;"><style>h2.pos_fixed5 {    position: fixed;    top: 885px;    right: 275px;}</style></a><h2 style="color: #000000; font-size: 50px;" class="pos_fixed5"><a href="http://wc24.mariocube.com/weather/globe1.html" style="text-decoration:none; color:#000000;"><b>Globe</b></a></h2><a href="http://wc24.mariocube.com/weather/settingsc.html" style="text-decoration:none; color:#000000;"><style>h2.pos_fixed6 {    position: fixed;    top: 30px;    right: 240px;}</style></a><h2 style="color: #000000; font-size: 50px;" class="pos_fixed6"><a href="http://wc24.mariocube.com/weather/settingsc.html" style="text-decoration:none; color:#000000;"><b>Settings</b></a></h2><style>h2.pos_fixed7 {    position: fixed;    top: 727px;    right: 50px;}</style><h2 style="text-shadow: 2px 1px #000000; font-size: 48px;" class="pos_fixed7">N 0 mph</h2><style>h2.pos_fixed8 {    position: fixed;    top: 800px;    right: 50px;}</style><h2 style="text-shadow: 2px 1px #000000; font-size: 30px;" class="pos_fixed8">As of Sun, 07 Jun 2015 10:49 am EDT</h2><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></b></div>
+<center>
+  <button style="text-shadow: 2px 2px rgb(0, 0, 0); white-space: nowrap; font-size: 17px; position: fixed; left: 1110px; top: 400px;" class="js-geolocation">Use Your Location</button>
+</center>
+<br>
+      <script src="//assets.codepen.io/assets/common/stopExecutionOnTimeout-6c99970ade81e43be51fa877be0f7600.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js"></script>
+
+        <script>
+      if ('geolocation' in navigator) {
+    $('.js-geolocation').show();
+} else {
+    $('.js-geolocation').hide();
+}
+$('.js-geolocation').on('click', function () {
+    navigator.geolocation.getCurrentPosition(function (position) {
+        loadWeather(position.coords.latitude + ',' + position.coords.longitude);
+    });
+});
+$(document).ready(function () {
+    loadWeather('New York City', '');
+});
+function loadWeather(location, woeid) {
+    $.simpleWeather({
+        location: location,
+        woeid: woeid,
+        unit: 'f',
+        success: function (weather) {
+            html = '<style>body {    background: url(http://wc24.mariocube.com/Borders/Forecast%20Channel%20Border%20Top.png) left top no-repeat, url(http://wc24.mariocube.com/Borders/Forecast%20Channel%20Border%20Bottom.png) left bottom no-repeat, url(http://wc24.mariocube.com/Background%20Images/Forecast%20Channel.png) left bottom no-repeat;    background-size: 100%, 100%, auto;}</style><body><style>h2.pos_fixed {    position: fixed;    top: 28px;    right: 1100px;}</style><a href="http://wc24.mariocube.com/weather/weatheruvindexc.html"><style>img.pos_fixed {    position: fixed;    top: 41px;    right: 1400px;}</style><img width="72" height="40" src="http://mariocube.com/wii/Extracted%20Data/Extracted%20Channel%20Data/Channels/Weather%20Channel/Weather%20Layout/PNG/i_triangle1.png" class="pos_fixed" /><b><h2 style="color: #000000; font-size: 50px;" class="pos_fixed"><b>UV Index</b></h2></b></a></body><br><br><br><br><br><img width="192" height="192" style="float:right;" src="http://wc24.mariocube.com/assets/icons/' + weather.code + '.png"><h2 style="text-shadow: 2px 2px #000000; font-size: 120px;">' + weather.alt.temp + '\xB0C</h2><h2 style="text-shadow: 2px 1px #000000; font-size: 30px;" class="currently">' + weather.currently + '</h2><style>h2.pos_fixed2 {    position: fixed;    top: 115px;    right: 850px;}</style><h2 style="text-shadow: 2px 1px #000000; font-size: 48px;" class="pos_fixed2">' + weather.city + '</h2><a href="http://mariocube.com" style="text-decoration:none; color:#000000;"><style>h2.pos_fixed3 {    position: fixed;    top: 887px;    right: 2000px;}</style><h2 style="color: #000000; font-size: 50px;" class="pos_fixed3"><b>Wii Menu</b></a></h2><style>h2.pos_fixed4 {    position: fixed;    top: 887px;    right: 1140px;}</style><a href="http://wc24.mariocube.com/weather/weathertodayc.html"><style>img.pos_fixed2 {    position: fixed;    top: 900px;        -ms-transform: rotate(-180deg); /* IE 9 */-webkit-transform: rotate(-180deg); /* Chrome, Safari, Opera */transform: rotate(-180deg);right: 1400px;}</style><img width="72" height="40" src="https://mariocube.com/wii/Extracted%20Data/Extracted%20Channel%20Data/Channels/Weather%20Channel/Weather%20Layout/PNG/i_triangle1.png" class="pos_fixed2" /><b><h2 style="color: #000000; font-size: 50px;" class="pos_fixed4"><b>Today</b></h2><a href="http://wc24.mariocube.com/weather/globe1.html" style="text-decoration:none; color:#000000;"><style>h2.pos_fixed5 {    position: fixed;    top: 885px;    right: 275px;}</style><h2 style="color: #000000; font-size: 50px;" class="pos_fixed5"><b>Globe</b></a></h2><a href="http://wc24.mariocube.com/weather/settingsc.html" style="text-decoration:none; color:#000000;"><style>h2.pos_fixed6 {    position: fixed;    top: 30px;    right: 240px;}</style><h2 style="color: #000000; font-size: 50px;" class="pos_fixed6"><b>Settings</b></a></h2><style>h2.pos_fixed7 {    position: fixed;    top: 727px;    right: 50px;}</style><h2 style="text-shadow: 2px 1px #000000; font-size: 48px;" class="pos_fixed7">' + weather.wind.direction + ' ' + weather.wind.speed + ' ' + weather.units.speed + '</h2><style>h2.pos_fixed8 {    position: fixed;    top: 800px;    right: 50px;}</style><h2 style="text-shadow: 2px 1px #000000; font-size: 30px;" class="pos_fixed8">As of ' + weather.updated + '</h2><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>';
+            $('#weather').html(html);
+        },
+        error: function (error) {
+            $('#weather').html('<p>' + error + '</p>');
+        }
+    });
+}
+      //@ sourceURL=pen.js
+    </script>
+
+    
+    <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+    
+  
+
+ 
+</body></html>

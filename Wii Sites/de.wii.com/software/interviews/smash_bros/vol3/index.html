@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+
+<link href="../../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="../css/thickbox.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../js/swfobject_for_thickbox.js"></script>
+<script language="javascript" type="text/javascript" src="../js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="../js/thickbox_mario.js"></script>
+<script language="javascript" type="text/javascript" src="../js/tb_width_mixed.js"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var current = 0;
+var slide = new Object();
+slide["000"] = "slide000";
+slide["008"] = "slide008";
+slide["039"] = "slide039";
+slide["040"] = "slide040";
+slide["074"] = "slide074";
+slide["119"] = "slide119";
+slide["123"] = "slide123";
+slide["141"] = "slide141";
+slide["156"] = "slide156";
+slide["165"] = "slide165";
+slide["166"] = "slide166";
+slide["182"] = "slide182";
+var id_to_index = new Object();
+var index_to_id = new Array();
+var i=0;
+for(var index in slide){
+	id_to_index[index] = i;
+	index_to_id[i] = index;
+	i++;
+}
+
+function setImage(id){
+	document.getElementById('swfcontent').innerHTML = "<img src='images/"+slide[id]+".jpg'>";
+	current = id_to_index[id];
+}
+function nextImg(){
+	current = (current<index_to_id.length-1)? current+1 : 0;
+	setImage(index_to_id[current]);
+}
+function prevImg(){
+	current = (current>0)? current-1 : index_to_id.length-1;
+	setImage(index_to_id[current]);
+}
+-->
+</script>
+
+
+</head>
+
+<body>
+<a name="top" id="top">&nbsp;</a>
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1>
+			<ul class="gnavi">
+      			<li><a href="../../../../exp/"><img src="../../../../images/common/gnavi_exp.gif" alt="Wii Erlebnis" border="0" /></a></li>
+				<li><a href="../../../../wii_channel/"><img src="../../../../images/common/gnavi_chnl.gif" alt="Wii Kan&auml;le" border="0" /></a></li>
+	  			<li><a href="../../../../wii_tv/"><img src="../../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../../software/"><img src="../../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+				<li><a href="../../../../wiiware/"><img src="../../../../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+  <div id="vol3"><div id="page1">
+  
+  <h1><img src="../images/title.gif" alt="Iwata fragt: Super Smash Bros. Brawl" width="560" height="25" /></h1>
+  <div id="gametitlebar"></div>
+  <ul id="menu">
+  	<li id="menu1"><a href="../vol1/index.html"></a></li>
+	<li id="menu2"><a href="../vol2/index.html"></a></li>
+	<li id="menu3"><a href="../vol3/index.html"></a></li>
+  <li id="menu4"><a href="../vol4/index.html"></a></li>
+	<li id="menu5"><a href="../vol5/index.html"></a></li>
+	<li id="menu6"><a href="../vol6/index.html"></a></li>
+	<li id="menu7"><a href="../vol7/index.html"></a></li>
+
+
+  </ul>
+  
+  <div id="mainimg"><img src="images/mainimg.jpg" alt="Teil 3: „Einzelspielermodus“, „Zwei-Spieler-Events“ und „Share“" width="780" height="240" /></div>
+  Einige Ausdrücke aus dem Spiel sind vorläufig und tauchen möglicherweise nicht im endgültigen Produkt auf.
+  <h2><img src="images/title_v1.gif" alt="Teil 3: „Einzelspielermodus“, „Zwei-Spieler-Events“ und „Share“" width="780" /></h2>
+  
+  <div id="sub_menu"><div id="inner">
+  <ul>
+  	<li id="sub1"><a href="index.html">Ein einheitliches Konzept</a></li>
+	<li id="sub2"><a href="page2.html">Die Spielmodi</a></li>
+	<li id="sub3"><a href="page3.html">Stages bauen</a></li>
+	<li id="sub4"><a href="page4.html">Zuschauen beim Brawl!</a></li>
+  </ul>
+  </div></div>
+  
+  <div id="paragram">
+  
+  <h3>Ein einheitliches Konzept</h3>
+  
+  
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Wie ich zu Beginn des Gespräches schon erwähnte, gab der Wunsch vieler Fans nach einem netzwerkfähigen Super Smash Bros. Brawl!, den Startschuss für die Entwicklung des Titels. So ist die Netzwerkfähigkeit des Spiels von Anfang an eine Voraussetzung gewesen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Genau. Auf der E3 im Mai 2005 erfuhr ich erstmals von der Planung und zwei Monate später, am 7. Juni 2005, war das Konzeptpapier zu Super Smash Bros. Brawl! Fertiggestellt. <a href="../slideplayer_page1.html?width=400&amp;height=280&amp;id=000" class="thickbox 000" title="Projektkonzept"><img src="../images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />(Dokument ansehen)</a><br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Zumal das Konzept aus Ihrer Feder stammt, waren die Funktionalitäten des Spiels bis ins kleinste Detail ausgearbeitet.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Viele Ideen konnten nicht mehr in das Anfangskonzept einfließen, aber da musste man Abstriche machen. Im Anfangskonzept wurde zumindest grob umrissen, was die Online-Unterstützung von Super Smash Bros. Brawl! als Dienst beinhalten sollte. Bei einem Kampf, in dem die Spieler online gegeneinander antreten, sollte man die Möglichkeit haben, sowohl gegen Spieler aus der eigenen Freundesliste, als auch gegen unbekannte Spieler antreten zu können. Wenn zwei befreundete Spieler gegeneinander antreten, sollte eine kurze Mitteilung eingeblendet werden <a href="../slideplayer_page1.html?width=400&amp;height=280&amp;id=119" class="thickbox 119" title="Projektkonzept"><img src="../images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />(Dokument ansehen)</a>, während bei einem anonymen Aufeinandertreffen weder Name, erzielte Rekorde noch Ergebnisse festgehalten werden sollten. <br /><a href="../slideplayer_page1.html?width=400&amp;height=280&amp;id=141" class="thickbox 141" title="Projektkonzept"><img src="../images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />(Dokument ansehen)</a> Im Großen und Ganzen entsprach das der von Nintendo vorgeschlagenen Richtlinie zur Wi-Fi-Connection. Als ich das Konzeptpapier im Juni 2005 entwarf, gab es allerdings nicht einmal den Ansatz eines solchen Dienstes.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Den gab es nicht bzw. wir  steckten mitten in der Entwicklungsphase. Selbstverständlich waren Außenstehende in den Prozess der Entwicklung nicht einbezogen und zu dem Zeitpunkt, zu dem ich die Entwicklung von Super Smash Bros. Brawl! in Ihre Obhut gab, waren Details zu der Online-Funktion noch nicht festgelegt.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Aber als wir dann die Konzeptpapiere zu Super Smash Bros. Brawl! und Nintendos Wi-Fi-Connection vorlegten und miteinander verglichen, lag eine erstaunlich hohe Übereinstimmung vor.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/09.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Da habe ich dann doch große Augen gemacht. (lacht) In meinen Augen erschien die Welt des Online-Spiels als eine, in der es unter Tausenden von unzufriedenen Menschen einen zufriedenen gab. Ein Ort, an dem die Macht des Stärkeren zählt. Das soll keineswegs pauschal die Online-Welt als solche abkanzeln, ist jedoch ein strukturelles Problem, dass die Vergrößerung der Spielergemeinde mitunter massiv hemmt. Wie interessant die Online-Funktion auch sein mag, viele Menschen hätten wohl beim Versuch, in die Online-Welt einzutreten, gezögert.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Das stimmt.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Deshalb diskutierten wir lange, was zu tun sei, damit zum Beispiel Eltern bedenkenlos ihren Kindern ein Online-Spiel in die Hand geben könnten oder wie sich eine Welt aufbauen ließe, in der es keine Belästigungen und Schikanierungen gäbe. So kamen wir zu dem Ergebnis, dass es besser wäre, den Umgang mit Freunden und anderen Spielern klar zu unterscheiden. Peu à peu kristallisierte sich daraus das Konzept der Wii-Connection, die weniger auf das Gegeneinanderantreten, als auf den Spielspaß gemeinschatlicher Aktivitäten hinweisen sollte. Und dieser Punkt war bereits im ersten Konzeptpapier von Ihnen brillant erklärt.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, vermutlich würden die meisten Menschen Online-Turniere oder das Wetteifern um Rekorde mit einem online-fähigen Super Smash Bros. Brawl! in Verbindung bringen. Aber um ehrlich zu sein, glaube ich, dass so ein Dienst nur die Freude einiger weniger Spieler weckt. Ich meine, die Super Smash Bros.-Serie besitzt irgendwo eine kleine Fan-Gemeinde, in der einige Spieler wirklich gut sind und der Spaß im Gewinnen und Verlieren besteht, triumphierenselbst wenn einige Spieler versierter sind als andere. Würde man daraus einen Turnierwettkampf machen, bei dem alle nur die Stufen des Sieges erklimmen wollten, hätte man nur einen kleinen Kreis an Spielern, die Freude daran hätten.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/11.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Die auf den ersten fünf Plätzen rangierenden Spieler, könnten sich an ihrem Erfolg sicherlich laben, aber wen würde es schon freuen, zu wissen, dass man Platz 15.398 belegt hat. Ein Spieler, der innerhalb seiner eigenen Community auf Platz 1 thront, würde daran wohl noch weniger Gefallen finden.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Vor allem, weil wir bei der Super Smash Bros.-Serie von einer breit gefächerten Spielergemeinde ausgehen. Ein Spieler, der in seiner eigenen Community mit Spaß an der Sache spielt, könnte in der weiten Online-Welt plötzlich auf Platz 10.000 landen. <br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+In diesen Punkten stimmten wir von vornherein überein, auch ohne uns darüber abgesprochen zu haben. Ein Ergebnis langjähriger Zusammenarbeit und das zeigt, dass wir gemeinsame Wurzeln haben. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+(lacht)<br />
+</div><br clear="all"></div>
+
+	
+  </div>
+	
+  <div id="next_page_btn"><a href="page2.html">Die Spielmodi</a></div>
+	
+  <!--//end #contents//-->
+  <hr />
+	  
+	
+	<!-- GameFootage -->
+		
+	
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../../24/"><img src="../../../../images/common/b_back.gif" alt="Zur&uuml;ck" border="0" /></a></li>
+      <li><a href="#top"><img src="../../../../images/common/b_top.gif" alt="Nach oben" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+  
+   <script language="javascript" type='text/javascript'>
+  TB_init();
+  </script>
+
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/373.html" target="_blank"><img src="../../../../images/common/footer_b_detail.gif" alt="Mehr Wii-Infos" border="0" /></a></li>
+	<li><img src="../../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.de/NOE/de_DE/service/contact_2095.html" target="_blank"><img src="../../../../images/common/footer_b_contact.gif" alt="Kontakt" border="0" /></a></li>
+	<li><a href="../../../../newsletter/newsletter.php?l=deDE" target="_self"><img src="../../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../../terms/"><img src="../../../../images/common/footer_b_terms.gif" alt="Nutzungsbedingungen" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo.de" target="_blank"><img src="../../../../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+	
+</div>
+
+  
+</body>
+<!-- InstanceEnd --></html>

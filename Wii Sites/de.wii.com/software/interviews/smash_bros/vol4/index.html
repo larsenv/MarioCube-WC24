@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+
+<link href="../../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="../css/thickbox.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../js/swfobject_for_thickbox.js"></script>
+<script language="javascript" type="text/javascript" src="../js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="../js/thickbox_mario.js"></script>
+<script language="javascript" type="text/javascript" src="../js/tb_width_mixed.js"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var current = 0;
+var slide = new Object();
+slide["000"] = "slide000";
+slide["008"] = "slide008";
+slide["039"] = "slide039";
+slide["040"] = "slide040";
+slide["074"] = "slide074";
+slide["119"] = "slide119";
+slide["123"] = "slide123";
+slide["141"] = "slide141";
+slide["156"] = "slide156";
+slide["165"] = "slide165";
+slide["166"] = "slide166";
+slide["182"] = "slide182";
+var id_to_index = new Object();
+var index_to_id = new Array();
+var i=0;
+for(var index in slide){
+	id_to_index[index] = i;
+	index_to_id[i] = index;
+	i++;
+}
+
+function setImage(id){
+	document.getElementById('swfcontent').innerHTML = "<img src='images/"+slide[id]+".jpg'>";
+	current = id_to_index[id];
+}
+function nextImg(){
+	current = (current<index_to_id.length-1)? current+1 : 0;
+	setImage(index_to_id[current]);
+}
+function prevImg(){
+	current = (current>0)? current-1 : index_to_id.length-1;
+	setImage(index_to_id[current]);
+}
+-->
+</script>
+
+
+</head>
+
+<body>
+<a name="top" id="top">&nbsp;</a>
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1>
+			<ul class="gnavi">
+      			<li><a href="../../../../exp/"><img src="../../../../images/common/gnavi_exp.gif" alt="Wii Erlebnis" border="0" /></a></li>
+				<li><a href="../../../../wii_channel/"><img src="../../../../images/common/gnavi_chnl.gif" alt="Wii Kan&auml;le" border="0" /></a></li>
+	  			<li><a href="../../../../wii_tv/"><img src="../../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../../software/"><img src="../../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+				<li><a href="../../../../wiiware/"><img src="../../../../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+  <div id="vol4"><div id="page1">
+  
+  <h1><img src="../images/title.gif" alt="Iwata fragt: Super Smash Bros. Brawl" width="560" height="25" /></h1>
+  <div id="gametitlebar"></div>
+  <ul id="menu">
+  	<li id="menu1"><a href="../vol1/index.html"></a></li>
+	<li id="menu2"><a href="../vol2/index.html"></a></li>
+	<li id="menu3"><a href="../vol3/index.html"></a></li>
+  <li id="menu4"><a href="../vol4/index.html"></a></li>
+	<li id="menu5"><a href="../vol5/index.html"></a></li>
+	<li id="menu6"><a href="../vol6/index.html"></a></li>
+	<li id="menu7"><a href="../vol7/index.html"></a></li>
+
+
+  </ul>
+  </ul>
+  
+  <div id="mainimg"><img src="images/mainimg.jpg" alt="Teil 4: Der Subraum-Emissär" width="780" height="240" /></div>
+  Einige Ausdrücke aus dem Spiel sind vorläufig und tauchen möglicherweise nicht im endgültigen Produkt auf.
+  <h2><img src="images/title_v1.gif" alt="Teil 4: Der Subraum-Emissär" width="780" /></h2>
+  
+  <div id="sub_menu"><div id="inner">
+  <ul>
+   	<li id="sub1"><a href="index.html">Ein separates Spiel</a></li>
+	<li id="sub2"><a href="page2.html">Die Notwendigkeit eines Plots</a></li>
+	<li id="sub3"><a href="page3.html">Auch für Einsteiger geeignet</a></li>
+  </ul>
+  </div></div>
+  
+  <div id="paragram">
+  
+  <h3>Ein separates Spiel</h3>
+  
+  
+<div class="utterance"><div class="name">Iwata:</div>
+<div class="message">
+Der Einzelspielermodus soll es in Super Smash Bros. Brawl! ja in sich haben, wie man hört. 
+</div>
+<br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ich bitte vielmals um Verzeihung. (lacht) Es ist fürwahr ein fulminantes Spektakel. 
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Nicht doch. Immerhin ist Super Smash Bros. Brawl! ein Spiel, das seinen Vorgängern in nichts nachsteht. Mit dem Unterschied, dass die bisherigen Titel aus der Serie vornehmlich als reines Prügelspiel konzipiert waren, was notgedrungenermaßen auf Kosten der Einzelspielermodi ging, die inhaltlich zu kurz kamen. Bei Super Smash Bros. Brawl! hatte ich hingegen den Eindruck, als hätte man auch den Einzelspielermodus adäquat ausgebaut. Vielleicht erklären Sie uns den Werdegang des Einzelspielermodus und welche Präferenzen Ssie bei der Entwicklung hatten. 
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Wie ich schon ansprach, ging ich auch bei diesem Punkt mit der Einstellung an die Arbeit, dass die Serie mit Super Smash Bros. Brawl! ein gebührendes Finale feiern sollte. Als Ergebnis entstand ein Spiel, das von allseits bekannten Nintendo-Charakteren oder anderen nicht weniger populären Figuren getragen wird. Und ich denke, ich liege nicht allzu weit daneben, wenn ich behaupte, dass es auch in Zukunft nicht so viele Spiele geben wird, in der so viele beliebte Charaktere in einem einzigen Spiel vereint sind. 
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Auch hier bot das Spiel für Entwickler und Spieler eine einmalige Gelegenheit.
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div>
+<div class="message">
+Und da sich eine Gelegenheit, in der man sich den Luxus erlauben kann, die Crème de la Crème prominenter Spielcharaktere auf die Spielbühne eines einzelnen Titels zu holen, nicht häufig ergibt, überlegte ich mir, wie man für Spielspaß garantiert, der der Situation angemessen wäre. Ich entschied mich dazu, einen Einzelspielermodus mit einzubauen. Der Einzelspielermodus bedeutete schließlich nichts anderes, als quasi ein weiteres Spiel in den Titel mit einzupflegen. Auch vom Entwicklerstandpunkt her, wurde die Entwicklung unabhängig vom eigentlichen Haupttitel durchgezogen.
+</div>
+<br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div>
+<div class="message">
+Programmtechnisch waren vermutlich lediglich die Charaktere und ihre grundlegende Animationen identisch, richtig? Der Rest dürfte eine reine Neuentwicklung gewesen sein. 
+</div>
+<br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+In der Tat. Das ganze System musste von Grund auf neu angelegt werden. Und selbst die Bewegungsabläufe der Charaktere mögen im Einzelspielermodus analog zu anderen Spielmodi sein, ihre Bewegungsgeschwindigkeit und dergleichen, wurden jedoch speziell für den Einzelspielermodus neu abgestimmt. 
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Verzeihen Sie mir die Frage, aber wofür der ganze Aufwand?
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+(lacht) 
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+(lacht) 
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/15.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Nun ja, wie soll ich sagen ... Die Super Smash Bros.-Serie ist als reines Prügelspiel schon fast nicht mehr zu überbieten. Gerade der Spaß beim Aufeinandertreffen von Spielfiguren wurde bisher sehr positiv aufgenommen und die Bewertungen fallen allesamt zufriedenstellend aus. Dass der Spaß an der Klopperei eine noch höhere Stufe erreichen kann, versteht sich von selbst, wäre aber nicht ausreichend. Obwohl natürlich nicht von der Hand zu weisen ist, dass auch die Kämpfe immer subtiler und besser werden. 
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Der Spielspaß ist hinsichtlich der Kämpfe also schon gegeben und man würde seine Energie vergeuden, konzentrierte man die Entwicklung nur auf diese eine Komponente.  
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Sehr richtig, ich denke, das wäre des Guten zu viel. Man würde den Bogen überspannen. Eine Generalüberholung des Spielsystems jedoch, indem man Super Smash Bros. Brawl! beispielsweise zu einem 3D-Spiel mutieren lässt, ist meiner Ansicht nach auch nicht erwünscht.  
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Das stimmt. Das Gute an der Super Smash Bros.-Serie ist doch der einfache Zugang zum Spiel. Hat man den Controller zehn Minuten in der Hand, spielen Anfänger wie erfahrene Spieler gleichermaßen vergnügt auf der Konsole. Es wäre wohl nicht sehr sinnvoll,  das Spiel um dieses Charakteristikum zu berauben.  
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Daher war es nicht nur mein Anliegen, die kämpferischen Auseinandersetzungen zu verfeinern, sondern den Schwerpunkt der Entwicklung auf die Schaffung eines Einzelspielermodus zu verlagern. 
+</div><br clear="all"></div>
+
+
+	
+  </div>
+	
+  <div id="next_page_btn"><a href="page2.html">Die Notwendigkeit eines Plots</a></div>	
+	
+  <!--//end #contents//-->
+  <hr />
+	  
+	
+	<!-- GameFootage -->
+		
+	
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../../24/"><img src="../../../../images/common/b_back.gif" alt="Zur&uuml;ck" border="0" /></a></li>
+      <li><a href="#top"><img src="../../../../images/common/b_top.gif" alt="Nach oben" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+  
+   <script language="javascript" type='text/javascript'>
+  TB_init();
+  </script>
+
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/373.html" target="_blank"><img src="../../../../images/common/footer_b_detail.gif" alt="Mehr Wii-Infos" border="0" /></a></li>
+	<li><img src="../../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.de/NOE/de_DE/service/contact_2095.html" target="_blank"><img src="../../../../images/common/footer_b_contact.gif" alt="Kontakt" border="0" /></a></li>
+	<li><a href="../../../../newsletter/newsletter.php?l=deDE" target="_self"><img src="../../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../../terms/"><img src="../../../../images/common/footer_b_terms.gif" alt="Nutzungsbedingungen" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo.de" target="_blank"><img src="../../../../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+	
+</div>
+
+  
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,298 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color:#ffffff;
+	color: #8c8c8c;
+	text-align:center;
+}
+a:link {
+	text-decoration: none;
+	color: #8c8c8c;
+}
+a:visited {
+	text-decoration: none;
+	color: #8c8c8c;
+}
+a:hover {
+	text-decoration: underline;
+	color: #34beed;
+}
+
+span a:hover {
+	text-decoration: underline;
+	color: #34beed;
+}
+
+a:active {
+	text-decoration: none;
+	color: #8c8c8c;
+}
+strong {
+	font-weight: bold;
+	color: #34beed;
+}
+hr{display: none;}
+ul,ol,li,dl,dt,dd,p {
+	margin:0px;
+	padding:0px;
+}
+.clear{display:none}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+#centerColumn {
+   width:780px;
+   min-width:780px;
+   padding: 20px 0px 40px 0px;
+   margin:auto;
+   text-align:left;
+}
+#header {
+	height:69px;
+	background-image: url(../images/common/dotline_x.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#header h1 {
+	margin:0px;
+	padding:0px;
+	float: left;
+}
+#header ul.gnavi li{
+	float: left;
+	margin:22px 0px 0px 20px;
+	list-style-type: none;
+}
+#header ul.global li{
+	float: right;
+	margin:41px 0px 0px 0px;
+	list-style-type: none;
+}
+#warning {
+	text-align:center;
+	margin-top:20px;
+}
+/* Hides from IE-mac \*/
+#warning { display: none; }
+/* End hide from IE-mac */
+
+#contents {
+	clear:both;
+}
+#cont_left {
+	float:left;
+	width:560px;
+	padding-bottom: 10px;
+}
+#cont_right {
+	float:right;
+	width:200px;
+}
+#pagefooter {
+	clear:both;
+	height:52px;
+	background-image: url(../images/common/dotline_x.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#pagefooter ul.pnkz li{
+	float: left;
+	margin:21px 20px 0px 0px;
+	list-style-type: none;
+}
+#pagefooter ul.pagetop li{
+	float: right;
+	margin:21px 0px 0px 20px;
+	list-style-type: none;
+}
+#footer {
+	clear:both;
+	height:50px;
+	background-image: url(../images/common/footer_line.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#footer ul.subm li{
+	float: left;
+	margin:11px 10px 0px 0px;
+	list-style-type: none;
+}
+#footer .logo{
+	float: right;
+	width: 85px;
+	margin:11px 0px 0px 0px;
+}
+
+:focus
+{
+-moz-outline-style: none;
+}
+
+/* Page footer for Software pages */
+
+#pagefooterSW_Top, #pagefooterSW {
+	clear:both;
+	height:10px;
+}
+
+#pagefooterSW{
+	background-image: url(../images/common/dotline_x.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#baseLine{
+	background-image:url(../images/common/dotline_x.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#pagefooterSW ul.pnkzSW li{
+	float: left;
+	margin:10px 0px 10px 0px;
+	list-style-type: none;
+}
+
+#spacerSW{
+	margin: 10px 0px 0px 0px;
+}
+
+h1.imageSpacer{
+	height:30px;
+}
+
+#gametitlebar {
+	width: 800px;
+	height: 1px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	background-image: url(../images/common/title_dotted_line.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#gameInfo {
+	height: auto;
+	width: 260px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px;
+}
+#gameDescription, #moreInfo, #gameDescription, #publisher, #gameDate, #gameSubDescription {
+	width:230px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#gameDate {
+	font-size: 12px;
+	font-weight: bold;
+	color: #43beed;
+	text-align: left;
+}
+
+#gameDescription {
+	font-size: 10px;
+	line-height: 12px;
+	color: #8C8C8C;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#gameDetails {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	color: #8C8C8C;
+	padding: 20px 0;
+	margin: 0px;
+}
+
+#gameArt{
+	background-repeat: no-repeat;
+	height: 325px;
+	margin: 0px 0px 0px 0px;
+	background-position: right top;
+	padding: 0px;
+}
+#moreInfo{
+	padding: 1px 0px 5px 0px;
+}
+
+#publisher, #gameSubDescription {
+	font-size: 10px;
+	color: #43beed;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#publisher{
+	padding:1px 0px 5px 0px;
+}
+
+#gameRating{
+	width: auto;
+	float: left;
+}
+
+/* Movie Overview */
+#contents table.movieitem {
+	margin:0px 0px 20px 9px;
+	padding:0px;
+	width:148px;
+	float: left;
+}
+#contents table.movieitemleft {
+	clear: left;
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	width:148px;
+	float: left;
+}
+#contents td.moviethumb {
+	background-repeat:no-repeat;
+}
+#contents td.movieblow {
+	height:6px;
+	background-image: url(../images/common/blow_up.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#contents td.movietxt {
+	background-color: #ffffff;
+	background-image: url(../images/common/dot_pat.gif);
+	padding: 0px 1px 1px 1px;
+	background-position: -1px;
+}
+#contents td.movietxt div {
+	width:146px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#contents span.movietext {
+	font-size: 10px;
+	padding:5px 5px 5px 5px;
+	display: block;
+	line-height:15px;
+}
+
+#gameTitle, #gameSubDescription{
+	padding:5px 0px 5px 0px;
+}
+
+

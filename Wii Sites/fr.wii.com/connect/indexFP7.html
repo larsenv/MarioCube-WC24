@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Wii.com / Connect your Wii to the Internet</title>
+	<script src="swfobject.js" language="javascript"></script>
+	<style type="text/css">
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body bgcolor="#ffffff">
+
+	<div id="flashContent"></div>
+	
+	<script type="text/javascript">
+		// <![CDATA[
+		
+		//if ( navigator.platform == "Nintendo Wii" ) {
+			var swfObject = new SWFObject( "WiiConnectFP7.swf", "WiiConnectFP7", "800", "500", "7", "#ffffff" );
+			swfObject.addVariable( "baseURL", "" )
+			swfObject.write( "flashContent" );
+		//}
+		
+		// ]]>
+	</script>
+
+</body>
+</html>

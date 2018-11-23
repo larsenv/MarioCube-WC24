@@ -1,0 +1,269 @@
+--- channel.css - UPDATED: 11/20/2006 ---
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:active {text-decoration:none;}
+a:hover {text-decoration:none;}
+
+#Layer1 {
+	position:absolute;
+	left:78px;
+	top:19px;
+	width:219px;
+	height:27px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:92px;
+	top:28px;
+	width:212px;
+	height:29px;
+	z-index:1;
+}
+#Layer3 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:20px;
+	height:0px;
+	z-index:2;
+}
+#Layer1_topframe {
+	padding-left:25px;
+	padding-top:26px;
+	z-index:0;
+}
+#Layer1_contentsFrame {
+	padding-left:20px;
+	z-index:1;
+}
+#Layer1_mainframe {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:20px;
+	height:0px;
+	z-index:2;
+}
+.Channel {
+	font-family: "Wii NTLG PGothic Regular";
+}
+.contentsFrameBar {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16pt;
+	font-weight: normal;
+}
+.contentsFrameText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 14pt;
+	font-weight: normal;
+	color: #333333;
+}
+.topFrame_Title {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 30px;
+	color: #FFFFFF;
+	letter-spacing: -1px;
+}
+.PageTitle {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 25px;
+	color: #FFFFFF;
+	letter-spacing: -1px;
+	font-weight: bold;	
+}
+.PageTitle1 {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 23px;
+	color: #FFFFFF;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.PageNumber {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 28px;
+	font-weight: bold;
+	color: #333333;
+}
+.MainText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	margin-top: 10px;	
+}
+.MainText1 {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 17px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	margin-top: 10px;	
+}
+.SmallText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+}
+.Copyright {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+}
+.cyan {
+	font-family: "Wii NTLG PGothic Regular";
+	font-weight: bold;
+	font-size: 18px;
+	color: #00D4F7;
+}
+.redText {
+	font-family: "Wii NTLG PGothic Regular";
+	font-weight: normal;
+	font-size: 18px;
+	color: #FF0000
+}
+.Q {
+	font-family: "Wii NTLG PGothic Regular";
+	font-weight: bolder;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.A {
+	font-family: "Wii NTLG PGothic Regular";
+	font-weight: bolder;
+	font-size: 22px;	
+	color: #333333;
+}
+.Question {
+	font-family: "Wii NTLG PGothic Regular";
+	font-weight: bold; 
+	font-size: 18px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+}
+.Answer {
+	font-family: "Wii NTLG PGothic Regular";
+	font-weight: normal; 
+	font-size: 18px;
+	letter-spacing: 0px;
+	color: #333333;
+}
+.ButtonPadding_20px {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 19px;
+	font-weight: normal;
+	color: #333333;
+	padding-left: 1px;
+}
+.Spacer_8px {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 8px;
+	font-weight: normal;
+	color: #333333;
+}
+.button {
+	padding-top: 2px;
+	width: 280px;
+	height: 54px;
+	background-image: url("img/index_botton.png");
+}
+.Buttons_ContentMenu_Text {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 19px;
+	font-weight: normal;
+	color: #333333;
+}
+.Buttons_ContentMenu_Number {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 19px;
+	font-weight: bold;
+	color: #333333;
+}
+.style4 {
+	color: #333333;
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.style4-1 {
+	color: #333333;
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	letter-spacing: -1px;
+}
+.style5 {
+	color: #333333;
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+}
+.style6 {
+	font-family: "Wii NTLG PGothic Regular"; 
+	font-size: 16pt; 
+	color: #666666; 
+}
+.style8 {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 17px; 
+	font-weight: normal; 
+	color: #333333; 
+}
+.style9 {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 20px; 
+	color: #666666
+}
+.style11 {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 16pt; 
+	color: #666666; 
+}
+.style18 {font-size: 8px}
+.style20 {font-size: 14px}
+
+.A_Button {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	margin-top: 10px;	
+}
+.Plus_Button {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	margin-top: 10px;	
+}
+.Minus_Button {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	margin-top: 10px;	
+}
+.Control_Pad {
+	font-family: "Wii NTLG PGothic Regular";
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #333333;
+	margin-top: 10px;	
+}
+

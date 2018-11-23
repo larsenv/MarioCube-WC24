@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+
+<link href="../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/thickbox.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="js/swfobject_for_thickbox.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="js/thickbox_mario.js"></script>
+<script language="javascript" type="text/javascript" src="js/tb_width_mixed.js"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<script type="text/javascript">
+
+<!--
+var current = 0;
+var slide = new Object();
+slide["001"] = "slide001";
+var id_to_index = new Object();
+var index_to_id = new Array();
+var i=0;
+for(var index in slide){
+	id_to_index[index] = i;
+	index_to_id[i] = index;
+	i++;
+}
+
+function setImage(id){
+	document.getElementById('swfcontent').innerHTML = "<img src='images/"+slide[id]+".jpg'>";
+	current = id_to_index[id];
+}
+function nextImg(){
+	current = (current<index_to_id.length-1)? current+1 : 0;
+	setImage(index_to_id[current]);
+}
+function prevImg(){
+	current = (current>0)? current-1 : index_to_id.length-1;
+	setImage(index_to_id[current]);
+}
+-->
+
+</script>
+
+</head>
+
+<body>
+<a name="top" id="top">&nbsp;</a>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/flvplayer.js"></script>
+
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1>
+			<ul class="gnavi">
+      			<li><a href="../../../exp/"><img src="../../../images/common/gnavi_exp.gif" alt="Wii Erlebnis" border="0" /></a></li>
+				<li><a href="../../../wii_channel/"><img src="../../../images/common/gnavi_chnl.gif" alt="Wii Kan&auml;le" border="0" /></a></li>
+	  			<li><a href="../../../wii_tv/"><img src="../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../software/"><img src="../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+				<li><a href="../../../wiiware/"><img src="../../../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+
+  <div id="contents" class="clearfix">
+  <h1><img src="images/title.gif" alt="Creator's Voice" height="26" /></h1>
+  <div id="gametitlebar"></div>
+  <div id="mainimg"><img src="images/mainimg.jpg" width="780" height="280" border="0" /></div>
+  <div id="interview">
+  <div id="interview_main">
+  <div id="anchor">
+  <ul>
+  <li style="margin:0px 0px 0px 0px;"><a href="#paragraph01"><img src="images/anchor_btn01.gif" alt="Pro Evo erscheint für Wii" border="0" /></a></li>
+  <li style="margin:0px 0px 0px 0px;"><a href="#paragraph02"><img src="images/anchor_btn02.gif" alt="Pro Evolution Soccer 2008" border="0" /></a></li>
+  <li style="margin:0px 0px 0px 0px;"><a href="#paragraph03"><img src="images/anchor_btn03.gif" alt="Das echte Fußballgefühl" border="0" /></a></li>
+  <li style="margin:0px 0px 0px 0px;"><a href="#paragraph04"><img src="images/anchor_btn04.gif" alt="Abschließende Worte" border="0" /></a></li>
+  </ul>
+  </div>
+ 
+
+  <div id="paragraph01">
+  <div class="caption"><img src="images/caption01.gif" alt="Pro Evo hits Wii" width="550" height="26" /></div>
+  <div class="emphasis">Ein neues Pro Evo</div>
+  <div class="paragraph">
+  <p><img src="images/img04.jpg" width="150" height="200" align="left" style="margin:0 10px 0 0"/><span class="name">Enomoto:</span>Schon seit dem ersten "Winning Eleven"-Titel aus dem Jahr 1995 erscheint "Pro Evolution Soccer" (kurz: Pro Evo) bis heute für verschiedene Plattformen. Dabei hat es viele Entwicklungsstadien eines "tastengesteuerten" Fußballspiels durchgemacht. Aber diesmal wollten wir ein Fußballspiel für Nintendo Wii entwickeln. Dabei war es unser Ziel, eine neue Art zu entwickeln, Pro Evo zu spielen, die sich von allen bisherigen Spielen unterscheiden sollte. Die wichtigste Eigenschaft dieses Titels ist, dass wir ein Spiel entwickelt haben, dass man nicht auf die herkömmliche Art steuert, indem man Tasten auf dem Controller drückt. Stattdessen haben wir ein komplett neues Steuerungssystem eingesetzt, das nur durch die neuen Wii-Bedienmöglichkeiten umzusetzen war.  
+  <br />
+  <br />
+<span class="name">Chosogabe:</span>Die Eigenschaften der Wii-Hardware sind komplett verschieden von allen anderen Plattformen, auf denen Pro Evo bisher erschienen ist. Pro Evo wurde als Spielreihe entwickelt, die mit den Controller-Tasten gesteuert wird. Aber wir wussten, dass wir nicht einfach dasselbe Steuersystem der anderen Konsolen übernehmen könnten, wenn wir einen Pro Evo-Titel für Wii entwickeln wollten. Wir wussten, dass es ein sinnloses Unterfangen wäre, wenn wir nicht die Wii-Fernbedienung nutzen würden, um ein einzigartiges Spiel zu entwickeln, das nur auf Wii möglich ist. Das war der Grundgedanke hinter der Entwicklung dieses Titels.</div>
+
+<div class="emphasis">Pro Evo und die Wii-Fernbedienung</div>
+  <div class="paragraph">
+  <p><span class="name">Enomoto:</span>Bevor Wii offiziell angekündigt wurde, haben wir gehört, dass der Wii-Controller keine "Tastensache" sein würde und wir hatten ursprünglich einige Zweifel. Wir dachten: "Kann man auf dieser Konsole wirklich Spiele spielen?" Dann hatten wir die Möglichkeit, einige Spiele-Demos auszuprobieren, z.B. eine Angelsimulation, und sofort haben sich alle Zweifel in Luft aufgelöst, die wir Nintendo gegenüber hatten. Das war, bevor Nintendo irgendwelche offiziellen Ankündigungen über Wii gemacht hatte, deshalb konnten wir niemandem etwas über die Wii-Fernbedienung verraten. Wenn ich dann von einem Besuch bei Nintendo zurückgekommen bin, haben mich alle Teammitglieder gefragt: "Also, was hast du da so gemacht?" Ich hätte ihnen wirklich gerne etwas erzählt, aber ich konnte immer nur sagen: "Ich darf euch noch nichts sagen, aber wartet mal ab, bis ihr seht, was die mit dem Controller gemacht haben!" (lacht)
+  <br />
+  <p><img src="images/img01.jpg" width="150" height="200" align="right" style="margin:0 0 0 10px"/><span class="name">Chosogabe:</span>Als ich das erste Mal von der Wii-Fernbedienung gehört habe, war ich etwas unsicher. Aber als ich dieses Steuersystem später selber erleben konnte, habe ich verstanden, was Enomoto gemeint hatte, wenn er über das neue Gefühl des Controllers gesprochen hat. Als wir dann später über die Entwicklung eines Pro Evo-Titels für Wii gesprochen haben, kam mir bei der Benutzung der Wii-Fernbedienung schnell die Idee, dass man das Spiel steuern könnte, indem man <a href="flvplayer.html?mv=cv_we-1&tt=21.50&width=320&height=253&id=cv_we-1" class="thickbox cv_we-1" title="Auf einen Spieler zeigen & ziehen"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />auf Spieler zeigt und sie über den Platz zieht</a>.
+ <br />
+	</div>
+		</div>
+
+  <div id="paragraph02">
+  <div class="caption"><img src="images/caption02.gif" alt="Pro Evolution Soccer 2008" width="550" height="26" /></div>
+  <div class="emphasis">Ein Spiel, das auf einem revolutionären Steuersystem basiert</div>
+  <div class="paragraph">
+  <p><span class="name">Chosogabe:</span>Eine der wichtigsten Eigenschaften des neuen Spiels ist die Möglichkeit, mit der Wii-Fernbedienung auf den Bildschirm zu zeigen <a href="flvplayer.html?mv=cv_we-2&tt=21.50&width=320&height=253&id=cv_we-2" class="thickbox cv_we-2" title="Passen, wohin man will"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />und so an jede Stelle auf dem Platz zu passen</a>. Man kann den Spieler auswählen, der passen soll, und dann bestimmen, wohin der Spieler passen soll: das heißt, dass man sogar auf freie Flächen<sup>2</sup> passen kann. Natürlich konnte man auch in den vorherigen Pro Evolution-Titeln auswählen, wer den Pass ausführen sollte und an welche Stelle gepasst werden sollte. Diesmal kann man diese Entscheidungen aber blitzschnell umsetzen. So werden viel natürlichere und intuitive Angriffsmanöver möglich. Außerdem gibt es einen weiteren entscheidenden Unterschied zu den vorherigen Pro Evolution-Titeln, nämlich den "freien Lauf"<sup>1</sup> . In den ursprünglichen Pro Evolution-Titeln gab es ein System, bei dem man nur den Spieler steuern konnte, der im Ballbesitz war. Aber diesmal <a href="flvplayer.html?mv=cv_we-3&tt=21.50&width=320&height=253&id=cv_we-3" class="thickbox cv_we-3" title="Spieler ohne Ball steuern"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />kann man auch Mannschaftsmitglieder bewegen, die nicht im Ballbesitz sind</a>. Das heißt, dass man Spielzüge aufbauen kann, bei denen die Spieler in beliebiger Reihenfolge aufeinander folgen können. So haben wir versucht, das wahre Fußballgefühl ins Spiel zu bringen.
+<br />
+<br />
+    <table class="notes notes02" cellpadding="0" cellspacing="0">
+	    <tr><td class="number"><sup>1</sup></td><td> "Freier Lauf" (フリーラン): Wenn ein Spieler sich freiläuft, der nicht im Ballbesitz ist, um Raum für andere Mannschaftsmitglieder zu schaffen.</td></tr>
+		 <tr><td class="number"><sup>2</sup></td><td> "Freie Flächen": Eine freie Fläche auf dem Platz, an der sich kein Spieler befindet.</td></tr>
+    </table>
+<br />
+
+  <p><img src="images/img03.jpg" width="200" height="150" align="right" style="margin:0 0 0 10px"/><span class="name">Enomoto:</span>Aber nicht nur Pässe und "freie Läufe" können jetzt mit der Wii-Fernbedienung und dem Nunchuk noch intuitiver gesteuert werden, sondern auch Fußball-Grundelemente wie das <a href="flvplayer.html?mv=cv_we-4&tt=21.50&width=320&height=253&id=cv_we-4" class="thickbox cv_we-4" title="Ball-Dribbling"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />Dribbling</a> und die <a href="flvplayer.html?mv=cv_we-5&tt=21.50&width=320&height=253&id=cv_we-5" class="thickbox cv_we-5" title="Schießen"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />Schüsse</a>. Indem man Pässe, Dribbling und "freie Läufe" kombiniert, werden jetzt <a href="flvplayer.html?mv=cv_we-6&tt=21.50&width=320&height=253&id=cv_we-6" class="thickbox cv_we-6" title="Komplexe Passmanöver"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />komplexe Manöver</a> möglich. Das bedeutet, dass fast jedes denkbare Manöver in einem Fußballspiel jetzt auch ausgeführt werden kann.
+  <br />
+  <br />
+  <span class="name">Chosogabe:</span>Was den Realismus in Fußball-Simulationen betrifft, ist es so, dass die Spielelemente viel näher an der Realität sind, als in den vorherigen Pro Evo-Titeln, weil das neue Steuersystem solche Spielzüge wie "freie Läufe" ermöglicht. Aber andererseits können bei der Steuerung des Spielers, der im Ballbesitz ist, bestimmte Dinge nicht mehr kontrolliert werden. Der Grund dafür ist, dass sich das Konzept des Spiels von dem der bisherigen Pro Evo-Spiele unterscheidet.  
+<br /><br />
+In den vorherigen Pro Evo-Titeln hat man den Spieler im Ballbesitz gesteuert, während der Computer die anderen Spieler in der Nähe kontrolliert hat. Im neuen Spiel kann man aber auch die anderen Spieler steuern. Wir haben die Möglichkeiten erweitert, die ganze Mannschaft zu kontrollieren, und zum Ausgleich lassen wir den Computer einige Elemente der Steuerung des Spielers im Ballbesitz übernehmen. Da sich die Rollen geändert haben, die der Spieler und der Computer übernehmen, hat sich auch das Gleichgewicht der Kontrolle durch den Spieler und den Computer geändert. Ich glaube, man kann sagen, dass es jetzt zugänglicher ist. Wenn man z.B. in den bisherigen Pro Evo-Spielen geschossen hat, hat man die Stärke und die Richtung des Schusses bestimmt. Im neuen Spiel wählt man einen Schuss aus, der Spieler passt dann seine Stellung automatisch an und entscheidet, mit wie viel Kraft er den Schuss ausführt. Durch die Veränderung der Rollen von Spieler und Computer haben wir dafür gesorgt, dass ein gutes Gleichgewicht zwischen Ballkontrolle und Mannschaftskontrolle gewahrt bleibt.
+
+<br />
+	</div>
+  
+<div class="emphasis">Ausprobieren bei der Entwicklung eines absolut originellen Spiels</div>
+<div class="paragraph">
+  <p><img src="images/img06.jpg" width="200" height="150" align="left" style="margin:0 10px 0 0"/><span class="name">Chosogabe:</span>Diesmal haben wir ein Fußballspiel entwickelt, bei dem man seine Anweisungen in Echtzeit an alle Spieler weitergibt, wir hatten also keine vorhergehenden Spiele, an denen wir uns in Bezug auf das Steuersystem orientieren konnten. Deshalb mussten wir während der ganzen Entwicklung viel ausprobieren. Besonders lange haben wir überlegt, wie wir den Control Stick des Nunchuks richtig nutzen sollten. Wir wollten ein Spiel entwickeln, das komplett anders gespielt wird, als alle vorhergehenden Spiele. Wir haben also erst versucht, ganz auf den Einsatz des Control Sticks zu verzichten. Aber während man die Spieler in der Umgebung gesteuert hat, wurde dem Spieler, der im Ballbesitz war, immer wieder der Ball abgenommen. Es war wichtig, dass der Spieler mit dem Ball ihn auch gegen Angriffe verteidigen kann, während man die anderen Spieler steuert, da der Aufbau von Spielzügen mit den freien Spielern eines der wichtigsten Elemente in diesem Spiel ist. Um "freie Läufe" und "Kombinationsspiel" zu ermöglichen, haben wir schließlich die Möglichkeit eingebaut, <a href="flvplayer.html?mv=cv_we-7&tt=21.50&width=320&height=253&id=cv_we-7" class="thickbox cv_we-7" title="Mit dem Control Stick dribbeln"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />mit dem Control Stick etwas dribbeln zu können, aber nur, wenn die eigenen Angriffsspieler im Ballbesitz sind</a>. Wir haben dem Control Stick im Spiel also nicht die Funktion gegeben, mit dem Ball durch die Verteidigung zu dribbeln, sondern er hat die neue Funktion, den Ball zu halten. So entsteht ein völlig neues Spielerlebnis. </p>
+  </div>
+  
+<div class="emphasis">Ein völlig neues Fußballspiel</div>
+  <div class="paragraph">
+    <p><span class="name">Chosogabe:</span>Weil wir das Steuersystem der bisherigen Pro Evo-Titel verändert haben, ist es jetzt eine absolute neue Art von Fußballspiel. Das betrifft aber nicht nur die Einzelduell-Situationen im Spiel; die "freien Flächen" , die "Verteidigungslinie"<sup>3</sup>  und die anderen Möglichkeiten im Spiel sorgen dafür, dass man auf das gesamte Gleichgewicht der Mannschaft im Verlauf eines Spiels achtet. Es gibt jetzt weniger schnelle Dribbling-Manöver und Grätschen zur Ballübernahme, und wegen dieses Unterschieds im Spielverlauf spürt man vielleicht ein unterschiedliches Spieltempo im Vergleich zu den vorherigen Pro Evolution-Spielen.
+<br /><br />
+Aber tatsächlich ist es so, dass Spieler wie Cristiano Ronaldo<sup>4</sup> - und auch der Ball selber - im Spiel dieselbe Geschwindigkeit haben, wie in den vorherigen Pro Evo-Titeln. Man kann im Spiel dasselbe Gefühl von echter Spannung und Tempo erleben. Ich finde, wenn man das Spiel als Zuschauer beobachtet, hat man dasselbe Gefühl von Geschwindigkeit, wie bei echten Fußballspielen im Fernsehen.
+</p>
+    <table class="notes" cellpadding="0" cellspacing="0">
+    <tr><td class="number"><sup>3</sup></td>
+    <td> "Verteidigungslinie": Die Verteidigungsformation, die die Abwehrspieler im Spiel einsetzen.</td>
+    </tr>
+    <tr><td class="number"><sup>4</sup></td><td> Cristiano Ronaldo ist ein internationaler Spieler aus Portugal und das offizielle Gesicht von "Pro Evolution Soccer 2008".</td>
+    </tr>
+    </table>
+</div>
+
+  </div>
+  
+  
+  <div id="paragraph03">
+  <div class="caption"><img src="images/caption03.gif" alt="The Feel of Real Soccer" width="550" height="26" /></div>
+  <div class="paragraph">
+  <p><span class="name">Enomoto:</span>Beim echten Fußballspiel gibt es eine besondere Art von Stürmer<sup>5</sup> , der auf einer Seite des Platzes wartet, bis der Ball bei ihm landet. Bisher war es in Pro Evo-Spielen nicht möglich, einen Spieler an einer Stelle warten zu lassen. Aber wenn man jetzt einen Spieler so weit wie möglich nach vorne zieht, kann man ihn dort warten lassen, bis der Ball bei ihm ankommt. Diese Spielvariante ist erst in diesem Spiel möglich.</p>
+  
+    <table class="notes notes02" cellpadding="0" cellspacing="0">
+	    <tr><td class="number"><sup>5</sup></td><td> "Stürmer": Ein Spieler, dessen Position nahe am gegnerischen Tor ist und dessen Hauptaufgabe der Angriff ist.</td></tr>
+    </table>
+  <br />
+  <p><img src="images/img02.jpg" width="150" height="200" align="right" style="margin:0 0 0 10px"/><span class="name">Chosogabe:</span>In unserem Produktionsteam gibt es eine besondere Taktik, die wir "die Lawine" nennen (lacht). Wir setzen sie ein, wenn wir in den letzten Minuten noch ein Tor brauchen. Direkt nach dem Abstoß nach einem Tor kann man als Angriffsmanöver <a href="flvplayer.html?mv=cv_we-8&tt=21.50&width=320&height=253&id=cv_we-8" class="thickbox cv_we-8" title="Die Spieler laufen nach vorne"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />alle seine Spieler vorziehen und losstürmen lassen</a> Bisher waren die Spiele immer sehr rasant, da die vorherigen Pro Evo-Titel mit den Controller-Tasten gesteuert worden sind. Deshalb musste man sehr schnelle Reaktionen haben, wenn man gut werden wollte. Man musste ein richtiger Zocker sein. Daher gab es bestimmt Leute, die zwar Fußballfans waren, aber bei Pro Evo nie richtig gut werden konnten. Diesmal haben wir aber eine völlig neue Art von Fußballspiel veröffentlicht. Ich denke, damit haben wir die Barriere eingerissen, auf die manche Spieler mit ihren Zockerfertigkeiten gestoßen sind. Bei diesem Titel kann sich der Spieler in Echtzeit direkt für bestimmte Strategien und Taktiken entscheiden und sie umsetzen. Das ist bestimmt das erste Mal, dass die Leute diese Erfahrung machen. Wenn sich also beide Spieler ein realistisches Match liefern wollen, wird die Lücke zwischen Experten und Anfängern mit diesem Spiel deutlich reduziert, glaube ich.
+</p>
+  <p><span class="name">Enomoto:</span>Wenn ein Fußballexperte gegen einen Actionspiel-Experten angetreten ist, hatte der erfahrene Zocker in den bisherigen Pro Evo-Titeln wohl einen Vorteil. Aber auch wenn es ein Videospiel ist, würde ich mir wünschen, dass die Person gewinnt, die so spielt, wie man es auch in echt machen würde. Vielleicht ist es bei diesem Spiel ja so, dass sich auch die erfahrenen Zocker nicht automatisch sicher fühlen können. Ich würde wirklich gerne sehen, wie ein Spieler, der sich gut mit Fußball auskennt und die Steuerung des Spiels beherrscht, sich gegen einen Spieler behaupten kann, der ein sehr erfahrener Videospiele-Zocker ist.
+</p>
+    </div>
+  
+  </div>
+  
+  
+  <div id="paragraph04">
+  <div class="caption"><img src="images/caption04.gif" alt="Closing Comments" width="550" height="26" /></div>
+<div class="emphasis">Neue Spielelemente</div>
+  <div class="paragraph">
+  <p><span class="name">Chosogabe:</span>In diesem Spiel gibt es nicht mehr die "Meister-Liga", die wir bisher in den Pro Evo-Titeln hatten. Stattdessen haben wir einen neuen Modus entwickelt, der "Champions Road" heißt. In diesem Modus erstellt man sein eigenes Team und spielt um verschiedene Pokale. Man baut die Stärke der Mannschaft auf, indem man diese Pokale gewinnt, da man so neue Spieler und Fähigkeiten erhält. Das Ziel ist es, alle Pokale zu gewinnen und das beste Team zu werden. 
+<br /><br />
+Wir haben sehr viel am Online-Spiel über Wi-Fi gearbeitet und es ausführlich getestet, um das System zu perfektionieren, und am Ende des Projekts haben wir es genau richtig hingekriegt. Es gibt drei Online-Modi, je nach Verbindungsqualität. Wir haben alles so angepasst, dass man das optimale Spielerlebnis hat, unabhängig davon, was man für eine Internet-Verbindung hat. Und ich würde mich freuen, wenn Sie mal auf <a href="slideplayer.html?width=380&amp;height=214&amp;id=001" class="thickbox 001" title="Japans neue Trikots"><img src="images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />die neuen Trikots der japanischen Nationalmannschaft achten würden</a>!
+</p>
+</div>
+
+<div class="emphasis">Rückblick auf den Entwicklungsprozess</div>
+  <div class="paragraph">
+  <p><span class="name">Enomoto:</span>Wir wussten während der Entwicklung von Pro Evo für Wii, dass wir uns etwas absolut Neues einfallen lassen mussten. Deshalb mussten wir uns erst mit dem Teil des Spielablaufs auseinandersetzen, der mit der Steuerung über die Controller-Tasten zusammenhängt. Also haben wir nicht mit Takatsukas  Team gearbeitet, das bis dahin die Pro Evo-Titel entwickelt hatte, sondern mit Chosokabes Team. Und wir haben das Ziel erreicht, das wir uns gesetzt hatten: dieser Teil von Pro Evo ist wirklich anders geworden, und ich glaube, dass wir vielleicht sogar eine ganz neue Art von Fußballspiel entwickelt haben. Takatsuka<sup>6</sup> wusste ganz genau, was wir vorhatten, und als er merkte, dass wir diese neue Art von Spiel tatsächlich umgesetzt haben, gab mir seine Reaktion wirklich das Gefühl, dass die Entwicklung des Spiels ein echter Erfolg war.
+</p>
+    <table class="notes notes02" cellpadding="0" cellspacing="0">
+	    <tr><td class="number"><sup>6</sup></td><td> Shingo Takatsuka ist der Schöpfer der Reihe und arbeitet als leitender Producer der "Pro Evolution Soccer"-Reihe.</td></tr>
+    </table>
+	<br />
+  <p><span class="name">Chosogabe:</span>Bisher wurden die "Pro Evolution Soccer"-Spiele so entwickelt, dass wichtige Elemente des echten Fußballs als Fußballspiel nachgebaut wurden. Aber im aktuellen Titel wurden andere Elemente desselben 90 Minuten-Spiels zu etwas völlig Neuem zusammengefügt. Mit der Veränderung des Steuersystems konnten wir in diesem Spiel eine ganz andere Seite des Fußballs umsetzen. Vielleicht hört sich das etwas übertrieben an, aber ich denke, dass dieses Spiel eine abstrakte Version vieler realer Aspekte des Fußballs komplett anders umsetzt, als die vorherigen Titel in dieser Spielreihe. Das Konzept hinter der Entwicklung des Spiels war es, eine völlig neue Art von Unterhaltung zu bieten, deshalb haben wir uns nicht nur auf die Veränderung des Steuersystems beschränkt. Ich würde mich wirklich freuen, wenn Sie beim Spielen dieses Titels bemerken würden, wie viel Innovation tatsächlich darin zu finden ist.     
+
+</p>
+</div>
+
+<div class="emphasis">Eine Nachricht an die Spieler</div>
+  <div class="paragraph">
+  <p><img src="images/img05.jpg" width="200" height="150" align="left" style="margin:0 10px 0 0"/><span class="name">Chosogabe:</span>Es geht nicht darum, ob dieser Titel oder eines der vorherigen Pro Evo-Spiele mehr Spaß macht. Beide Spiele haben komplett unterschiedliche Zielsetzungen, deshalb glaube ich, dass die Fans der vorherigen Teile der Reihe diesen Titel spielen können und dabei eine völlig andere Art von Unterhaltung erleben. Man kann vielleicht nicht sofort komplexe Passfolgen aneinanderreihen, aber wenn man einfach einen Spieler vor das Tor zieht und ihn schießen lässt, findet jeder schnell einen guten Einstieg ins Spiel - man muss einfach anfangen und es probieren! 
+  <p><span class="name">Enomoto:</span>Das Hauptkonzept des Spiels ist "eine völlig neue Fußballrealität". Es war eine große Herausforderung für uns, verschiedene Elemente umzusetzen, die mit dem System in den ursprünglichen Pro Evo-Spielen nicht möglich gewesen wären. Es gibt Elemente im Spiel, die direkt aus dem realen Fußball stammen, aber in den bisherigen Pro Evo-Titeln nicht zu finden waren. Ich möchte, dass jeder Spaß an diesem Fußballerlebnis hat, das nur mit diesem Titel möglich ist.
+</p>
+</div>
+  
+  </div>
+  
+
+  
+  </div>
+  
+  
+  
+  <div id="interview_info">
+    <p><img src="images/prof_thumb_enomoto.jpg" width="70" height="70" align="left" style="margin:0 10px 5px 0"/><span class="emphasis">Enomoto:</span><br />
+     <span class="size-small">Executive Producer, "Winning Eleven"-Produktionsteam, Konami</span></p>
+    <p style="clear:both;"><br />
+Shinji Enomoto wurde 1958 in Tokio geboren. Er arbeitet als Executive Producer an der "Pro Evolution Soccer"-Reihe. Im Jahr 1991 hat er als Sounddesigner bei Konami angefangen und ist seitdem im Entwicklerteam von "Winning Eleven" ("Winning Eleven" ist der japanische Titel der "Pro Evolution Soccer"-Reihe). Seit 2001 hat er als Executive Producer der Spielreihe die Führung übernommen. Allein im Verlauf des Jahres 2006 sind weltweit 8.400.000 Exemplare des Spiels verkauft worden. Shinji Enomoto steckt sich aber weiterhin große Ziele. Er möchte ein neues Fußballspiel entwickeln, das eine echte Bereicherung für die weltweite Fußballkultur darstellt.<br /></p><br />
+    <p><img src="images/prof_thumb_chosokabe.jpg" width="70" height="70" align="left" style="margin:0 10px 5px 0"/><span class="emphasis">Chosogabe:</span><br />
+     <span class="size-small">Producer, "Winning Eleven"-Produktionsteam, Konami</span></p>
+    <p style="clear:both;">
+<br />
+Akiyoshi Chosokabe wurde 1966 in Osaka geboren und schloss sich Konami im Jahr 1998 als 3D-Grafikdesigner an. Heute arbeitet er als Producer für die "Pro Evolution Soccer"-Reihe. Als Producer beaufsichtigt er die Reihe seit dem Manager-Titel "Winning Eleven Tactics" aus dem Jahr 2003. Im Jahr 2008 führte er das Entwicklerteam zum erfolgreichen Abschluss der Arbeit an "Pro Evolution Soccer 2008", das bisher die Fußballmanager-Simulationen entwickelt hat. <br /></p>
+      <img src="images/dot_hr.gif" alt="" width="190" height="1" vspace="10" />
+      <span class="emphasis">Pro Evolution Soccer 2008</span>
+    
+    <div style="text-align:center"><img src="images/soft_thumb.jpg" width="90" height="124" vspace="5" /></div>
+    <table cellspacing="0" cellpadding="0" class="datatxt">
+      <tr>
+        <td>Genre</td>
+        <td class="sd_middle">：</td>
+        <td>Sportspiel</td>
+      </tr>
+      <tr>
+        <td>Anzahl der Spieler</td>
+        <td class="sd_middle">：</td>
+        <td class="sd_right">1-2</td>
+      </tr>
+      <tr>
+        <td class="sd_left">Erscheinungstermin</td>
+        <td class="sd_middle">：</td>
+        <td class="sd_right">27 März 2008</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="sd_left size-small">Dieses Spiel unterstützt die Nintendo Wi-Fi Connection</td>
+        </tr>
+    </table>
+
+	  <img src="images/dot_hr.gif" alt="" width="190" height="1" vspace="10" /><br />
+      <div class="copy"> <img src="images/copyright.gif" alt="" width="192" height="321" vspace="10" /></div>
+    </p>
+  </div>
+
+
+  <!--//end #contents//-->
+	<script language="javascript" type='text/javascript'>
+		TB_init();
+	</script>
+	  
+
+	<!-- GameFootage -->
+		
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../26/"><img src="../../../images/common/b_back.gif" alt="Back" border="0" /></a></li>
+      <li><a href="#top"><img src="../../../images/common/b_top.gif" alt="Top" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+ </div> 
+  
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/373.html" target="_blank"><img src="../../../images/common/footer_b_detail.gif" alt="Mehr Wii-Infos" border="0" /></a></li>
+	<li><img src="../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.de/NOE/de_DE/service/contact_2095.html" target="_blank"><img src="../../../images/common/footer_b_contact.gif" alt="Kontakt" border="0" /></a></li>
+	<li><a href="../../../newsletter/newsletter.php?l=deDE" target="_self"><img src="../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../terms/"><img src="../../../images/common/footer_b_terms.gif" alt="Nutzungsbedingungen" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo.de" target="_blank"><img src="../../../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+
+  
+</body>
+<!-- InstanceEnd --></html>

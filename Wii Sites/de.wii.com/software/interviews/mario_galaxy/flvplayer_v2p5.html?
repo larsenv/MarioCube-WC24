@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Wii, ウィー">
+<meta name="description" content=""><title>Wii.com JP</title>
+<link href="vol1/css/flvplayer.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	  <tr>
+	    <td align="center" valign="middle"><div id="swfcontent"><!--<img src="/images/nofla.gif" width="320" height="305">--></div>
+		</td>
+	  </tr>
+	</table>	
+
+<script type="text/javascript">
+setTimeout(function() {
+var flvfile='http://wiimedia.nintendo-europe.com/wii.com/sw_interviews/'+ mv +'.flv'
+var so = new SWFObject("../swf/smg_v2.swf", "flvplayer", params.width, params.height, "7", "#666666");
+so.addVariable("player", "../swf/flvplayer_inside.swf");
+so.addVariable("lang", mv);
+if (typeof params.mv != 'undefined') {
+so.addVariable("flv", flvfile);
+so.addVariable("totalTime", params.tt);
+var _title = document.title;
+so.write("swfcontent");
+document.title = _title;
+}
+}, 800);
+
+</script>
+
+</body></html>

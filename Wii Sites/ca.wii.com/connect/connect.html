@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Connect Wii to the Internet</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+<script src="js/flashdetect.js" type="text/javascript" language="JavaScript"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+</head>
+<body>
+<div id="mainWrapper">
+  <div class="broken">
+    <div class="content">
+      <!--<div class="title_bar">
+        <div class="more_about_wii"> <a href="http://nintendo.com/wii"><img src="../images/common/more_about_wii_med.gif" alt="More About Wii..." /></a> </div>
+        <img src="images/title.jpg" width="328" height="23" border="0" /> </div>-->
+      <div id="wiiConnectFlashContent" style="position:relative; left:-60px;"></div>
+      <script type="text/javascript">
+					// <![CDATA[
+					var wiiConnect_BaseURL = "";
+					var wiiConnect_UseStandaloneWiiVersion = true;
+								
+					if ( navigator.platform == "Nintendo Wii" ) {
+						// Wii version
+						if ( wiiConnect_UseStandaloneWiiVersion ) {
+							// Standalone
+							document.location.href = wiiConnect_BaseURL + 'WiiConnectFP7.html';
+						} else {
+							var swfObject = new SWFObject( wiiConnect_BaseURL + "WiiConnectFP7.swf", "WiiConnectFP7", "800", "500", "7", "#ffffff" );
+						}
+				
+					} else {
+						// Browser version
+						var swfObject = new SWFObject( wiiConnect_BaseURL + "WiiConnect.swf", "WiiConnect", "920", "610", "9.0.28", "#ffffff" );
+						swfObject.useExpressInstall( wiiConnect_BaseURL + "expressinstall.swf" );
+					}
+				
+					if ( swfObject ) {
+						swfObject.addVariable( "baseURL", wiiConnect_BaseURL )
+						swfObject.write( "wiiConnectFlashContent" );
+					}
+				
+					
+					// ]]>
+				</script>
+    </div>
+    <span class="clear"></span> </div>
+</div>
+</body>
+</html>

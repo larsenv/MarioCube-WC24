@@ -1,0 +1,55 @@
+/* CSS Document */
+#contents {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#contents h2 {
+	margin:0px 0px 20px 0px;
+	padding:0px;
+}
+#contents p.lead {
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	font-size: 92%;
+}
+#rule h2{
+	font-size: 107%;
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	color: #34beed;
+}
+#contents p{
+	margin: 0px;
+	padding: 0px;
+}
+#contents dl{
+	margin: 0px 1em 20px 1em;
+}
+#contents dt{
+	font-size: 92%;
+	margin: 0px;
+	padding-bottom: 0.6em;
+	color: #34beed;
+	font-weight: bold;
+}
+#contents dd{
+	margin: 0px;
+	padding-left: 1.5em;
+	font-size:92%;
+}
+#contents ul{
+	margin: 0px 1.5em 0px 1.5em;
+	padding: 0px;
+}
+#contents li{
+	padding-bottom: 0.6em;
+}
+#contents strong.gray{
+	color: #8c8c8c;
+}
+#back{
+	text-align: center;
+}
+.m_b40{
+	margin:0px 0px 40px 0px;
+}

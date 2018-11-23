@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>How to download the Nintendo Channel</title>
+<link href="css/ninChannel_popup.css" rel="stylesheet" type="text/css" media="all">
+<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="js/thickbox_mario.js"></script>
+</head>
+<body>
+	<a href="javascript:void(0);" onClick="TB_remove()"><div class="closeBtn"></div></a>
+	<div class="container"></div>
+</body>
+</html>

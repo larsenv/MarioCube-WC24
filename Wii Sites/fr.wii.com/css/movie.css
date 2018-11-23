@@ -1,0 +1,65 @@
+#contents {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#contents h1 {
+	margin:0px 0px 10px 0px;
+	padding:0px;
+}
+#blow {
+	height: 11px;
+	background-image: url(../images/common/blow_up_l.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#comment_base {
+	background-image: url(../images/common/dot_pat.gif);
+	padding: 0px 1px 1px 1px;
+	background-position: -1px;
+}
+#comment {
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+#comment p {
+	font-size: 92%;
+}
+#comment span.caption{
+	font-size: 77%;
+}
+#selector {
+	padding: 20px 69px 20px 69px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+table.movieselectorleft {
+	margin:0px;
+	padding:0px;
+	width:200px;
+	float: left;
+}
+table.movieselectorright {
+	margin:0px;
+	padding:0px;
+	width:200px;
+	float: right;
+}
+td.movietxtactive {
+	background-image: url(../images/common/dot_pat.gif);
+	padding: 1px 1px 1px 0px;
+	vertical-align: top;
+	background-position: 3px;
+}
+td.movietxtactive div {
+	width:113px;
+	height:58px;
+	background-color: #d6f2fb;
+}
+span.movietextactive {
+	font-size: 77%;
+	padding:5px 5px 5px 5px;
+	text-align: left;
+	display: block;
+	font-weight: bold;
+	color: #34beed;
+}

@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/fonts.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<!-- SageMetrics Tracking Begin -->
+<script language="JavaScript">
+var st_pg="";
+var st_ai="sgcg:Microsites/wii, section=wii, product:IgNpwaTHeg2etSi25CGQVDl-GYTV98XD, locale:deDE";
+var st_v=1.0;
+var st_ci="781";
+var st_di="d001";
+var st_dd="st.sageanalyst.net";
+var st_tai="v:1.2.3";
+</script>
+<script language="JavaScript1.1"> st_v=1.1; </script>
+<script language="JavaScript1.2"> st_v=1.2; </script>
+<script language="JavaScript1.1" src="//st.sageanalyst.net/tag-781.js"></script>
+<script language="JavaScript">
+if (st_v==1.0) {
+var st_uj;
+var st_dn = (new Date()).getTime();
+var st_rf = escape(document.referrer);
+st_uj = "//"+st_dd+"/"+st_dn+"/JS?ci="+st_ci+"&di="+st_di+"&pg="+st_pg+"&rf="+st_rf+"&jv="+st_v+"&tai="+st_tai+"&ai="+st_ai;
+var iXz = new Image();
+iXz.src = st_uj;
+}
+</script>
+<noscript><img src="//st.sageanalyst.net/NS?ci=781&di=d001&pg=&ai=sgcg:Microsites/wii, section=wii, product:IgNpwaTHeg2etSi25CGQVDl-GYTV98XD, locale:deDE"></noscript>
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1>
+			<ul class="gnavi">
+      			<li><a href="../../../../exp/"><img src="../../../../images/common/gnavi_exp.gif" alt="Wii Erlebnis" border="0" /></a></li>
+				<li><a href="../../../../wii_channel/"><img src="../../../../images/common/gnavi_chnl.gif" alt="Wii Kan&auml;le" border="0" /></a></li>
+	  			<li><a href="../../../../wii_tv/"><img src="../../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../../software/"><img src="../../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+	<div id="vol1">
+		<div id="page1">	
+			<h1><img src="../images/title.gif" alt="Iwata fragt: Super Mario Galaxy" width="560" height="26" /></h1>
+			<div id="gametitlebar"></div>
+			
+			<ul id="menu">				<li id="menu1"><a href="#"></a></li>
+				<li id="menu2"><a href="../vol2/"></a></li>
+<li id="menu3"></li>
+				<li id="menu4"></li>
+			</ul>
+			
+			<div id="mainimg"><img src="images/mainimg.jpg" alt="Teil 1: Der Producer and Director" width="780" height="240" /></div>
+			
+			<h2><img src="images/title_v1.gif" alt="Teil 1: Der Producer and Director" width="780" height="20" /></h2>
+			
+			<div id="sub_menu"><div id="inner">
+				<ul>
+					<li id="sub1"><a href="index.html">Wie Super Mario Galaxy geboren wurde</a></li>
+					<li id="sub2"><a href="page2.html">Viele Meinungen anhören</a></li>
+					<li id="sub3"><a href="page3.html">Ein Mario-Spiel auch für Anfänger</a></li>
+					<li id="sub4"><a href="page4.html">Von 5 bis 95</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="paragram">
+  
+		<h3>Hallo sagen</h3>
+  
+		<div class="utterance">
+			<div class="name">Iwata:</div>
+			<div class="message">Super Mario Galaxy, das erste 3D-Mario-Jump’n’Run für Wii, wird am 1. November (16. November in Europa) veröffentlicht. Ich kann mir vorstellen, dass eine Menge Leute Zweifel haben, ob ein Spiel wie ein 3D-Mario wirklich zu Wii passt. Darum habe ich mich entschieden, die Entwickler ausführlich dazu zu befragen, was ihnen durch ihren Kopf ging, als sie den neuesten Teil der Mario-Serie erschaffen haben. Übrigens, dieses Mal habe ich (Akinori) Sao-san, den ehemaligen Chefredakteur des Nintendo Dream-Magazins, der jetzt ein selbständiger Journalist ist, gebeten, mir bei diesem Interview zu helfen. Sao-san, vielen Dank, dass Sie heute bei uns sind.</div>
+		</div>
+		
+		<div class="utterance">
+			<div class="name">Sao:</div>
+			<div class="message">Ich habe zu danken, dass ich heute hier anwesend sein darf. Es sind schließlich schon sechs Jahre vergangen, seit ich von Angesicht zu Angesicht mit Ihnen reden durfte.</div>
+		</div>
+		
+		<div class="utterance">
+			<div class="name">Iwata:</div>
+			<div class="message">Ja, daran erinnere ich mich noch. Das war das Jahr, in dem der GameCube veröffentlicht wurde, und es war der allerletzte Arbeitstag im Jahr.</div>
+		</div>
+		
+		
+		
+		<div class="utterance">
+			<div class="name">Sao:</div>
+			<div class="message">Ihr Gedächtnis ist wirklich vorzüglich. (lacht) Damals hatte ich Sie gebeten, mir ein ausführliches Interview zu geben. Da ich jetzt aber eine andere Position innehabe, bin ich etwas nervös anlässlich dieser besonderen Gelegenheit. Aber gleichzeitig bin ich auch sehr aufgeregt, weil ich in diesem vierteiligen Interview von den verschiedenen Entwicklern einiges über das neueste 3D-Mario-Jump’n’Run zu hören bekommen werde.</div>
+		</div>
+		
+		
+		<h3>Wie Super Mario Galaxy geboren wurde</h3>
+		
+		<div class="utterance">
+			<div class="name">Iwata:</div>
+			<div class="message">Super Mario Galaxy wurde von unserem EAD (Entertainment Analysis and Development)-Büro in Tokio entwickelt. Zum Zeitpunkt dieses Interviews befand sich das Team gerade an einem kritischen Punkt in der Entwicklung, also habe ich mich entschieden, persönlich nach Tokio zu kommen. Deshalb werden dieses und das nächste Interview, die ersten beiden der vier, unseren Lesern als eine Spezialausgabe dargeboten: „Iwata fragt (auf Geschäftsreise)“. Nun, für Teil 1 dieser Interviews, möchte ich gerne Sie beide befragen, den Producer und den Director dieses Projekts. Bitte stellen Sie sich erst mal vor.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Shimizu:</div>
+		<div class="message">Ich bin Shimizu und arbeite als Producer bei EAD Tokio. Bei Super Mario Galaxy war meine Hauptaufgabe, eine Arbeitsumgebung zu schaffen, in der das Team sich ganz auf die Entwicklung des Spiels konzentrieren konnte.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Hallo, ich bin Koizumi, ebenfalls von EAD Tokio, wo ich als Director an diesem Projekt gearbeitet habe. Da Shimizu-san die Aufgabe übernommen hatte, mit den äußeren Kontakten zu kommunizieren, konnte ich mich ganz auf die Entwicklung konzentrieren. Oh, und ich musste außerdem übersetzen, was (Shigeru) Miyamoto-san den Entwicklern mitteilte, damit sie verstehen konnten, was er von ihnen wollte.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Nun erzählen Sie uns doch erst einmal, wie dieses Projekt begonnen hat.</div>
+		</div>
+		
+		
+		<div class="utterance">
+			<div class="name">Koizumi:</div>
+			<div class="message">
+				Die Geschichte reicht zurück bis ins Jahr 2000. Es war während der GameCube-Präsentation<sup>1</sup>, als wir eine Demo namens Mario 128<sup>2</sup> enthüllten. Ich war der Director dieser Demo. Nach der Präsentation habe ich die ganze Zeit über nachgedacht, wie man das System, das wir in Mario 128 benutzten, in ein richtiges Spiel verwandeln könnte. Aber es kam mir unmöglich vor.
+				
+				<table border="0" class="note">
+					<tr>
+						<td valign="top">1</td>
+						<td valign="top">Die Präsentation des GameCube erfolgte auf der SpaceWorld 2000, einer von Nintendo veranstalteten Videospiel-Fachausstellung, die im August 2000 in der Makuhari-Messe in Chiba, Japan, abgehalten wurde.</td>
+					</tr>
+					<tr>
+						<td valign="top">2</td>
+						<td valign="top">Mario 128 ist der Name einer Demo-Software, die die grafischen Fähigkeiten des GameCube veranschaulichen sollte. Diese Demo ist auch unter dem Namen „100 Marios“ bekannt.<br /><img src="images/mario128.jpg" alt="mario128" width="100" height="84" /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">
+		Warum hielten Sie es für unmöglich?</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Aus technischen Gründen. In Mario 128 wurde die Plattform in Form einer fliegenden Untertasse kreiert. Um der Plattform eine kugelförmige Gestalt zu verleihen, auf der sich Mario frei bewegen konnte, wäre ein hohes Maß an technischem Fachwissen erforderlich gewesen. Ich war auch der Meinung, dass das Team sehr motiviert sein müsste, um dieses Hindernis zu überwinden.</div>
+		</div>
+		
+		
+		<div class="photo"><img src="images/01.jpg" width="250" height="150" /></div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Übrigens hat mir Miyamoto-san vor über fünf Jahren von den kugelförmigen Plattformen erzählt. Als ich das erste Mal davon hörte, verstand ich nicht so recht, was so revolutionär sein sollte an einer kugelförmigen Plattform. Als Super Mario Galaxy jedoch begann, Form anzunehmen, verstand ich schließlich, was er gemeint hatte.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Zu diesem Zeitpunkt ging es mir genauso. Es klingt interessant, aber ich war nicht sicher, ob es den Aufwand wert war. Wahrscheinlich teilten alle im Team diese Auffassung. Aber Miyamoto-san sagte immer wieder, dass er dieses Projekt realisieren wollte.
+		</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Shimizu:</div>
+		<div class="message">Vor etwa zweieinhalb Jahren, nachdem wir Donkey Kong Jungle Beat<sup>3</sup> für den GameCube fertig gestellt hatten, hatten wir etwas Zeit zu planen, was unser nächstes Spiel sein sollte. Wir schlugen ein neues Spiel mit neuen Figuren vor, aber Miyamoto-san sagte in einem etwas traurigen Ton: „Ich wünschte, Sie könnten ein Spiel mit etablierten Nintendo-Figuren machen...“ (lacht)
+		<div class="photo" style="margin-bottom:30px;"><img src="images/02.jpg" width="250" height="150" /></div>
+		<table border="0" class="note">
+		<tr>
+		<td valign="top">3</td>
+		<td valign="top">Donkey Kong Jungle Beat ist ein seitwärts scrollendes Jump’n’Run für den Nintendo GameCube, das mit einem optionalen Bongo-Controller gesteuert wird. Veröffentlicht im Februar 2005.<br />
+		<img src="images/junglebeat.jpg" alt="Junglebeat" width="100" height="76" /></td>
+		</tr>
+		</table>
+		</div></div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Das EAD-Büro in Tokio hatte gerade erst 2003 geöffnet, und wir dachten damals nicht, dass wir ein Spiel von einer derartigen Größenordnung machen könnten. Deswegen hatte ich ein kleineres, kompakteres Spiel vorgeschlagen. Aber dann fragte Miyamoto-san mich: „Möchten Sie nicht an etwas Größerem arbeiten?“ Also habe ich die Team-Mitglieder nach ihrer Meinung gefragt und einer sagte, er wolle unsere Fähigkeiten nutzen, um das nächste Mario-Spiel zu machen. Da wir an Jungle Beat zusammen gearbeitet hatten, kannte ich das Team gut genug, und ich dachte mir, mit diesem Team könnten wir das schwierige Problem lösen, die kugelförmigen Plattformen umzusetzen.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">
+		Aber die Entwicklung verlief nicht glatt.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Natürlich tat sie das nicht. Ich kam mir bei diesem Projekt wie ein Koch vor. Ich habe allen das Rezept gezeigt und gesagt: „So eine Art von Gericht möchte ich für Wii zubereiten“, aber keiner im Team konnte sich das fertige Gericht vorstellen.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Wenn man nur das Rezept sieht, kann man noch nicht einschätzen, ob das fertige Gericht gut oder schlecht schmecken wird.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Miyamoto-san pflichtete mir bei, dass es gut schmecken würde. Aber fast jeder im Team sagte, dass wir so ein fantastisches Gericht nicht zubereiten könnten. Als ich das hörte, spürte ich die Notwendigkeit, eine Kostprobe herzustellen. Wir versammelten einige Team-Mitglieder und stellten einen Prototyp her, was uns etwa drei Monate Zeit kostete. Eine kugelförmige Plattform ließ sich am besten als ein Planet vorstellen, den wir im Weltall ansiedelten und dem wir Schwerkraft hinzufügten. Es sah aus wie eine Minimalversion des jetzigen Super Mario Galaxy. Das war der Punkt, an dem die Entwicklung richtig losging.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Also ist es egal, wie wunderbar das Rezept auch sein mag, es hat nicht die Wirkung einer fertig zubereiteten Kostprobe, mag sie noch so klein sein. Erst durch die Kostprobe kann man sich ein Bild vom Geschmack des fertigen Gerichts machen. </div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Jawohl. Es kommt mir vor, als hätte ich einen Gemüsegarten von Miyamoto-san geborgt. Es war, als hätte ich ihn gefragt: „Bitte leihen Sie mir Ihren geheimen Garten. Bestimmt werden prächtige Früchte und herrliches Gemüse darin wachsen.“ Dann begann ich mit meinen Team-Mitgliedern die Samen zu säen, und nachdem wir die Früchte geerntet und das Gericht zubereitet hatten, waren wir bereit, Miyamoto-san als Erstem eine Kostprobe vorzusetzen. Er ist schließlich der Besitzer des Gartens. Wir schickten jede Portion nach Kioto und ließen ihn viele Male kosten, woraufhin er Kommentare abgab wie: „Das ist ein bisschen zu scharf“ oder „das schmeckt besser“. Gegen Ende der Entwicklung ließen wir ihn in unser „Restaurant“ nach Tokio kommen. Als er hier war, setzten wir ihm eine unfassbar große Menge an Gerichten vor. Am Ende war er pappsatt.</div>
+		</div>
+		
+		
+		<div class="photo"><img src="images/03.jpg" width="250" height="150" /></div>
+		
+		
+		<div class="utterance">
+		<div class="name">Shimizu:</div>
+		<div class="message">Er aß jede Portion, die wir ihm vorsetzten. Es muss für Miyamoto-san eine regelrechte Tortur gewesen sein! (lacht)</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Als wir also den Besitzer, Miyamoto-san, mit unseren Gerichten bis zu einem gewissen Grad zufrieden gestellt hatten, kam der Zeitpunkt, an dem wir sie der Allgemeinheit vorsetzen konnten. Wir luden eine große Menge an Leuten ein, sie zu probieren, und investierten eine Menge Zeit. Auf diesem Wege haben wir den Geschmack angepasst, während wir uns die Meinungen der Gäste anhörten, und das Gericht fertiggestellt.</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Trotzdem haben Sie Miyamoto-sans Dienste wirklich bis zum Äußersten in Anspruch genommen! (lacht)</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Für uns als Köche war es eine große Hilfe, dass er die Gerichte gekostet hat! (lacht)</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Für dieses Spiel habe ich Miyamoto-san darum gebeten zu tun, was nur er kann. Es ist lange her, dass ein 3D-Mario-Spiel erschienen ist, und ich wollte, dass er es zu einem Spiel machen würde, das Wii repräsentieren kann.</div>
+		</div>
+		
+		
+		<div class="photo"><img src="images/04.jpg" width="250" height="150" /></div>
+		
+		
+		<div class="utterance">
+		<div class="name">Shimizu:</div>
+		<div class="message">Sogar an freien Tagen bekam ich E-Mails von ihm, in denen er mich bat: „Lass uns das so verändern." Noch dazu früh am Morgen! (lacht) Wir arbeiteten an weit entfernten Orten, aber es kam mir gar nicht so vor, als seien wir weit entfernt voneinander. Zum Beispiel richteten wir es so ein, dass das Spiel, das wir in Tokio fertigten, gleichzeitig in Kioto spielbar war. Auch waren wir sehr dankbar, dass er gegen Ende der Entwicklung regelmäßig nach Tokio kam. </div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Aber sicher gab es ab und an Meinungsverschiedenheiten mit Miyamoto-san, oder?</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Die gab es natürlich. Jedoch erklärte er mir immer, warum sein Vorschlag besser sei, und manchmal ging er auch auf meine Sichtweise ein und gab nach. Da fällt mir ein, es ist schon eine lange Zeit her, aber einmal, als ich partout nicht nachgeben wollte, überredete er mich mit den Worten: „Vertrauen Sie auf die Erfahrung eines älteren Herrn!“ (lacht)</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Iwata:</div>
+		<div class="message">Also so überzeugt er die Leute. Mich hat er so aber noch nie überzeugt! (lacht)</div>
+		</div>
+		
+		
+		<div class="utterance">
+		<div class="name">Koizumi:</div>
+		<div class="message">Als Director  bin ich verantwortlich dafür, nach den Team-Mitgliedern zu sehen, und in letzter Zeit ertappe ich mich manchmal dabei, dass ich ihnen sage, sie sollen doch auf die Meinung des älteren Herrn hören! (lacht)</div>
+		</div>
+		</div>
+		
+		<div id="next_page_btn"><a href="page2.html">Viele Meinungen anhören</a></div>
+	
+  <!--//end #contents//-->
+  <hr />
+	  
+	
+	<!-- GameFootage -->
+		
+	
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../../18/"><img src="../../../../images/common/b_back.gif" alt="Zur&uuml;ck" border="0" /></a></li>
+      <li style="padding-left:5px"><a href="#top"><img src="../../../../images/common/b_top.gif" alt="Nach oben" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+  
+  
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/373.html" target="_blank"><img src="../../../../images/common/footer_b_detail.gif" alt="Mehr Wii-Infos" border="0" /></a></li>
+	<li><img src="../../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo-europe.com/NOE/de/DE/contactus/index.jsp" target="_blank"><img src="../../../../images/common/footer_b_contact.gif" alt="Kontakt" border="0" /></a></li>
+	<li><a href="../../../../newsletter/newsletter.php?l=deDE" target="_self"><img src="../../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../../terms/"><img src="../../../../images/common/footer_b_terms.gif" alt="Nutzungsbedingungen" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo-europe.com/NOE/de/DE/home/index.do" target="_blank"><img src="../../../../images/common/footer_nintendo_logo.gif" alt="Nintendo Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+	
+</div>
+
+  
+</body>
+<!-- InstanceEnd --></html>

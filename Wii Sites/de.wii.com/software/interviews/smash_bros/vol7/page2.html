@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+
+<link href="../../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="../css/thickbox.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../js/swfobject_for_thickbox.js"></script>
+<script language="javascript" type="text/javascript" src="../js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="../js/thickbox_mario.js"></script>
+<script language="javascript" type="text/javascript" src="../js/tb_width_mixed.js"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var current = 0;
+var slide = new Object();
+slide["000"] = "slide000";
+slide["008"] = "slide008";
+slide["039"] = "slide039";
+slide["040"] = "slide040";
+slide["074"] = "slide074";
+slide["119"] = "slide119";
+slide["123"] = "slide123";
+slide["141"] = "slide141";
+slide["156"] = "slide156";
+slide["165"] = "slide165";
+slide["166"] = "slide166";
+slide["182"] = "slide182";
+var id_to_index = new Object();
+var index_to_id = new Array();
+var i=0;
+for(var index in slide){
+	id_to_index[index] = i;
+	index_to_id[i] = index;
+	i++;
+}
+
+function setImage(id){
+	document.getElementById('swfcontent').innerHTML = "<img src='images/"+slide[id]+".jpg'>";
+	current = id_to_index[id];
+}
+function nextImg(){
+	current = (current<index_to_id.length-1)? current+1 : 0;
+	setImage(index_to_id[current]);
+}
+function prevImg(){
+	current = (current>0)? current-1 : index_to_id.length-1;
+	setImage(index_to_id[current]);
+}
+-->
+</script>
+
+</head>
+
+<body>
+<a name="top" id="top">&nbsp;</a>
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1>
+			<ul class="gnavi">
+      			<li><a href="../../../../exp/"><img src="../../../../images/common/gnavi_exp.gif" alt="Wii Erlebnis" border="0" /></a></li>
+				<li><a href="../../../../wii_channel/"><img src="../../../../images/common/gnavi_chnl.gif" alt="Wii Kan&auml;le" border="0" /></a></li>
+	  			<li><a href="../../../../wii_tv/"><img src="../../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../../software/"><img src="../../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+				<li><a href="../../../../wiiware/"><img src="../../../../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+  <div id="vol7"><div id="page2">
+  
+  <h1><img src="../images/title.gif" alt="Iwata fragt: Super Smash Bros. Brawl" width="560" height="25" /></h1>
+   <div id="gametitlebar"></div>
+  <ul id="menu">
+  	<li id="menu1"><a href="../vol1/index.html"></a></li>
+	<li id="menu2"><a href="../vol2/index.html"></a></li>
+	<li id="menu3"><a href="../vol3/index.html"></a></li>
+	<li id="menu4"><a href="../vol4/index.html"></a></li>
+	<li id="menu5"><a href="../vol5/index.html"></a></li>
+	<li id="menu6"><a href="../vol6/index.html"></a></li>
+	<li id="menu7"><a href="../vol7/index.html"></a></li>
+
+  </ul>
+  
+  <div id="mainimg"><img src="images/mainimg.jpg" alt="Teil 7: Eine einmalige Gelegenheit" width="780" height="240" /></div>
+  
+  <h2><img src="images/title_v1.gif" alt="Teil 7: Eine einmalige Gelegenheit" width="780" /></h2>
+  
+  <div id="sub_menu"><div id="inner">
+ <ul> 
+   	<li id="sub1"><a href="index.html">Dragon King: The Fighting Game</a></li>
+	<li id="sub2"><a href="page2.html">Snake und Sonic</a></li>
+	<li id="sub3"><a href="page3.html">Eine einmalige Gelegenheit</a></li>
+  </ul>
+  </div></div>
+  
+  <div id="paragram">
+  
+  <h3>Snake und Sonic</h3>
+  
+  
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Mit jeder neuen Folge, gewann die Serie neue Charaktere für sich. Auch die Besetzung in Super Smash Bros. Brawl! übertrifft bisher Dagewesenes. Für einen Überblick lohnt es sich, die Internetseite Smash Bros. DOJO!! zu besuchen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Um sich einen Überblick zu verschaffen, wäre das ratsam, ja. (lacht)<br />
+</div><br clear="all"></div>
+
+	
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ich würde gerne kurz zwei Charaktere anreißen, Snake und Sonic. Mit dem Gastauftritt dieser beiden Figuren finden nun erstmals Charaktere in das Spiel, die nicht aus dem Hause Nintendo stammen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Richtig. Und das veranlasst mich zu einer Gegenfrage. Wie wurde die Einführung dieser beiden Charaktere intern bei Nintendo aufgenommen?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Sie meinen, ob Gastcharaktere prinzipiell akzeptiert wurden?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Genau.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Da gab es praktisch keinen Gegenwind. Die Super Smash Bros.-Serie ist nun mal ein Zusammentreffen und ein Fest, das von einer großen Anzahl verschiedenster Figuren lebt. Es warf lediglich die Frage auf, wo man die Grenze zieht. Prinzipiell war aber die einhellige Meinung, solche Entscheidungen Ihnen zu überlassen. Ich persönlich bin ohnehin der Ansicht, den Kreis der Teilnehmer auszuweiten. Spektakel wie diese gibt es nicht viele, von daher sollte man sie ausnutzen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Das zu hören ist eine große Erleichterung. Ich bereue natürlich keineswegs, Snake und Sonic mit aufgenommen zu haben. Ich denke, wir gehen damit in die richtige Richtung.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Wie verlief die Einbindung der beiden Charaktere konkret?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Nun, beide Charaktere sind so ausdrucksstark, dass sie sich hervorragend in das Spiel einbringen ließen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Womöglich weil es keine Nintendo-Charaktere sind?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Eher aufgrund ihrer Individualität. Ich ziehe bei der Entwicklung keine rigide Trennlinie zwischen Nintendo-Charakteren und anderen Charakteren. Sie alle vereinen sich in der Welt von Smash Bros., die ihre Gesetzmäßigkeiten hat, und heben sich dabei dennoch durch ihre individuellen Charaktereigenschaften voneinander ab.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/29.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Das Ergebnis ist sehr gelungen, muss ich sagen. Die Neuzugänge wirken auf der einen Seite wohl vertraut und bringen doch frischen Wind in die Runde.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Vielen Dank. Ich denke, sobald man die zwei neuen Charaktere steuert, wird man fühlen, dass sie sich klar von den bisherigen Charakteren unterscheiden. Das Hinzustoßen von Gastcharakteren, die nicht in der Welt von Nintendo beheimatet sind, verleiht dem Spiel eine neue Form der Originalität. Ihre kühne Inszenierung genoss ich dabei in vollen Zügen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Originalität kann viele Formen annehmen. Wenn Charaktere einen Luftsprung machen, springen sie alle auf ihre eigene Art. Mario, Samus oder Sonic, sie alle beherrschen den Sprung auf ihre individuelle Art und Weise.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Das ist richtig.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ob man die Unterschiede während des Spielens bewusst wahrnimmt, ist sicherlich eine andere Frage, aber im direkten Vergleich gibt es offenkundige Unterschiede. Die natürliche Integrierung der Unterschiede, ohne dass sie den Spielfluss hemmt. Das ist die wundersame und zugleich größte Eigenschaft der Serie Super Smash Bros.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Davon sind nicht nur Snake und Sonic betroffen, doch im Prinzip werden völlig fremdartige Figuren in einem Spiel zusammengewürfelt. In diesem Kontext zu überlegen, wie die Charaktere zu positionieren seien und welchen Stellenwert man ihnen beizumessen hat, machte den Spaß an der Arbeit dieser Serie aus.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Dennoch ein nicht zu unterschätzender Aufwand. Jeder Charakter nennt eine Vielzahl von Techniken und Fertigkeiten sein Eigen, doch nur ein geringer Teil findet sich tatsächlich in Super Smash Bros. Brawl! wieder. So muss man sensibel sortieren und ausrangieren, welche man mit einbaut, damit das in der Vergangenheit entstandene Bild des Charakters keinen Schaden nimmt. Es bedeutet nichts anderes als die Individualität des Charakters zu isolieren und in komprimierter Form in die Welt von Super Smash Bros. Brawl! zu transformieren.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ich hätte es nicht besser ausdrücken können.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Und schließlich muss man Stärken und Schwächen der Charaktere miteinander vergleichen und gegenseitig ausbalancieren. Das ist nicht einfach, oder?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Nein, das ist es nicht. Nehmen wir beispielsweise die Fortbewegungsgeschwindigkeit eines Charakters. Ein agiler Charakter sollte bei schneller Bewegungsgeschwindigkeit in der Lage sein, gekonnt zu landen. Es wäre gewissermaßen seine Stärke. Doch bewegt er sich zu schnell, wird er schwierig zu steuern und dadurch geht die gesamte Spielbalance verloren. Deswegen üben wir uns bei der Einstellung der einzelnen Parameter in subtiler Feinarbeit.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Wie viele Parameter hat ein Charakter ungefähr?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Das ist schlicht unzählbar. (lacht) Es werden vermutlich mehrere Hundert sein.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ergo werden für einen Charakter mehrere Hundert Parameter eingestellt, welche ihn nicht übertrieben erstarken lassen, aber auch nicht übertrieben schwächen dürfen. Das ist eine höchst komplexe und aufwendige Arbeit.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Nun ja, das lässt sich wohl nicht ändern. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Der prekäre Teil der Arbeit, den man nicht anderen überlassen kann.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Allerdings.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Vermutlich ist dies der Grund, dass die Schöpfer der Charaktere überhaupt erst das Vertrauen aufbringen, die Charaktere Ihrer Obhut anzuvertrauen. Die Zuversicht, dass Sie etwas Gutes daraus machen. Immerhin sind es praktisch ihre Kinder, die sie ihnen anvertrauen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Es ist weniger anstrengend als viel mehr eine Ehre mit ihnen arbeiten zu dürfen.<br />
+</div><br clear="all"></div>
+  </div>
+	
+  <div id="prev_page_btn"><a href="index.html">Dragon King: The Fighting Game</a></div>
+  <div id="next_page_btn"><a href="page3.html">Eine einmalige Gelegenheit</a></div>
+
+	
+  </div>
+  <!--//end #contents//-->
+
+	<!-- GameFootage -->
+		
+	
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../../24/"><img src="../../../../images/common/b_back.gif" alt="Zur&uuml;ck" border="0" /></a></li>
+      <li><a href="#top"><img src="../../../../images/common/b_top.gif" alt="Nach oben" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+  
+   <script language="javascript" type='text/javascript'>
+  TB_init();
+  </script>
+
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/373.html" target="_blank"><img src="../../../../images/common/footer_b_detail.gif" alt="Mehr Wii-Infos" border="0" /></a></li>
+	<li><img src="../../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.de/NOE/de_DE/service/contact_2095.html" target="_blank"><img src="../../../../images/common/footer_b_contact.gif" alt="Kontakt" border="0" /></a></li>
+	<li><a href="../../../../newsletter/newsletter.php?l=deDE" target="_self"><img src="../../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../../terms/"><img src="../../../../images/common/footer_b_terms.gif" alt="Nutzungsbedingungen" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo.de" target="_blank"><img src="../../../../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+	
+</div>
+
+  
+</body>
+<!-- InstanceEnd --></html>

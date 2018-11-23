@@ -1,0 +1,85 @@
+#contents {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	height: 450px;
+}
+#contents h1 {
+	margin:0px 0px 5px 0px;
+	padding:0px;
+}
+#contents p {
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	font-size: 92%;
+}
+#contents table.movieitem {
+	margin:0px 0px 20px 9px;
+	padding:0px;
+	width:148px;
+	float: left;
+}
+#contents table.movieitemleft {
+	clear: left;
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	width:148px;
+	float: left;
+}
+#contents td.moviethumb {
+	background-repeat:no-repeat;
+}
+#contents td.movieblow {
+	height:6px;
+	background-image: url(../images/common/blow_up.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#contents td.movieblowSW {
+	height:6px;
+	background-image: url(../images/common/blow_up350.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#contents td.movietxt {
+	background-color: #ffffff;
+	background-image: url(../images/common/dot_pat.gif);
+	padding: 0px 1px 1px 1px;
+	background-position: -1px;
+}
+#contents td.movietxt div {
+	width:146px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#contents span.movietext {
+	font-size: 10px;
+	padding:5px 5px 5px 5px;
+	display: block;
+	line-height:15px;
+}
+
+/* software page elements */
+#contents td.movietxtSW div {
+	width:350px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#contents td.movietxtSW {
+	background-color: #ffffff;
+	background-image: url(../images/common/dot_pat.gif);
+	padding: 0px 1px 1px 1px;
+	background-position: -1px;
+}
+#contents span.movietextSW {
+	font-size: 15px;
+	padding:5px 5px 5px 5px;
+	display: block;
+	line-height:15px;
+	text-align:center;
+	font-weight:bold;
+}
+
+#contents coverPos {
+	
+}

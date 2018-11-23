@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+
+<link href="../../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="../css/thickbox.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../js/swfobject_for_thickbox.js"></script>
+<script language="javascript" type="text/javascript" src="../js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="../js/thickbox_mario.js"></script>
+<script language="javascript" type="text/javascript" src="../js/tb_width_mixed.js"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var current = 0;
+var slide = new Object();
+slide["000"] = "slide000";
+slide["008"] = "slide008";
+slide["039"] = "slide039";
+slide["040"] = "slide040";
+slide["074"] = "slide074";
+slide["119"] = "slide119";
+slide["123"] = "slide123";
+slide["141"] = "slide141";
+slide["156"] = "slide156";
+slide["165"] = "slide165";
+slide["166"] = "slide166";
+slide["182"] = "slide182";
+var id_to_index = new Object();
+var index_to_id = new Array();
+var i=0;
+for(var index in slide){
+	id_to_index[index] = i;
+	index_to_id[i] = index;
+	i++;
+}
+
+function setImage(id){
+	document.getElementById('swfcontent').innerHTML = "<img src='images/"+slide[id]+".jpg'>";
+	current = id_to_index[id];
+}
+function nextImg(){
+	current = (current<index_to_id.length-1)? current+1 : 0;
+	setImage(index_to_id[current]);
+}
+function prevImg(){
+	current = (current>0)? current-1 : index_to_id.length-1;
+	setImage(index_to_id[current]);
+}
+-->
+</script>
+
+
+</head>
+
+<body>
+<a name="top" id="top">&nbsp;</a>
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1>
+			<ul class="gnavi">
+      			<li><a href="../../../../exp/"><img src="../../../../images/common/gnavi_exp.gif" alt="Wii Erlebnis" border="0" /></a></li>
+				<li><a href="../../../../wii_channel/"><img src="../../../../images/common/gnavi_chnl.gif" alt="Wii Kan&auml;le" border="0" /></a></li>
+	  			<li><a href="../../../../wii_tv/"><img src="../../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../../software/"><img src="../../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+				<li><a href="../../../../wiiware/"><img src="../../../../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+  <div id="vol5"><div id="page1">
+  
+  <h1><img src="../images/title.gif" alt="Iwata fragt: Super Smash Bros. Brawl" width="560" height="25" /></h1>
+  <div id="gametitlebar"></div>
+  <ul id="menu">
+  	<li id="menu1"><a href="../vol1/index.html"></a></li>
+	<li id="menu2"><a href="../vol2/index.html"></a></li>
+	<li id="menu3"><a href="../vol3/index.html"></a></li>
+	<li id="menu4"><a href="../vol4/index.html"></a></li>
+	<li id="menu5"><a href="../vol5/index.html"></a></li>
+	<li id="menu6"><a href="../vol6/index.html"></a></li>
+	<li id="menu7"><a href="../vol7/index.html"></a></li>
+
+</ul>
+  
+  <div id="mainimg"><img src="images/mainimg.jpg" alt="Teil 4: Der Subraum-Emissär" width="780" height="240" /></div>
+  Einige Ausdrücke aus dem Spiel sind vorläufig und tauchen möglicherweise nicht im endgültigen Produkt auf.
+  <h2><img src="images/title_v1.gif" alt="Teil 4: Der Subraum-Emissär" width="780" /></h2>
+  
+  <div id="sub_menu"><div id="inner">
+  <ul>
+   	<li id="sub1"><a href="index.html">Der Ultra-Smash</a></li>
+	<li id="sub2"><a href="page2.html">Helfertrophäen</a></li>
+	<li id="sub3"><a href="page3.html">Trophäen und Aufkleber</a></li>
+  </ul>
+  </div></div>
+  
+  <div id="paragram">
+  
+  <h3>Der Ultra-Smash</h3>
+  
+  
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Erzählen Sie, mit welchen neuen Elementen uns der Kampfmodus im Einzelspielermodus überrascht. Beginnen wir doch mit dem Ultra-Smash.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, von den neu hinzugekommenen Elementen ist der Ultra-Smash eines der wichtigsten 
+Erneuerungen. <br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Erklären Sie uns doch, worum es sich dabei handelt.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Einfach ausgedrückt, ist es eine mächtige Spezialtechnik, die einmalig ausgeführt werden kann. Während eines Kampfes erscheint manchmal ein Smash-Ball, mit dessen Hilfe jeder Charakter seinen individuellen Ultra-Smash – sozusagen der letzte Trumpf eines Charakters – einsetzen kann. Mit der Serie vertraute Spieler können sich so etwas wie den Hammer aus Super Smash Bros. Melee vorstellen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Wie bereits öfters zur Sprache kam, ist die Super Smash Bros.-Serie auch für Einsteiger einfach zu spielen. Die Philosophie, dass nicht immer der stärkere Spieler gewinnen muss, zieht sich redundant durch die gesamte Serie und ermöglicht, gleich bei Spieleinstieg eine Menge Spaß zu erleben. In einem Match zwischen uns beiden würde ich Sie, nun ja, von zehn Kämpfen in mindestens einem an die Wand klatschen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Das schaffen Sie mit Sicherheit mehr als einmal. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Wenn Sie das sagen. (lacht) Wenn nun Geschwister mit unterschiedlichem Spielgeschick das Spiel spielen, können also beide gleichermaßen Freude daran haben. Mechanismen, wie beispielsweise etwas höher angelegte Hürden, für die eine Spielerseite oder unverhofft eintretende Überraschungen ermöglichen solche Feinjustierungen. Der Ultra-Smash ist ein eben solcher Mechanismus, nicht wahr?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, so könnte man es beschreiben. Der Ultra-Smash kann eine 180-Grad-Wendung des bisherigen Spielverlaufs bedeuten. Ich bin mir sicher, dass sich alle Spieler schlagartig auf den Smash-Ball konzentrieren, sobald er auf dem Bildschirm erscheint. Und noch mehr als das Ausführen des Ultra-Smashs, wird vermutlich der entbrannte Kampf um den Smash-Ball selbst für Furore sorgen.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/18.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ja, gut vorstellbar.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Den Spielern werden Gedanken wie „Mit dem Smash-Ball kann ich den Kampf noch herumreißen!“ oder „Mit ihm kann ich den ultimativen Treffer landen!“ durch den Kopf gehen. Und so wird sich wahrscheinlich jeder auf den Ball stürzen. Ich bin überzeugt, dass das ein lustiges Spektakel wird.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Der Augenblick, in dem Spieler in Euphorie ausbrechen. Allerdings kriegt man den Smash-Ball so einfach nicht zu greifen. Man ist immer kurz davor, greift dann trotzdem vorbei ins Leere. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Außerdem muss er mehrmals geschlagen werden.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ja, richtig, er muss ja noch zerstört werden. Es lässt sich nicht vorhersehen, bei dem der Ball kaputtgeht, was die Spannung um noch eine Stufe steigert. Wähnt man sich in einer guten Position und praktisch schon als Sieger, kommt ein anderer Spieler von hinten und ergattert die Prämie, so dass man selbst das Nachsehen hat. <br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Und sobald man ihn dann doch in Händen hält, muss man sich aus dem Staub machen. Bis vorhin klüngelten die Spieler noch um den Ball wie eine Traube und im nächsten Augenblick prescht einer davon. Auch ein sehr gelungener sequenzieller Übergang, meiner Meinung nach. Eine ausgewogene Mischung aus aktiver Spieleuphorie und passiver Fersengeldmentalität.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Taucht der Smash-Ball auf, verlagert sich der Fokus des Geschehens auf den Kampf um den Ball. Und sobald ihn einer ergattert, wird es zu einem Fangspiel. <a href="../flvplayer_v5p1.html?mv=cv_smashbros-03-smashball&amp;tt=21.35&amp;width=384&amp;height=256&amp;id=cv_smashbros-03-smashball" class="thickbox cv_smashbros-03-smashball" title="Smash Ball Video" ><img src="../images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />Smash-Ball Video</a><br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Exakt. Ein völlig neuer Spielfluss wird geschaffen. Diesesn Gimmick wollte ich tatsächlich schon für den N64 einführen.<br />
+</div><br clear="all"></div>
+	
+	
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Wirklich wahr? Ein Gimmick, dass nach nun neun Jahren ein würdiges Debüt feiert?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Die Idee an sich hatte ich sogar noch früher. Und dafür gibt es sogar einen Beweis, damit niemand auf die Idee kommt, ich würde Märchen erzählen.<br />
+</div><br clear="all"></div>
+	
+	
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Einen Beweis?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, und zwar gibt es eine Sprachvertonung, welche in der N64-Version des Super Smash Bros. aufgenommen wurde und unverändert von einem Charakter in Super Smash Bros. Brawl! gesprochen wird. Damals wurde die Stimme ebenfalls für eine Spezialtechnik aufgenommen und diese verwenden wir für Super Smash Bros. Brawl!<br />
+</div><br clear="all"></div>
+	
+	
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Im Ernst? Das ist ja unglaublich. Sprich, die Aufnahmen wurden vor neun Jahren gemacht?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja. (lacht)<br />
+</div><br clear="all"></div>
+	
+	
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Augenblick mal. Ich war bei den Tonaufnahmen doch zugegen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Oh, wirklich?<br />
+</div><br clear="all"></div>
+	
+	
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ja, jetzt erinnere ich mich. Sie gaben dem Sprecher damals ziemlich minutiös Anweisungen, und mir ging damals schon durch den Kopf, wie es Ihnen möglich war, so detailliert und genau zu sein. Jetzt weiß ich, dass sie schon zu jener Zeit eine ziemlich konkrete Vorstellung über das werdende Produkt hatten.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/19.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, auch wenn die Technik damals nicht als Ultra-Smash tituliert war.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Das heißt, Sie haben bereits vor neun Jahren Aufnahmen für ein Spiel gemacht, dass jetzt fertiggestellt wurde.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Besser gesagt, hat es unbeabsichtigt neun lange Jahre gedauert. Damals machten wir einige Aufnahmen für die Spezialtechniken der Charaktere. Aber sie passen selbst nach neun Jahren immer noch perfekt wie die Faust aufs Auge.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Sie sind einfach unschlagbar. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+(lacht)<br />
+</div><br clear="all"></div>
+
+
+	
+  </div>
+	
+  <div id="next_page_btn"><a href="page2.html">Helfertrophäen</a></div>	
+	
+  <!--//end #contents//-->
+  <hr />
+	  
+	
+	<!-- GameFootage -->
+		
+	
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../../24/"><img src="../../../../images/common/b_back.gif" alt="Zur&uuml;ck" border="0" /></a></li>
+      <li><a href="#top"><img src="../../../../images/common/b_top.gif" alt="Nach oben" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+  
+   <script language="javascript" type='text/javascript'>
+  TB_init();
+  </script>
+
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/373.html" target="_blank"><img src="../../../../images/common/footer_b_detail.gif" alt="Mehr Wii-Infos" border="0" /></a></li>
+	<li><img src="../../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.de/NOE/de_DE/service/contact_2095.html" target="_blank"><img src="../../../../images/common/footer_b_contact.gif" alt="Kontakt" border="0" /></a></li>
+	<li><a href="../../../../newsletter/newsletter.php?l=deDE" target="_self"><img src="../../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../../terms/"><img src="../../../../images/common/footer_b_terms.gif" alt="Nutzungsbedingungen" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo.de" target="_blank"><img src="../../../../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+	
+</div>
+
+  
+</body>
+<!-- InstanceEnd --></html>

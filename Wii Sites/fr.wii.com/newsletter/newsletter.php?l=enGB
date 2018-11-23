@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+<link href="../css/common.css" rel="stylesheet" type="text/css" />
+<link href="../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+
+<link href="css/newsletter.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script type="text/javascript" src="../js/swfobject.js"></script>
+<script type="text/javascript" src="../js/flvplayer.js"></script>
+
+
+<a name="top" id="top"></a>
+<div id="centerColumn">
+
+
+  <div id="header">
+    <h1><a href="/"><img src="../images/common/header_logo.gif" alt="Wii" width="155" height="68" border="0" /></a></h1>
+	<ul class="gnavi">
+      <li><a href="../exp/"><img src="../images/common/gnavi_exp.gif" alt="L'expérience Wii" width="119" height="38" border="0" /></a></li>
+	  <li><a href="../wii_channel/"><img src="../images/common/gnavi_chnl.gif" alt="Chaînes Wii" width="84" height="38" border="0" /></a></li>
+	  <li><a href="../wii_tv/"><img src="../images/common/gnavi_wiitv.gif" alt="Wii TV" width="49" height="38" border="0" /></a></li>
+	  <li><a href="../software/"><img src="../images/common/gnavi_software.gif" alt="" border="0" /></a></li>
+  	  <li><a href="../wiiware/"><img src="../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    </ul>
+    <ul class="global">
+      <li><a href="http://www.wii.com"><img src="../images/common/header_b_global.gif" alt="Wii.com" width="84" height="21" border="0" /></a></li>
+    </ul>
+    <hr />
+  </div>
+	<div id="warning">
+		<a href="../terms/index.html"><img src="../images/common/warning.gif" alt="Warning" width="589" height="46" border="0" /></a>	</div>
+	<!--//end #header//-->
+  
+  
+  
+  <div id="contents" class="clearfix">  	
+  	<img src="images/title.gif" alt="Newsletter" width="780" height="26" /><br />
+	<br />  
+	<table width="780" border="0" cellpadding="0" cellspacing="0">
+	<tr>	
+		<td valign="top" width="100%"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td valign="top">
+			<a href="http://www.nintendo.fr/NOE/fr_FR/news/index_newsletter.jsp?source=fr.wii.com&interest=wii,virtualconsole" target="_blank"><strong>Cliquez ici</strong></a> pour vous inscrire et recevoir les dernières infos Nintendo directement par e-mail.
+		</td>
+	</tr>
+</table></td>
+		<td valign="top"><img src="images/newsletter.jpg"  width="200" height="256"></td>
+	</tr>
+	</table>
+  </div>    		  
+  
+  
+  
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://ms.nintendo-europe.com/wii/?l=frFR" target="_blank"><img src="../images/common/footer_b_detail.gif" alt="Plus d'infos Wii" width="159" height="29" border="0" /></a></li>
+	<li><img src="../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.fr/NOE/fr_FR/service/contact_2095.html" target="_blank"><img src="../images/common/footer_b_contact.gif" alt="Contact" border="0" /></a></li>
+	  <li><a href="newsletter.php?l=frFR" target="_self"><img src="../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li>
+      <li><a href="../terms/"><img src="../images/common/footer_b_terms.gif" alt="Termes et Condition" border="0" /></a></li>
+   
+   </ul>
+    <div class="logo"><a href="http://www.nintendo.fr" target="_blank"><img src="../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" width="85" height="34" border="0" /></a></div>
+  </div><!--//end #footer//-->
+
+ 
+</div><!--//end #centerColumn//-->
+  
+  
+</body>
+</html>

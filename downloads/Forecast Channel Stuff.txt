@@ -1,0 +1,610 @@
+UV Index Codes:
+
+Low
+Low
+Low
+Moderate
+Moderate
+Moderate
+High
+High
+High
+Very High
+Very High
+Very High
+
+Weather Cities:
+
+Helsinki Southern Finland Finland
+Lahti Southern Finland Finland
+Kotka Southern Finland Finland
+Turku Western Finland Finland
+Tampere Western Finland Finland
+JyvÃ¤skylÃ¤ Western Finland Finland
+Vaasa Western Finland Finland
+SeinÃ¤joki Western Finland Finland
+Kokkola Western Finland Finland
+Mikkeli Eastern Finland Finland
+Kuopio Eastern Finland Finland
+Joensuu Eastern Finland Finland
+Varkaus Eastern Finland Finland
+Oulu Province of Oulu Finland
+Kajaani Province of Oulu Finland
+PyhÃ¤jÃ¤rvi Province of Oulu Finland
+Rovaniemi Lapland Finland
+KemijÃ¤rvi Lapland Finland
+Kemi Lapland Finland
+SodankylÃ¤ Lapland Finland
+EnontekiÃ¶ Lapland Finland
+Utsjoki Lapland Finland
+Mariehamn Ã…land Finland
+Tokyo Tokyo Japan
+Sapporo Hokkaido Japan
+Kyoto Kyoto Japan
+Osaka Osaka Japan
+Fukuoka Fukuoka Japan
+The Valley Anguilla
+St. John's Saint John Antigua and Barbuda
+Buenos Aires
+Distrito Federal Argentina
+Comodoro Rivadavia Chubut Argentina
+CÃ³rdoba CÃ³rdoba Argentina
+Corrientes Corrientes Argentina
+Oranjestad Aruba
+Nassau Bahamas
+Bridgetown Barbados
+Belmopan Cayo Belize
+La Paz La Paz Bolivia
+BrasÃ­lia Distrito Federal Brazil
+Manaus Amazonas Brazil
+Salvador Bahia Brazil
+Fortaleza CearÃ¡ Brazil
+Rio de Janeiro Rio de Janeiro Brazil
+SÃ£o Paulo SÃ£o Paulo Brazil
+Recife Pernambuco Brazil
+Road Town British Virgin Islands
+Ottawa Ontario Canada
+Toronto Ontario Canada
+Edmonton Alberta Canada
+Calgary Alberta Canada
+Vancouver British Columbia Canada
+Winnipeg Manitoba Canada
+Churchill Manitoba Canada
+Quebec Quebec Canada
+MontrÃ©al Quebec Canada
+Yellowknife Northwest Territories Canada
+Iqaluit Nunavut Canada
+George Town Cayman Islands
+Santiago RegiÃ³n Metropolitana Chile
+Easter Island Chile
+Cape Horn Chile BogotÃ¡ Cundinamarca Colombia
+Leticia Amazonas Colombia
+San JosÃ© San JosÃ© Costa Rica
+Roseau Dominica
+Santo Domingo Distrito Nacional Dominican Republic
+Quito Pichincha Ecuador
+San Salvador San Salvador El Salvador
+St. George's Grenada
+Guatemala City Guatemala Guatemala
+Georgetown Demerara-Mahaica Guyana
+Port-au-Prince Ouest Haiti
+Tegucigalpa Francisco MorazÃ¡n Honduras
+Kingston Saint Thomas Jamaica
+Mexico City Distrito Federal Mexico
+Cabo San Lucas Baja California Sur Mexico
+Acapulco Guerrero Mexico
+Puerto Vallarta Jalisco Mexico
+TeÅtÄ«huacÄn MÃ©xico Mexico
+Monterrey Nuevo LeÃ³n Mexico
+CancÃºn Quintana Roo Mexico
+Plymouth Montserrat
+Willemstad Netherlands Antilles
+Managua Managua Nicaragua
+Panama City PanamÃ¡ Panama
+AsunciÃ³n Central Paraguay
+Lima Lima Peru
+Machu Picchu Cuzco Peru
+Nazca Ica Peru
+Basseterre Saint George Basseterre St. Kitts and Nevis
+Castries St. Lucia
+Kingstown St. Vincent and the Grenadines
+Paramaribo Paramaribo Suriname
+Port of Spain Port-of-Spain Trinidad and Tobago
+Cockburn Town Turks and Caicos Islands
+Washington D.C. District of Columbia United States
+Anchorage Alaska United States
+Los Angeles California United States
+San Francisco California United States
+Denver Colorado United States
+Miami Florida United States
+Orlando Florida United States
+Atlanta Georgia United States
+Honolulu Hawaii United States
+Chicago Illinois United States
+New Orleans Louisiana United States
+Boston Massachusetts United States
+Detroit Michigan United States
+Minneapolis Minnesota United States
+Kansas City Missouri United States
+St. Louis Missouri United States
+Charlotte North Carolina United States
+Las Vegas Nevada United States
+New York New York United States
+Niagara Falls New York United States
+Cincinnati Ohio United States
+Oklahoma City Oklahoma United States
+Portland Oregon United States
+Pittsburgh Pennsylvania United States
+Memphis Tennessee United States
+Dallas Texas United States
+El Paso Texas United States
+Houston Texas United States
+Salt Lake City Utah United States
+Seattle Washington United States
+Guam United States
+Saipan United States
+Montevideo Montevideo Uruguay
+Charlotte Amalie US Virgin Islands
+Caracas Distrito Federal Venezuela
+Tirana Tirana Albania
+Canberra Australian Capital Territory Australia
+Sydney New South Wales Australia
+Darwin Northern Territory Australia
+Uluru Northern Territory Australia
+Brisbane Queensland Australia
+Gold Coast Queensland Australia
+Cairns Queensland Australia
+Adelaide South Australia Australia
+Melbourne Victoria Australia
+Perth Western Australia Australia
+Christmas Island Australia
+Vienna Vienna Austria
+Brussels Brussels Region Belgium
+Sarajevo Fed. of Bosnia and Herzegovina Bosnia and Herzegovina
+Gaborone South-East Botswana
+Sofia Sofia City Bulgaria
+Zagreb Zagreb Region Croatia
+Nicosia Nicosia Cyprus
+Prague Prague Czech Republic
+Copenhagen Copenhagen Denmark
+Nuuk Greenland
+Denmark
+Tallinn Harju Estonia
+Paris ÃŽle-de-France France
+Bordeaux Aquitaine France
+Toulouse Midi-PyrÃ©nÃ©es France
+Nantes Western Loire Valley France
+Marseille Provence-Alpes-CÃ´te d'Azur France
+Nice Provence-Alpes-CÃ´te d'Azur France
+Berlin Berlin Germany
+Frankfurt Hesse Germany
+Munich Bavaria Germany
+Hamburg Hamburg Germany
+DÃ¼sseldorf North Rhine-Westphalia Germany
+Bonn North Rhine-Westphalia Germany
+Athens Attica Greece
+Rhodes South Aegean Greece
+Budapest Budapest Hungary
+Reykjavik Capital Region Iceland
+Dublin Dublin Ireland
+Rome Lazio Italy
+Turin Piedmont Italy
+Milan Lombardy Italy
+Venice Veneto Italy
+Florence Tuscany Italy
+Naples Campania Italy
+Palermo Sicily Italy
+Syracuse Sicily Italy
+Riga Riga Latvia
+Maseru Maseru Lesotho
+Vaduz Upper Country Liechtenstein
+Vilnius Vilnius Lithuania
+Luxembourg City Luxembourg Luxembourg
+Skopje Skopje F.Y.R. of Macedonia
+Valletta Malta Malta
+Podgorica Podgorica Montenegro
+Maputo Maputo (City) Mozambique
+Windhoek Khomas Namibia
+Amsterdam North Holland Netherlands
+Wellington Wellington New Zealand
+Auckland Auckland New Zealand
+Christchurch Canterbury New Zealand
+OsloÃ¿stlandet Norway Warsaw
+Masovia Poland
+KrakÃ³w Lesser Poland Poland
+Lisbon Lisbon Portugal
+Bucharest Bucharest Romania
+Moscow Central Federal District Russia
+Khabarovsk Far Eastern Federal District Russia
+Vladivostok Far Eastern Federal District Russia
+Yuzhno-Sakhalinsk Far Eastern Federal District Russia
+Saint Petersburg Northwestern Federal District Russia
+Irkutsk Siberian Federal District Russia
+Grozny Southern Federal District Russia
+Belgrade Central Serbia Serbia
+Bratislava Bratislava Slovakia
+Ljubljana Carniola Slovenia
+Pretoria Gauteng South Africa
+Johannesburg Gauteng South Africa
+Cape Town Western Cape South Africa
+Madrid Madrid Spain
+Toledo Castile-La Mancha Spain
+Barcelona Catalonia Spain
+Valencia Valencia Spain
+Mbabane Hhohho Swaziland
+Stockholm Stockholm County Sweden
+Bern Bern Switzerland
+Geneva Geneva Switzerland
+Lausanne Vaud Switzerland
+ZÃ¼rich ZÃ¼rich Switzerland
+Ankara Ankara Turkey
+Istanbul Istanbul Turkey
+London England United Kingdom
+Cambridge England United Kingdom
+Manchester England United Kingdom
+Liverpool England United Kingdom
+Edinburgh Scotland United Kingdom
+Belfast Northern Ireland United Kingdom
+Lusaka Lusaka Province Zambia
+Harare Harare Zimbabwe
+Taipei City Taipei City Taiwan
+Kaohsiung City Kaohsiung City Taiwan
+Seoul Seoul-teukbyeolsi South Korea
+Busan Busan-gwangyeoksi South Korea
+Hong Kong Hong Kong
+Macao Macao
+Jakarta Jakarta Raya Indonesia
+Denpasar Bali Indonesia
+Singapore Singapore
+Bangkok Krung Thep Mahanakhon Thailand
+Phuket Phuket Thailand
+Manila Manila Philippines
+Cebu City Central Visayas Philippines
+Kuala Lumpur Kuala Lumpur Malaysia
+Beijing Beijing China
+Shanghai Shanghai China
+Guangzhou Guangdong China
+Harbin Heilongjiang China
+Dalian Liaoning China
+Chengdu Sichuan China
+Guilin Guangxi-Zhuangzu China
+Abu Dhabi Abu Dhabi U.A.E
+Dubai Dubai U.A.E
+New Delhi Delhi India
+Mumbai Maharashtra India
+Cairo Al Qahirah Egypt
+Luxor Luxor Egypt
+Muscat Masqat Oman
+Doha Qatar
+Kuwait City Kuwait
+Riyadh Ar Riyad Saudi Arabia
+Mecca Makkah Saudi Arabia
+Jeddah Makkah Saudi Arabia
+Damascus Rif Dimashq Syria
+Manama Bahrain
+Amman Jordan
+Baku Azerbaijan
+Kabul Afghanistan
+Algiers Algeria
+Andorra Andorra
+Luanda Angola
+Yerevan Armenia
+Dhaka Bangladesh
+Minsk Belarus
+Porto-Novo Benin
+Thimphu Bhutan
+Bandar Seri Begawan Brunei
+Ouagadougou Burkina Faso
+Yangon Myanmar
+Bujumbura Burundi
+Phnom Penh Cambodia
+Angkor Wat Cambodia
+YaoundÃ© Cameroon
+Praia Cape Verde
+Bangui Central Africa
+N'Djamena Chad
+Moroni Comoros
+Brazzaville Congo
+Kinshasa Democratic Republic of the Congo
+Yamoussoukro CÃ´te d'Ivoire
+Havana Cuba
+Djibouti Djibouti
+Dili East Timor
+Malabo Equatorial Guinea
+Asmara Eritrea
+Addis Ababa Ethiopia
+Suva Fiji
+Nadi Fiji
+Papeete French Polynesia
+Libreville Gabon
+Tbilisi Georgia
+Accra Ghana
+Conakry Guinea
+Bissau Guinea-Bissau
+Tehran Iran
+Baghdad Iraq
+Jerusalem Israel
+Astana Kazakhstan
+Nairobi Kenya
+Tarawa Kiribati
+Bishkek Kyrgyzstan
+Vientiane Laos
+Beirut Lebanon
+Monrovia Liberia
+Tripoli Libya
+Antananarivo Madagascar
+Lilongwe Malawi
+MalÃ© Maldives
+Bamako Mali
+Majuro Marshall Islands
+Nouakchott Mauritania
+Port Louis Mauritius
+Palikir Micronesia
+Chisinau Moldova
+Monaco Monaco
+Ulan Bator Mongolia
+Rabat Morocco
+Casablanca Morocco
+Yaren Nauru
+Kathmandu Nepal
+NoumÃ©a New Caledonia
+Niamey Niger
+Abuja Nigeria
+Pyongyang North Korea
+Islamabad Pakistan
+Karachi Pakistan
+Koror Palau
+Ramallah Palestine
+Port Moresby Papua New Guinea
+Ashgabat Turkmenistan
+Kigai Rwanda
+Apia Samoa
+San Marino San Marino
+SÃ£o TomÃ© SÃ£o TomÃ© and PrÃ­ncipe
+Dakar Senegal
+Victoria Seychelles
+Freetown Sierra Leone
+Honiara Solomon Islands
+Mogadishu Somalia
+Sri Jayawardenepura-Kotte Sri Lanka
+Khartoum Sudan
+Dushanbe Tajikistan
+Dodoma Tanzania
+Banjul The Gambia
+The South Pole
+LomÃ© Togo
+Nuku'alofa Tonga
+Tunis Tunisia
+Funafuti Tuvalu
+Kampala Uganda
+Kiev Ukraine
+Tashkent Uzbekistan
+Port-Vila Vanuatu
+Hanoi Vietnam
+Ho Chi Minh City Vietnam
+Sanaa Yemen
+Tel Aviv Israel
+Erromango Island Vanuatu
+Mount Everest
+
+Weather Status Codes:
+
+Sunny
+Sunny, cloudy spells
+Sunny, intermittent rain
+Sunny, scattered showers
+Sunny, intermittent snow
+Sunny, occasional snow
+Sunny, intermittent rain or snow
+Sunny, scattered showers or snow
+Sunny, intermittent rain or thunderstorms
+Sunny, cloudy spells later
+Sunny, cloudy later
+Sunny, intermittent rain later
+Sunny, scattered showers later
+Sunny, rain later
+Sunny, intermittent snow later
+Sunny, occasional snow later
+Sunny, snow later
+Sunny, rain or snow later
+Sunny, rain or thunderstorms later
+Sunny, intermittent showers in morning and evening.
+Sunny, possible showers in morning
+Sunny, possible showers in evening
+Sunny, thunderstorms in mountain areas
+Sunny, snow in mountain areas
+Sunny, thunderstorms in afternoon
+Sunny, rain from afternoon
+Sunny, rain from evening
+Sunny, rain in evening
+Sunny, rain at night
+Fog in morning, clearing later
+Sunny, fog in morning
+Sunny, cloudy in morning and evening
+Sunny, occasional thundery showers
+Sunny, intermittent snow or rain
+Sunny, occasional snow or rain
+Sunny, snow or rain later
+Cloudy
+Cloudy, sunny spells
+Cloudy, intermittent rain
+Cloudy, occasional rain
+Cloudy, intermittent snow
+Cloudy, occasional snow
+Cloudy, intermittent rain or snow
+Cloudy, occasional rain or snow
+Cloudy, intermittent rain or thunderstorms
+Fog
+Cloudy, sunny spells later
+Cloudy, clearing later
+Cloudy, intermittent rain later
+Cloudy, occasional rain later
+Cloudy, rain later
+Cloudy, intermittent snow later
+Cloudy, occasional snow later
+Cloudy, snow later
+Cloudy, rain or snow later
+Cloudy, rain or thunderstorms later
+Cloudy, intermittent rain in morning and evening
+Cloudy, intermittent rain in morning
+Cloudy, intermittent rain in evening
+Cloudy, intermittent sunny spells throughout day
+Cloudy, rain from afternoon
+Cloudy, rain from evening
+Cloudy, rain in evening
+Cloudy, rain at night
+Cloudy, snow from afternoon
+Cloudy, snow from evening
+Cloudy, snow in evening
+Cloudy, fog or rain in coastal areas
+Cloudy, occasional thundery showers
+Cloudy, occasional thundery snow showers
+Cloudy, intermittent snow or rain
+Cloudy, occasional snow or rain
+Cloudy, snow or rain later
+Rain
+Rain, sunny spells
+Scattered showers
+Rain, occasional snow
+Rain or snow
+Heavy rain
+Rain and strong winds
+Rain, intermittent snow
+Rain, sunny spells later
+Rain, cloudy later
+Rain, snow showers later
+Rain, snow later
+Rain or snow, clearing later
+Rain or snow, cloudy later
+Rain in morning, clearing later
+Rain in morning, cloudy later
+Rain in morning and evening, intermittent snow
+Rain, sunny from afternoon
+Rain, clearing in evening
+Rain, clearing at night
+Rain, snow from evening
+Rain, snow in evening
+Rain, occasionally heavy
+Rain, intermittent sleet
+Snow or rain
+Thundery showers
+Snow or rain, clearing later
+Snow or rain, cloudy later
+Sno
+Snow, sunny spells
+Intermittent snow
+Snow, occasional rain
+Heavy snow
+Snowstorms
+Blizzards
+Snow, intermittent rain
+Snow, clearing later
+Snow, cloudy later
+Snow, rain later
+Snow in morning, clearing later
+Snow in morning, cloudy later
+Snow, rain from afternoon
+Snow, rain from evening
+Snow, rain at night
+Snow, occasionally heavy
+Snow, sleet later
+Snow, intermittent sleet
+Sleet
+Thundery snow showers
+Thunderstorms
+Sunny
+Sunny, cloudy spells
+Sunny, intermittent rain
+Sunny, scattered showers
+Sunny, intermittent snow
+Sunny, occasional snow
+Sunny, intermittent rain or snow
+Sunny, scattered showers or snow
+Cloudy
+Cloudy, sunny spells
+Cloudy, intermittent rain
+Cloudy, occasional rain
+Cloudy, intermittent snow
+Cloudy, occasional snow
+Cloudy, intermittent rain or snow
+Cloudy, occasional rain or snow
+Rain
+Rain, sunny spells
+Scattered showers
+Rain, occasional snow
+Rain, intermittent snow
+Rain, intermittent sleet
+Showers
+Drizzle
+Snow
+Snow, sunny spells
+Intermittent snow
+Snow, occasional rain
+Snow, intermittent rain
+Snow, intermittent sleet
+Sleet
+Snow showers
+Fair
+Haze
+Sandstorms
+Snow drifts
+Mist
+Fog
+Diamond dust
+Thunderstorms
+Hail
+Hail
+Sleet
+Clear
+Clear, cloudy spells
+Clear, intermittent rain
+Clear, scattered showers
+Clear, intermittent snow
+Clear, occasional snow
+Clear, intermittent rain or snow
+Clear, scattered showers or snow
+Clear, intermittent rain or thunderstorms
+Clear, cloudy spells later
+Clear, cloudy later
+Clear, intermittent rain later
+Clear, scattered showers later
+Clear, rain later
+Clear, intermittent snow later
+Clear, occasional snow later
+Clear, snow later
+Clear, rain or snow later
+Clear, rain or thunderstorms later
+Clear, intermittent showers in morning and evening.
+Clear, possible showers in morning
+Clear, possible showers in evening
+Clear, thunderstorms in mountain areas
+Clear, snow in mountain areas
+Clear, thunderstorms in afternoon
+Clear, rain from afternoon
+Clear, rain from evening
+Clear, rain in evening
+Clear, rain at night
+Clear, fog in morning
+Clear, cloudy in morning and evening
+Clear, occasional thundery showers
+Clear, intermittent snow or rain
+Clear, occasional snow or rain
+Clear, snow or rain later
+Cloudy, clear spells
+Cloudy, clear spells later
+Cloudy, clear spells throughout day
+Rain, clear spells
+Rain, clear spells later
+Rain, clear from afternoon
+Snow, clear spells
+Clear
+Clear, cloudy spells
+Clear, intermittent rain
+Clear, scattered showers
+Clear, intermittent snow
+Clear, occasional snow
+Clear, intermittent rain or snow
+Clear, scattered showers or snow
+Cloudy, clear spells
+Rain, clear spells
+Snow, clear spells

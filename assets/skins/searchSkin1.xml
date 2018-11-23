@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<groups>
+		
+		<group snapToCell="true" gridPosition="BC" cellPosition="CC" orientation="horizontal" spacing="0" paddingH="0" paddingV="0">
+			<button out="assets/skins/skin1/submit.png" over="assets/skins/skin1/submitOver.png" down="assets/skins/skin1/submit.png" action="search" tooltip="" />
+		    <button out="assets/skins/skin1/cancel.png" over="assets/skins/skin1/cancelOver.png" down="assets/skins/skin1/cancel.png" action="cancel" tooltip=""/>
+		</group>
+	</groups>
+</data>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<groups>
+		
+		<group snapToCell="true" gridPosition="BC" cellPosition="BC" orientation="horizontal" spacing="180" paddingH="0" paddingV="-4">
+			<button out="assets/skins/skin1/left.png" over="assets/skins/skin1/leftOver.png" down="assets/skins/skin1/left.png" action="prev" tooltip="" />
+		    <button out="assets/skins/skin1/right.png" over="assets/skins/skin1/rightOver.png" down="assets/skins/skin1/right.png" action="right" tooltip=""/>
+			
+		</group>	
+		<group snapToCell="true" gridPosition="BC" cellPosition="BC" orientation="horizontal" spacing="0" paddingV="-4" paddingH="0">
+			<button out="assets/skins/skin1/location.png" over="assets/skins/skin1/locationOver.png" down="assets/skins/skin1/location.png" action="search" tooltip=""/>
+			<button out="assets/skins/skin1/grade.png" over="assets/skins/skin1/gradeOver.png" down="assets/skins/skin1/grade.png" action="grade" tooltip=""/>
+		</group>
+		
+	</groups>
+</data>

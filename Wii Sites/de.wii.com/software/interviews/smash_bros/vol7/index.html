@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Wii.com</title>
+
+<link href="../../../../css/software.css" rel="stylesheet" type="text/css" />
+<link href="../../../../css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="../css/thickbox.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../js/swfobject_for_thickbox.js"></script>
+<script language="javascript" type="text/javascript" src="../js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="../js/thickbox_mario.js"></script>
+<script language="javascript" type="text/javascript" src="../js/tb_width_mixed.js"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var current = 0;
+var slide = new Object();
+slide["000"] = "slide000";
+slide["008"] = "slide008";
+slide["039"] = "slide039";
+slide["040"] = "slide040";
+slide["074"] = "slide074";
+slide["119"] = "slide119";
+slide["123"] = "slide123";
+slide["141"] = "slide141";
+slide["156"] = "slide156";
+slide["165"] = "slide165";
+slide["166"] = "slide166";
+slide["182"] = "slide182";
+slide["201"] = "slide201";
+var id_to_index = new Object();
+var index_to_id = new Array();
+var i=0;
+for(var index in slide){
+	id_to_index[index] = i;
+	index_to_id[i] = index;
+	i++;
+}
+
+function setImage(id){
+	document.getElementById('swfcontent').innerHTML = "<img src='images/"+slide[id]+".jpg'>";
+	current = id_to_index[id];
+}
+function nextImg(){
+	current = (current<index_to_id.length-1)? current+1 : 0;
+	setImage(index_to_id[current]);
+}
+function prevImg(){
+	current = (current>0)? current-1 : index_to_id.length-1;
+	setImage(index_to_id[current]);
+}
+-->
+</script>
+
+
+</head>
+
+<body>
+<a name="top" id="top">&nbsp;</a>
+<div id="centerColumn">
+	<div id="header">
+    	<h1><a href="/"><img src="../../../../images/common/header_logo.gif" alt="Wii" border="0" /></a></h1>
+			<ul class="gnavi">
+      			<li><a href="../../../../exp/"><img src="../../../../images/common/gnavi_exp.gif" alt="Wii Erlebnis" border="0" /></a></li>
+				<li><a href="../../../../wii_channel/"><img src="../../../../images/common/gnavi_chnl.gif" alt="Wii Kan&auml;le" border="0" /></a></li>
+	  			<li><a href="../../../../wii_tv/"><img src="../../../../images/common/gnavi_wiitv.gif" alt="Wii TV" border="0" /></a></li>
+	  			<li><a href="../../../../software/"><img src="../../../../images/common/gnavi_software.gif" alt="Wii Software" border="0" /></a></li>
+				<li><a href="../../../../wiiware/"><img src="../../../../images/common/gnavi_wiiware.gif" alt="WiiWare" border="0" /></a></li>
+    		</ul>
+    		<ul class="global">
+     		 	<li><a href="http://www.wii.com"><img src="../../../../images/common/header_b_global.gif" alt="Wii.com" border="0" /></a></li>
+    		</ul>
+    	<hr />
+	</div>
+  <div id="vol7"><div id="page1">
+  
+  <h1><img src="../images/title.gif" alt="Iwata fragt: Super Smash Bros. Brawl" width="560" height="25" /></h1>
+  <div id="gametitlebar"></div>
+			
+  <ul id="menu">
+  	<li id="menu1"><a href="../vol1/index.html"></a></li>
+	<li id="menu2"><a href="../vol2/index.html"></a></li>
+	<li id="menu3"><a href="../vol3/index.html"></a></li>
+	<li id="menu4"><a href="../vol4/index.html"></a></li>
+	<li id="menu5"><a href="../vol5/index.html"></a></li>
+	<li id="menu6"><a href="../vol6/index.html"></a></li>
+	<li id="menu7"><a href="../vol7/index.html"></a></li>
+
+  </ul>
+  
+  <div id="mainimg"><img src="images/mainimg.jpg" alt="Teil 7: Eine einmalige Gelegenheit" width="780" height="240" /></div>
+Einige Ausdrücke aus dem Spiel sind vorläufig und tauchen möglicherweise nicht im endgültigen Produkt auf. 
+  <h2><img src="images/title_v1.gif" alt="Teil 7: Eine einmalige Gelegenheit" width="780" /></h2>
+  
+  <div id="sub_menu"><div id="inner">
+  <ul>
+   	<li id="sub1"><a href="index.html">Dragon King: The Fighting Game</a></li>
+	<li id="sub2"><a href="page2.html">Snake und Sonic</a></li>
+	<li id="sub3"><a href="page3.html">Eine einmalige Gelegenheit</a></li>
+  </ul>
+  </div></div>
+  
+  <div id="paragram">
+  
+  <h3>Dragon King: The Fighting Game</h3>
+  
+  
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Lassen Sie uns doch über die Anfänge der Serie sprechen, wo wir doch nicht oft die Gelegenheit haben, uns vis-à-vis gegenüberzusitzen. Der erste Teil erschien 1999 unter dem Namen „Super Smash Bros.“, deren Prototyp wir beide zusammen entwickelten.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Wir nannten es damals „kakutō-gēmu-ryūō“.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ein Spiel, das in diesem Stadium der Entwicklung noch keine Nintendo-Charaktere darbot. Projektplanung, Spezifikationen, Design, Modellierung und Animation übernahmen Sie, während mir die Programmierung zufiel. In gewissermaßen das Nonpluslultra eines handgemachten Bildschirmspiels.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Eine Teamkonstellation wie zu Zeiten des Nintendo Entertainment Systems. (lacht) Wir hatten allerdings noch einen Sounddesigner mit an Bord.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Es war eine Zeit, in der wir an verschiedenen Spielen arbeiteten und gleichzeitig nach einem Ort der Selbstverwirklichung suchten. Eines Tages erzählten Sie mir, Sie hätten da eine interessante Idee zu einem Spiel und ich ermutigte Sie dazu, sie sofort in die Tat umzusetzen und das Schreiben eines Konzeptpapiers in Angriff zu nehmen, während ich mich der Programmierung annahm. Allerdings war jeder von uns auch in seinem eigenen Arbeitsalltag gefangen, so dass wir für das gemeinsame Vorhaben nicht viel Zeit aufbringen konnten.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/27.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Sie arbeiteten damals an einer Nintendo 64-Version von Kirby Air Ride, nicht wahr?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Werktags hatte ich keine Zeit, so dass sich die Programmierung auf das Wochenende beschränkte. Ich implementierte Spezifikationen und Daten, welche ich von Ihnen erhielt und präsentierte Ihnen das Ergebnis. Es herrschte eine rege Korrespondenz. Das war in der Tat eine sehr interessante Erfahrung. Je mehr ich Ihren Ideen Form gab, desto mehr Spaß machte das Spiel.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Und mich erreichte eine sonderbare Beschwerde darüber, dass Sie viel mehr Energie in die Programmierung unseres Spiels legten als in die Entwicklung Ihrer eigentlichen Projekte. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Das kann gut sein. Bereits zu Anfang der Progammierung spürte ich das Potenzial dieses Spiels. Allerdings hätte ich mir damals nicht träumen lassen, dass es eine Serie dieses Ausmaßes werden würde.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Das stimmt. Damals glaubten wir ja nicht einmal, dass das Spiel mit Nintendo-Charakteren spielbar werden würde.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Wenn ich jetzt zurückblicke, war die Anfangsidee die Entwicklung eines Spiels, das unter Berücksichtigung des neuartigen Analogsticks - der größten Besonderheit des Nintendo 64 -, zu viert gespielt werden konnte. Was ging Ihnen damals durch den Kopf?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Nun, zum einen sah ich in unserem Spiel die Antithese zu den 2D-Prügelspielen, die sich damals zu etablieren versuchten. Ein weiterer Gedanke war, den Spielspaß zu viert bzw. dem Abwechslungsreichtum eines Viererspiels eine Form zu geben. Es war mein Ansinnen, den Wettkampf von vier Spielern gegeneinander als Königsklasse des Prügelspiels vorzustellen.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Die „Königsklasse“ war auch im Titel des Konzeptpapiers erwähnt. <br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, wobei das Spiel selbst noch keinen Titel hatte.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Es hatte seinerzeit noch nicht mal den Codenamen Dragon King (Japanisch: <a href="../slideplayer_page1.html?width=400&amp;height=280&amp;id=201" class="thickbox 201" title="ryūō"><img src="../images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />ryūō</a>), den es später bekommen sollte. Der Name ergab sich aus einem im Spiel verwendeten Hintergrundbild, das die Stadt Ryūō-chō zeigte, in der HAL Laboratory seinen Sitz hatte. Eine Stadt in der Präfektur Yamanashi.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Das Foto habe ich selbst geschossen. An der Animation arbeitete ich ebenfalls alleine und ich überlegte, woher ich am besten Hintergrundbilder beziehen könnte. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Ich muss schon sagen, dass es mich tief bewegt, wenn ich bedenke, wie alles angefangen hat und wie weit es das Spiel heute gebracht hat.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, wirklich.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Die vier Charaktere des Prototypen besaßen nicht einmal Gesichter. Können Sie sich daran erinnern, als offiziell wurde, dass Nintendo-Charaktere für das Spiel eingesetzt werden sollten und welch große Veränderung diese Neuigkeit für das Spiel bedeutete?<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ja, wie könnte ich das vergessen. Ich bat um die Erlaubnis Nintendo-Charaktere zu benutzen, weil es eine besondere Herausforderung darstellt, in einem Prügelspiel für Heimkonsolen so etwas wie eine Weltanschauung zu vermitteln. Prügelspiele warten in der Regel mit einer ganzen Reihe von Protagonisten auf, die sich durch ihre Stellung im Spiel gegenseitig relativieren. Keiner fällt mehr ins Gewicht als der andere. Für Arcade-Spiele gelten andere Gesetze, die Weltanschauung ist nur von sekundärer Bedeutung und das Hauptaugenmerk liegt schlicht auf dem Kampf selbst. Für den Spieler zu Hause ist es jedoch von größter Bedeutung, gleich zu Beginn in eine authentische Spielwelt eingeführt zu werden. Dieser Punkt war letztendlich ausschlaggebend, Nintendo-Charaktere für das Spiel zu verwenden.<br />
+</div><br clear="all"></div>
+
+<div class="photo"><img src="images/28.jpg" width="250" height="150" /></div>
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Mittlerweile ist die Akzeptanz groß, aber damals wurde das Konzept der All-Star-Besetzung auf fatale Weise missverstanden.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Es war eine sehr harte Zeit. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Man glaubte, die Fans würden aufschreien, würden sie sehen, wie Pikachu, Link und Mario aufeinander einschlugen. Man brachte uns anfangs wenig Verständnis entgegen und es fiel uns schwer, die Vorzüge und die Tiefe des Spiel zu vermitteln.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Um das Verständnis zu erringen, schrieb ich eine Art Handbuch, das „Ultimative Manual“ und publizierte es im Internet. Das war auch der Zeitpunkt, an dem die Internetseite Smash Bros. DOJO!! das Licht der Welt erblickte. <br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Richtig. Mit fortschreitender Serie wurde auch die Internetseite, die nunmehr offizielle Seite der Serie war, aktualisiert. Mit ihrer Tradition hat sie bis heute nicht gebrochen. Auch jetzt noch greifen Entwickler höchstpersönlich zur Feder und melden sich zu Wort.<br />
+</div><br clear="all"></div>
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Mittlerweile ist sie sogar in sieben Sprachen verfügbar. (lacht)<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Iwata:</div><div class="message">
+Das hätten wir damals nicht für möglich gehalten.<br />
+</div><br clear="all"></div>
+
+
+<div class="utterance"><div class="name">Sakurai:</div><div class="message">
+Ich bin den Menschen, die für die Fotoaufnahmen, die Online-Redaktion und die Übersetzungen zuständig sind, sehr dankbar.<br />
+<br /><br />
+Klicken Sie <a href="http://www.smashbros.com/de/index.html" target="_blank" class="" style="text-decoration:underline"><img src="../images/movie_link.gif" width="15" height="11" border="0" class="movielinkimg" />hier</a>, um auf die Smash Bros. DOJO!! Webseite zu gelangen.<br />
+
+</div>
+<br clear="all"></div>
+  </div>
+	
+  <div id="next_page_btn"><a href="page2.html">Snake und Sonic</a></div>	
+	
+  <!--//end #contents//-->
+  <hr />
+	  
+	
+	<!-- GameFootage -->
+		
+	
+  <div id="pagefooterSW">
+    <ul class="pnkzSW">
+      <li><a href="../../../24/"><img src="../../../../images/common/b_back.gif" alt="Zur&uuml;ck" border="0" /></a></li>
+      <li><a href="#top"><img src="../../../../images/common/b_top.gif" alt="Nach oben" border="0" /></a></li>
+    </ul>
+  </div>
+<br /><br />
+  <!--//end #pagefooter//-->
+  
+   <script language="javascript" type='text/javascript'>
+  TB_init();
+  </script>
+
+  <div id="footer">
+    <hr />
+    <ul class="subm">
+	<li><a href="http://wiiportal.nintendo-europe.com/373.html" target="_blank"><img src="../../../../images/common/footer_b_detail.gif" alt="Mehr Wii-Infos" border="0" /></a></li>
+	<li><img src="../../../../images/common/34beed.gif" alt="" width="1" height="29" border="0" /></li>
+      <li><a href="http://www.nintendo.de/NOE/de_DE/service/contact_2095.html" target="_blank"><img src="../../../../images/common/footer_b_contact.gif" alt="Kontakt" border="0" /></a></li>
+	<li><a href="../../../../newsletter/newsletter.php?l=deDE" target="_self"><img src="../../../../images/common/footer_b_newsletter.gif" alt="Newsletter" border="0" /></a></li> 
+	<li><a href="../../../../terms/"><img src="../../../../images/common/footer_b_terms.gif" alt="Nutzungsbedingungen" border="0" /></a></li>
+  
+  </ul>
+    <div class="logo"><a href="http://www.nintendo.de" target="_blank"><img src="../../../../images/common/footer_nintendo_logo.gif" alt="Nintendo of Europe" border="0" /></a></div>
+  </div><!--//end #footer//-->
+	
+</div>
+
+  
+</body>
+<!-- InstanceEnd --></html>

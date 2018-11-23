@@ -1,0 +1,81 @@
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="57x57" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-57x57.png"> 
+<link rel="apple-touch-icon" sizes="114x114" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/iOS%20Icons/WiiConnect24%20Logo/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/iOS%20Icons/WiiConnect24%20Logo/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/iOS%20Icons/WiiConnect24%20Logo/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/iOS%20Icons/WiiConnect24%20Logo/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/iOS%20Icons/WiiConnect24%20Logo/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/iOS%20Icons/WiiConnect24%20Logo/favicon-32x32.png" sizes="32x32">
+<title>PlayStation 2 ADPCM STR Audio Format</title>
+<body background="https://wc24.mariocube.com/Background%20Images/Wii%20Squares.png" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<center>
+<head>
+<h1>PlayStation 2 ADPCM STR Audio Format</h1>
+<br>
+<img src="https://wc24.mariocube.com/Other%20Stuff/Wii-icon.png" alt="Our Wii Content Corner">
+<br>
+<br>
+<p class="text-shadow: 2px 1px #000000; font-size: 65px; color: #FFFFFF; lead">Information of the ADPCM PlayStation Audio Format and how to Convert it.<br></p>
+</head>
+<body>
+<br>
+<h2>You Will Need:</h2>
+</center>
+<br>
+<ul style="list-style-type:disc">
+ <li><a href="http://www.zophar.net/fileuploads/1/3180xuwmy/MFAudiov11.zip">MFAudio (Audio Player)</a></li>
+ <li><a href="http://mh-nexus.de/downloads/HxDSetupEN.zip">HxD (Hex Editor Program)</a></li>
+ <li><a href="http://hcs64.com/files/vgmstream/vgmstream-r1040-test.zip">VGMStream (Audio Converter)</a></li>
+ <li><a href="http://www.zophar.net/fileuploads/3/21764zzghl/vgmstream_external_dlls.zip">VGMStream External DLLS</a></li>
+ <li><a href="http://iweb.dl.sourceforge.net/project/vgmtoolbox/vgmtoolbox/VGMToolbox%20r1013/vgmtoolbox_bin_r1013.7z">VGMToolbox</a></li>
+</ul>
+<br>
+<center>
+<h2>Instructions:</h2>
+</center>
+<br>
+<br>
+<ol>
+<p>Before starting the process of converting an STR file, please note that this is a confusing format unless you have experience converting it, please read the tutorial multiple times if needed - it is very difficult to explain some of the steps.
+  <p>Overview: Some PlayStation 2 games, usually THQ ones, use an ADPCM (Adaptive differential pulse-code modulation) format to store game soundtrack. The specific format for this is PlayStation 4-Bit ADPCM. Inside the archive containing the music you will find several files, including a file table, an empty .wav file, and a .str file. The STR file is the actual stream we are looking at. These archives can contain multiple songs or only a single song, and the streams are interleaved together. Unfortunately, when this format shows up it usually is headerless, which means you will need to manually figure out the values the audio is encoded with to convert it. There are a couple of possible scenarios here:
+  <li>The file contains 1 mono audio track. This will simply convert using VGMStream right away. These are however pretty rare because most games only have stereo tracks.
+  <li>The file contains 1 stereo track. Because this file contains 1 audio stream with two tracks (two channels - stereo), it will be in an interleaved format and will not convert right away. First you need to find the 'Interleave' value - more on that later.
+  <li>The file contains multiple stereo tracks. This is by far the most common situation, and unfortunately the most complicated to figure out. In THQ games, there are usually 2-4 tracks in stereo format.
+  <ul>
+  <li>To help understand this better - think of an example: The file contains 3 stereo tracks, which is a total of 6 streams (3 tracks * 2 channels). The 6 streams are interleaved together.
+  <li>Why do games use this format? In most earlier THQ games, the soundtrack dynamically changes during gameplay depending on where the player is located. There are normally 3 of these tracks, one is an 'idle' theme, one is the 'normal' theme, and one is the 'action' theme. The idle theme normally plays if the player is in dialouge with another character in the game, and is used simply as background music. The 'normal' theme is used as the normal game soundtrack, playing when the player is nagivating the game but there is no action. Then there is the 'action' theme, when the player is fighting enemies. These songs are interleaved together so that the game can quickly switch between them, since it is better to not have the laser jump to another music file on the disc every time you start fighing enemies, and instead have it fade out from the current theme and switch (in the same file) to the other song.
+<br><br>
+</ul><p>When dealing with these files, you will need to know a few terms first:</p><br>
+<ul><li>Frequency: This is the audios frequency. For PS2 ADPCM, this is usually always 41,000Hz (41kHz).
+<li>Channels: The amount of channels one track in the STR contains, this is normally 2 (stereo), but can be 1, 2, or 6 depending on the game. The amount of channels in the first song in the file is the same for the rest of the file as well
+<li>Interleave: This is how multiple tracks are put into one file. Please note that this value must be base 10 from 10-10000 in hex (10^16 = 16 for conversion between Decimal and Hex).
+<li>Blocksize: One block from each of the channels in the file. (Calculated by INTSIZE * CHANNELS)
+<li>Intsize: One block from only one channel of the file. (Calculated by BLOCKSIZE / CHANNELS)
+<li>Compression: Normally the tracks in the STR are compressed, this is most likely to save space for other data. This is not important for the conversion process, however can be found by using the Cube Player program.[]
+<li>Layers: Amount of songs in the file.
+<li>Skip (AKA Offset): The amount (in bytes) the file should be offset in the beginning. Normally not used.
+</ul>
+<br><br><p>--- How to determine the amount of tracks/streams in the file:<ul>
+<li>First, download and open up MFAudio. Open the STR file using the Open dialouge box. After that, set the Channels to 1 (Mono - Even if the track is stereo), and Frequency to 41000Hz. (Leave the rest of the values as is.)
+<li>Then, adjust your volume since the program is pretty loud, and click play. You should hear music for a few seconds, then it will either:
+<ul><li>Continue playing that same song for the entire duration (1 Track 1 Channel, No Interleave)
+<li>Switch between the left and right speaker channels for the duration of the song (1 Track, 2 Channels, Interleave)
+<li>Switch between left and right speaker channels -and- multiple tracks (2-3). (2-3 Tracks, 2 Channels, Interleave)
+<ul><li>It is technically possible to have a 6 channel audio track although I have never seen one, which in theory would switch between 6 channels instead of two. You would need to listen very well to distinguish that it is 6 channels in the same track though.
+</ul></ul><li>Once you counted everything, you can divide the total streams by the amount of channels to get the amount of tracks in the file, which shouldn't be more than 3. Now that you analyzed the file, we can get on to the more confusing part.
+</ul><br><br><p>--- Determining the Interleave<br><p>The most difficult part about finding the interleave is that it is usually specific to each file in each game.
+<ul><li>Download and open up HxD (Hex Editor Program). Open up the STR file you are looking to find the interleave value of and scroll all the way to the bottom. You should see a lot of 00's. Scroll up until you start seeing data. Start from the last byte (from the right panel of the program) select the data and continue up until the data stops and you see another block of 00's. That amount of selected data (last byte to the first) is the interleave value, which can be read from the bottom of the screen.
+<br><br><br>
+<p><center>Copyright © MarioCube - All Rights Reserved.</center></p>
+</ol>
+</p>
+</body>

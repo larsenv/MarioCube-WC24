@@ -1,0 +1,95 @@
+#contents {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#promo {
+	margin:0px 0px 10px 0px;
+}
+#banner {
+	margin: 20px 0px 10px 0px;
+}
+#banner li.banner_left {
+	float: left;
+	list-style-type: none;
+}
+#banner li.banner_right {
+	float: right;
+	list-style-type: none;
+}
+#news {
+	clear:both;
+}
+#news table.newsitem {
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	width:560px;
+}
+#news td.newsborder {
+	width:4px;
+	background-image: url(../images/common/34beed.gif);
+}
+#news td.newsdate {
+	vertical-align: top;
+	padding: 0px 10px 0px 5px;
+	font-size: 85%;
+}
+#news td.wid80 {
+	width:80px;
+}
+#news td.newstxts {
+	vertical-align: top;
+	padding: 0px 0px 0px 11px;
+	background-image: url(../images/common/dotline_y.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	font-size:11px;
+}
+#news strong.newstitle {
+	font-size: 12px;
+	margin:0px 0px 5px 0px;
+}
+#news span.newstext {
+	font-size: 88%;
+}
+#expFeat {
+	height: 262px;
+	width: 467px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#wiichannelFeat {
+	float: left;
+	height: 150px;
+	width: 214px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#wiisoftwareFeat {
+	float: right;
+	height: 150px;
+	width: 214px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#morewiiFeat {
+	height: 79px;
+	width: 467px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+#index_exp_thumbs {
+	float: right;
+}
+#vidsGalleryLink {
+	margin-left: 45px;
+}
