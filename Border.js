@@ -1,4 +1,4 @@
-var imlocation = "http://wc24.mariocube.com/Borders/Animated%20GIFs/Current%20";
+var imlocation = "http://wc24.mariocube.xyz/Borders/Animated%20GIFs/Current%20";
  function ImageArray (n) {
    this.length = n;
    for (var i =1; i <= n; i++) {
