@@ -1,0 +1,21 @@
+[00A] RSEQ.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 672 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 288 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to [00A] RSEQ.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x41...
+  Trk 00 OK
+  Trk 01 OK

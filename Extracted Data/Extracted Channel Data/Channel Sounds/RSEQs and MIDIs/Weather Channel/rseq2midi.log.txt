@@ -1,0 +1,89 @@
+Channel-Sounds_weather-8.rseq.brseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 9312 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 7328 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Channel-Sounds_weather-8.rseq.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x1D1...
+  Trk 02 started from 0x33F...
+  Trk 03 started from 0x584...
+  Trk 04 started from 0x7F1...
+  Trk 05 started from 0x961...
+  Trk 06 started from 0xA42...
+  Trk 07 started from 0xD25...
+  Trk 08 started from 0xF05...
+  Trk 09 started from 0x103D...
+  Trk 10 started from 0x10B1...
+  Trk 11 started from 0x1372...
+  Trk 12 started from 0x15EA...
+  Trk 13 started from 0x17BC...
+  Trk 14 started from 0x1A41...
+  Trk 15 started from 0x1B42...
+  WARNING: Unknown command DE
+  Trk 00: Jump to 0x90
+  Trk 00 OK
+  WARNING: Unknown command DE
+  Trk 01: Jump to 0x1E4
+  Trk 01 OK
+  WARNING: Unknown command DE
+  Trk 02: Call to 0x521
+  Trk 02: Call to 0x542
+  Trk 02: Call to 0x563
+  Trk 02: Call to 0x521
+  Trk 02: Call to 0x542
+  Trk 02: Call to 0x563
+  Trk 02: Jump to 0x347
+  Trk 02 OK
+  WARNING: Unknown command DE
+  Trk 03: Jump to 0x58C
+  Trk 03 OK
+  WARNING: Unknown command DE
+  Trk 04: Jump to 0x7F9
+  Trk 04 OK
+  WARNING: Unknown command DE
+  Trk 05: Jump to 0x969
+  Trk 05 OK
+  WARNING: Unknown command DE
+  Trk 06: Jump to 0xA4A
+  Trk 06 OK
+  WARNING: Unknown command DE
+  Trk 07: Jump to 0xD2D
+  Trk 07 OK
+  WARNING: Unknown command DE
+  Trk 08: Jump to 0xF0D
+  Trk 08 OK
+  WARNING: Unknown command DE
+  Trk 09: Jump to 0x1045
+  Trk 09 OK
+  WARNING: Unknown command DE
+  Trk 10: Jump to 0x10B9
+  Trk 10 OK
+  WARNING: Unknown command DE
+  Trk 11: Jump to 0x137A
+  Trk 11 OK
+  WARNING: Unknown command DE
+  Trk 12: Call to 0x17A7
+  Trk 12: Call to 0x17A7
+  Trk 12: Jump to 0x15F2
+  Trk 12 OK
+  WARNING: Unknown command DE
+  Trk 13: Jump to 0x17C4
+  Trk 13 OK
+  WARNING: Unknown command DE
+  Trk 14: Jump to 0x1A49
+  Trk 14 OK
+  WARNING: Unknown command DE
+  Trk 15: Jump to 0x1B4A
+  Trk 15 OK

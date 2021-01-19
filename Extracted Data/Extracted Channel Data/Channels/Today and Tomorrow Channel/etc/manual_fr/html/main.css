@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/*common_css start*/
+body { margin: 0; font-family:"Wii NTLG PGothic"; }
+/*common_css end*/
+
+/*topFrame page start*/
+body#topFrame { background-color: #dbdbdb; }
+#title { padding-left:25px; padding-top:26px; /*font-size: 30px;default*/ font-size: 26px; font-weight: normal; color: #FFFFFF; }
+/*topFrame page end*/
+
+/*index_contentsFrame page start*/
+body#contentsFrame { background-color: #FFFFFF; }
+#contents { padding-left:20px; z-index:1; color: #333333; font-size: 14pt; font-weight: normal; }
+/*index_contentsFrame page end*/
+
+/*index_mainFrame page start*/
+body#mainFrame { background-image:url(common_data/CHM_common_source/background_gray.png); background-color: #dbdbdb; }
+.button { padding-top: 2px; width: 280px; height: 54px; background-image: url(common_data/CHM_common_source/index_button.png); }
+.contents { color: #333333; font-size: 19px; font-style: normal; font-weight: normal; font-variant: normal; text-align:left; }
+.contents2line { font-size: 16px; color: #333333; font-weight:normal; line-height:20px; padding-bottom:4px; text-align:left;}
+.number { color: #333333; font-size: 22px; font-style: normal; font-weight: bold; font-variant: normal; }
+
+/*number 2digit*/
+.number2k { color: #333333; font-size: 22px; font-style: normal; font-weight: bold; font-variant: normal; padding-left:5px; }
+
+/*heading start*/
+.midasi1 { width:560px; margin:10px 0 3px; height:36px; }
+.midasi2 { width:560px; margin:20px 0 3px; }
+.midasi_txt { height:36px; font-weight:bold; text-align:left; color: #43B6DF; font-size: 18px; line-height:36px; }
+.menu_number { font-weight:bold; color:#666666; padding-left:12px; padding-right:18px; padding-bottom:5px; font-size:16px; }
+.menu_number2k { font-weight:bold; color:#666666; padding-left:5px; padding-right:13px; font-size:16px; }
+/*mainFrame page end*/
+
+/*bottomFrame page start*/
+body#bottomFrame { background-color: #dbdbdb; }
+.colon { color: #333333 }
+.bottomtxt { font-size: 14pt; font-weight: normal; color: #333333; }
+/*bottomFrame page end*/
+
+/*sub page start*/
+body#subpage { background-image: url(common_data/CHM_common_source/background_gray.png); background-color: #dbdbdb; }
+/*style17*/
+.marginframe { margin-top: 10px; }
+.maintxt { font-size: 20px; font-weight: normal; color: #333333; text-align:left; padding-right: 5px; padding-left: 5px; }
+.headling { color: #ffffff; font-size: 28px; padding: 18px 1px 0 14px; }
+.headling_2line { color: #ffffff; font-size: 22px; padding: 18px 1px 0 14px; padding-bottom:2px; line-height:24px; }
+.subnumber { font-size: 28px; font-weight: bold; color: #333333; padding:19px 0px 0px 48px; }
+
+/*subnumber 2digit*/
+.subnumber2k { font-size: 28px; font-weight: bold; color: #333333; padding:19px 0px 0px 37px; }
+p { margin:0; padding:0; }
+
+/*blue frame heading*/
+.style_bar 			{color: #FFFFFF;font-size: 24px;text-align: center; line-height:1; font-weight: bold;}
+.style_bar2line		{color: #FFFFFF;font-size: 22px;text-align: center; line-height:1.2; font-weight: bold;}
+
+/*newstyle*/
+table, tr, th, td { border:none; border-spacing:0; font-weight:normal; border-collapse:collapse; }
+
+/*example 「※&nbsp;text」*/
+p.caution1 { text-indent:-1.3em; padding-left:1.3em; }
+p.caution2 { text-indent:-1.3em; padding-left:1.3em; margin-left:1.3em; }
+p.caution3 { text-indent:-1.3em; padding-left:1.3em; margin-left:2.3em; }
+
+/*small text*/
+p.caution_s1 { text-indent:-1em; padding-left:1em; }
+p.caution_s2 { text-indent:-1em; padding-left:1em; margin-left:1em; }
+p.caution_s3 { text-indent:-1em; padding-left:1em; margin-left:2em; }
+p.caution_s4 { text-indent:0em; padding-left:0em; margin-left:1em; }
+
+/*color*/
+.color_red { color: #FF0000; }
+.color_blue { color: #43B6DF; }
+.color_white { color: #FFFFFF; }
+.kakomi {font-size: 18px;color:#FFFFFF;line-height: 28px;font-weight: normal;background-color: #999999;text-align: left;padding-right: 20px;padding-left: 20px;font-family: "Wii NTLG PGothic";}
+.imgspace {margin:10px 0;}
+
+/*space*/
+.paragraph { font-size:20px; margin-top:1em; }
+.spacer5t { margin-top:5px; }
+.spacer10t { margin-top:10px; }
+.spacer20t { margin-top:20px; }
+.spacer30t { margin-top:30px; }
+
+/*warning*/
+.style_warning { color: #333333; font-size: 26px; text-align: left; padding-left: 10px; }
+
+/*midashi_bar*/
+.bar { font-size:22px; color: #ffffff; line-height: 1; text-align:center; }
+
+/*data*/
+.data th , .data td {border:1px #666666 solid; color: #333333; text-align: left; font-size: 20px;line-height: normal; padding:10px;}
+.data th	{white-space:nowrap;}
+.data td {width:99%;}
+.colour {color: #333333;font-weight: normal;text-align: left; background-color:#D8D8D8}  
+.line {border:1px solid #333333;}
+
+
+.data_2 th , .data_2 td {border:1px #666666 solid; color: #333333; text-align: left; font-size: 20px;line-height: normal; padding:10px;}
+.data_2 th	{white-space:nowrap;}
+.data_2 td {width:0%;}
+
+/*float box*/
+.floatright { float:right; clear:both; margin-left:10px; }
+.floatleft { float:left; clear:both; margin-right:10px; }
+
+/*icon style*/
+img.icon_large { vertical-align:-6px; }
+img.icon_normal { vertical-align:-4px;}
+img.icon_small { vertical-align:-2px; }
+
+/*list*/
+ol					{ margin-left:0.9em; margin-top:0; padding:0 0 0 0em; margin-bottom:0em;}
+ul					{ margin-left:0em; margin-top:0; padding:0 0 0 0em; margin-bottom:0em;}
+
+li  {font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 color: #333333;
+	 text-align: left;
+	 vertical-align: top;
+     list-style-image:url(common_data/CHM_common_source/bulletpoint.png);
+	 list-style-position:outside;
+	 margin:0.6em; padding:0 0 0 0.2em;
+}
+
+li.head  {font-family: "Wii NTLG PGothic";
+	 	 font-size: 20px;
+	     color: #333333;
+	     text-align: left;
+	     list-style-image:url(common_data/CHM_common_source/bulletpoint.png);
+	     list-style-position:outside;
+	     margin:0 0 -0.4em 0.8em; padding:0 0 0 0.2em;
+}
+
+li.blue	{font-family: "Wii NTLG PGothic";
+	 	font-size: 20px;
+	 	color: #43B6DF;
+	 	text-align: left;
+	 	vertical-align: top;
+     	list-style-image:url(common_data/CHM_common_source/bulletpoint_blue.png);
+	 	list-style-position:outside;
+	 	margin:0; padding:0 0 0 0.2em;
+}
+
+li.red  {font-family: "Wii NTLG PGothic";
+	 	font-size: 20px;
+	 	color: #ff0000;
+	 	text-align: left;
+	 	vertical-align: top;
+     	list-style-image:url(common_data/CHM_common_source/bulletpoint_red.png);
+	 	list-style-position:outside;
+	 	margin:0; padding:0 0 0 0.2em;
+}
+
+li.small {font-family: "Wii NTLG PGothic";
+		 font-size: 20px;
+	 	 color: #333333;
+	 	 text-align: left;
+	 	 vertical-align: top;
+     	 list-style-image:url(common_data/CHM_common_source/bulletpoint_small.png);
+	 	 list-style-position:outside;
+		 margin:0; padding:0 0 0 0.2em;
+		 margin-left:20px;
+}
+
+li.numb1 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_01.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em;  
+	 
+}
+li.numb2 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_02.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em;  
+}
+li.numb3 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_03.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em; 
+}
+li.numb4 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_04.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em; 
+}
+li.numb5 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_05.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em; }
+li.numb6 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_06.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em; 
+}
+li.numb7 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_07.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em; 
+}
+li.numb8 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_08.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em; 
+}
+li.numb9 {
+	 font-family: "Wii NTLG PGothic";
+	 font-size: 20px;
+	 text-align: left;
+     color: #333333;
+	 list-style-image:url(common_data/CHM_common_source/no_09.png);
+	 list-style-position:outside;
+	 margin:0; padding:0 0 0 0.2em;
+	 line-height:1.3em; 
+}
+
+
+/*-----------------------------------------------*/
+
+

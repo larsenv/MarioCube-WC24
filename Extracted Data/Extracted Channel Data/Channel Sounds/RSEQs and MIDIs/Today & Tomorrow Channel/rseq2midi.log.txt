@@ -1,0 +1,409 @@
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000004.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 1920 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 1440 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000004.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x179...
+  Trk 02 started from 0x1DB...
+  Trk 03 started from 0x213...
+  Trk 04 started from 0x282...
+  Trk 05 started from 0x2A4...
+  Trk 06 started from 0x3B2...
+  Trk 07 started from 0x3F2...
+  Trk 08 started from 0x42C...
+  Trk 09 started from 0x466...
+  Trk 10 started from 0x515...
+  Trk 00 OK
+  Trk 01 OK
+  Trk 02 OK
+  Trk 03 OK
+  Trk 04 OK
+  Trk 05 OK
+  Trk 06 OK
+  Trk 07 OK
+  Trk 08 OK
+  Trk 09 OK
+  Trk 10 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000005.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 896 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 608 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000005.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x85...
+  Trk 02 started from 0x1D0...
+  Trk 03 started from 0x1E8...
+  Trk 04 started from 0x227...
+  Trk 00 OK
+  Trk 01 OK
+  Trk 02 OK
+  Trk 03 OK
+  Trk 04 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000006.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 672 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 416 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000006.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  WARNING: Unknown command A0
+  WARNING: Unknown command A0
+  WARNING: Unknown command A0
+  Trk 00: Call to 0x2C
+  WARNING: Unknown command A0
+  WARNING: Unknown command A0
+  WARNING: Unknown command A0
+  Trk 00 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000007.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 992 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 576 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000007.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x99...
+  Trk 02 started from 0xD6...
+  Trk 03 started from 0x113...
+  Trk 04 started from 0x159...
+  Trk 05 started from 0x177...
+  Trk 06 started from 0x1A2...
+  Trk 07 started from 0x1E1...
+  Trk 08 started from 0x220...
+  Trk 00 OK
+  Trk 01 OK
+  Trk 02 OK
+  Trk 03 OK
+  Trk 04 OK
+  Trk 05 OK
+  Trk 06 OK
+  Trk 07 OK
+  Trk 08 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000008.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 3904 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 2848 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000008.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x144...
+  Trk 02 started from 0x2A8...
+  Trk 03 started from 0x3B5...
+  Trk 04 started from 0x57F...
+  Trk 05 started from 0x5D6...
+  Trk 06 started from 0x618...
+  Trk 07 started from 0x725...
+  Trk 08 started from 0x833...
+  Trk 09 started from 0x999...
+  Trk 10 started from 0xAFA...
+  Trk 00: Jump to 0x72
+  Trk 00 OK
+  Trk 01: Jump to 0x150
+  Trk 01 OK
+  Trk 02: Jump to 0x2B4
+  Trk 02 OK
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x501
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x52B
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x52B
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x501
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x555
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x555
+  Trk 03: Call to 0x4AA
+  Trk 03: Call to 0x4AA
+  Trk 03: Jump to 0x3C1
+  Trk 03 OK
+  Trk 04: Jump to 0x58B
+  Trk 04 OK
+  Trk 05: Jump to 0x5E2
+  Trk 05 OK
+  Trk 06: Jump to 0x624
+  Trk 06 OK
+  Trk 07: Jump to 0x731
+  Trk 07 OK
+  Trk 08: Jump to 0x83F
+  Trk 08 OK
+  Trk 09: Jump to 0x9A5
+  Trk 09 OK
+  Trk 10: Jump to 0xB06
+  Trk 10 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000009.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 1088 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 672 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000009.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0xD1...
+  Trk 02 started from 0x104...
+  Trk 03 started from 0x130...
+  Trk 04 started from 0x144...
+  Trk 05 started from 0x158...
+  Trk 06 started from 0x18C...
+  Trk 07 started from 0x1FE...
+  Trk 08 started from 0x26B...
+  Trk 00 OK
+  Trk 01 OK
+  Trk 02 OK
+  Trk 03 OK
+  Trk 04 OK
+  Trk 05 OK
+  Trk 06 OK
+  Trk 07 OK
+  Trk 08 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000000.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 3168 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 2208 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000000.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x153...
+  Trk 02 started from 0x207...
+  Trk 03 started from 0x29E...
+  Trk 04 started from 0x315...
+  Trk 05 started from 0x41C...
+  Trk 06 started from 0x4C5...
+  Trk 07 started from 0x616...
+  Trk 08 started from 0x667...
+  Trk 09 started from 0x79A...
+  Trk 00: Call to 0x10A
+  Trk 00: Call to 0x10A
+  Trk 00: Jump to 0x6D
+  Trk 00 OK
+  Trk 01: Call to 0x1D4
+  Trk 01: Call to 0x1D4
+  Trk 01: Jump to 0x15F
+  Trk 01 OK
+  Trk 02: Jump to 0x21B
+  Trk 02 OK
+  Trk 03: Jump to 0x2B2
+  Trk 03 OK
+  Trk 04: Jump to 0x329
+  Trk 04 OK
+  Trk 05: Call to 0x497
+  Trk 05: Call to 0x497
+  Trk 05: Jump to 0x430
+  Trk 05 OK
+  Trk 06: Jump to 0x4D1
+  Trk 06 OK
+  Trk 07: Jump to 0x62A
+  Trk 07 OK
+  Trk 08: Jump to 0x673
+  Trk 08 OK
+  Trk 09: Jump to 0x7A6
+  Trk 09 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000001.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 608 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 352 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000001.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0xA6...
+  Trk 02 started from 0xE1...
+  Trk 03 started from 0x12E...
+  Trk 00 OK
+  Trk 01 OK
+  Trk 02 OK
+  Trk 03 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000002.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 5952 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 4864 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000002.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 11 started from 0x57...
+  Trk 12 started from 0x3AC...
+  Trk 13 started from 0x4D0...
+  Trk 14 started from 0xA27...
+  Trk 15 started from 0xDB6...
+  Trk 00: Jump to 0x4F
+  Trk 00 OK
+  Trk 11: Call to 0x202
+  Trk 11: Call to 0x249
+  Trk 11: Call to 0x290
+  Trk 11: Call to 0x2D7
+  Trk 11: Call to 0x202
+  Trk 11: Call to 0x249
+  Trk 11: Call to 0x290
+  Trk 11: Call to 0x2D7
+  Trk 11: Call to 0x202
+  Trk 11: Call to 0x249
+  Trk 11: Call to 0x290
+  Trk 11: Call to 0x31E
+  Trk 11: Call to 0x365
+  Trk 11: Call to 0x31E
+  Trk 11: Call to 0x365
+  Trk 11: Jump to 0x63
+  Trk 11 OK
+  Trk 12: Call to 0x44B
+  Trk 12: Call to 0x47C
+  Trk 12: Call to 0x44B
+  Trk 12: Call to 0x44B
+  Trk 12: Call to 0x47C
+  Trk 12: Call to 0x49F
+  Trk 12: Call to 0x49F
+  Trk 12: Jump to 0x3B8
+  Trk 12 OK
+  Trk 13: Jump to 0x4DC
+  Trk 13 OK
+  Trk 14: Call to 0xC53
+  Trk 14: Call to 0xC9A
+  Trk 14: Call to 0xCE1
+  Trk 14: Call to 0xD28
+  Trk 14: Call to 0xC53
+  Trk 14: Call to 0xC9A
+  Trk 14: Call to 0xCE1
+  Trk 14: Call to 0xD28
+  Trk 14: Call to 0xC53
+  Trk 14: Call to 0xC9A
+  Trk 14: Call to 0xCE1
+  Trk 14: Call to 0xD6F
+  Trk 14: Call to 0xD6F
+  Trk 14: Jump to 0xA33
+  Trk 14 OK
+  Trk 15: Jump to 0xDC2
+  Trk 15 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000003.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 960 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 576 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\Today & Tomorrow Channel\uranai_CUT\uranai_00000003.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0xB4...
+  Trk 02 started from 0xE9...
+  Trk 03 started from 0x11E...
+  Trk 04 started from 0x153...
+  Trk 05 started from 0x1B2...
+  Trk 06 started from 0x1E9...
+  Trk 07 started from 0x220...
+  Trk 00 OK
+  Trk 01 OK
+  Trk 02 OK
+  Trk 03 OK
+  Trk 04 OK
+  Trk 05 OK
+  Trk 06 OK
+  Trk 07 OK

@@ -1,4 +1,4 @@
-var imlocation = "http://wc24.mariocube.com/Borders/Forecast%20Channel%20";
+var imlocation = "https://wc24.mariocube.com/Borders/Forecast%20Channel%20";
  function ImageArray (n) {
    this.length = n;
    for (var i =1; i <= n; i++) {

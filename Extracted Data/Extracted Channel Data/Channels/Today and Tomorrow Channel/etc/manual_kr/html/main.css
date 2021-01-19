@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*common_css start*/
+body { margin: 0; font-family:"Wii-kr_Round Gothic B"; }
+/*common_css end*/
+
+/*topFrame page start*/
+body#topFrame { background-color: #dbdbdb; }
+#title { padding-left:25px; padding-top:24px; font-size: 30px;word-spacing: -0.1em;letter-spacing: -0.1em;font-weight: normal; color: #FFFFFF; }
+/*topFrame page end*/
+
+/*index_contentsFrame page start*/
+body#contentsFrame { background-color: #FFFFFF; }
+#contents { padding-left:20px; z-index:1; color: #333333; font-size: 15pt; font-weight: normal;word-spacing: -0.1em;letter-spacing: -0.1em;  }
+/*index_contentsFrame page end*/
+
+/*index_mainFrame page start*/
+body#mainFrame { background-image:url(common_data/CHM_common_source/background_gray.png); background-color: #dbdbdb; }
+.button { padding-top: 2px; width: 280px; height: 54px; background-image: url(common_data/CHM_common_source/index_button.png); }
+.contents { color: #333333; font-size: 22px; font-style: normal; font-variant: normal; text-align:left;padding-bottom: 2px;padding-left: 5px;word-spacing: -0.2em;letter-spacing: -0.1em;}
+.number { color: #333333; font-size: 22px; font-style: normal; font-weight: bold; font-variant: normal; }
+
+/*number 2digit*/
+.number2k { color: #333333; font-size: 22px; font-style: normal; font-weight: bold; font-variant: normal; padding-left:5px; }
+
+/*heading start*/
+.midasi1 { width:560px; margin:10px 0 3px; height:36px; }
+.midasi2 { width:560px; margin:20px 0 3px; }
+.midasi_txt { height:36px; font-weight:normal;word-spacing: -0.2em;letter-spacing: -0.1em;text-align:left; color: #43B6DF; font-size: 22px; line-height:36px; }
+.menu_number { font-weight:bold; color:#666666; padding-left:12px; padding-right:18px; padding-bottom:5px; font-size:16px; }
+.menu_number2k { font-weight:bold; color:#666666; padding-left:5px; padding-right:13px; font-size:16px; }
+/*mainFrame page end*/
+
+/*bottomFrame page start*/
+body#bottomFrame { background-color: #dbdbdb; }
+.colon { color: #333333 }
+.bottomtxt { font-size: 14pt;word-spacing: -0.1em;letter-spacing: -0.1em; font-weight: normal; color: #333333; }
+/*bottomFrame page end*/
+
+/*sub page start*/
+body#subpage { background-image: url(common_data/CHM_common_source/background_gray.png); background-color: #dbdbdb; }
+/*style17*/
+.marginframe { margin-top:10px; margin-left:20px;margin-right:30px;}
+.maintxt { font-size: 20px;line-height: 28px;color: #333333;text-align: justify;font-weight: normal;word-spacing: -0.1em;letter-spacing: -0.1em; }
+.maintxt2 { font-size: 22px;line-height: 28px;color: #333333;text-align: justify;font-weight: normal;word-spacing: -0.1em;letter-spacing: -0.1em; }
+.headling { color: #ffffff; font-size: 26px; padding: 18px 1px 0 13px;word-spacing: -0.2em; }
+.subnumber { font-size: 30px; font-weight: normal; color: #333333; padding:16px 0px 0px 47px; }
+
+/*subnumber 2digit*/
+.subnumber2k { font-size: 28px; font-weight: bold; color: #333333; padding:19px 0px 0px 37px; }
+p { margin:0; padding:0; }
+
+/*newstyle*/
+table, tr, th, td { border:none; border-spacing:0; font-weight:normal; border-collapse:collapse; }
+
+/*example 「※&nbsp;text」*/
+p.caution1 { text-indent:-1.3em; padding-left:1.3em; }
+p.caution2 { text-indent:-1.3em; padding-left:1.3em; margin-left:1.3em; }
+p.caution3 { text-indent:-1.3em; padding-left:1.3em; margin-left:2.3em; }
+
+/*small text*/
+p.caution_ss1 { text-indent:-0.6em; padding-left:0.5em; }
+p.caution_ss2 { text-indent:-1em; padding-left:1em; margin-left:1em; }
+p.caution_ss3 { text-indent:-1em; padding-left:1em; margin-left:2em; }
+
+/*small text*/
+p.caution_s0 { text-indent:-0.7em; padding-left:0.8em; }
+p.caution_s1 { text-indent:-1em; padding-left:1em; }
+p.caution_s2 { text-indent:-1em; padding-left:1em; margin-left:1em; }
+p.caution_s3 { text-indent:-1em; padding-left:1em; margin-left:2em; }
+
+/*color*/
+.color_red { color: #FF0000; }
+.color_blue { color: #43B6DF; }
+.color_white { color: #FFFFFF; }
+
+/*space*/
+.paragraph { font-size:20px; margin-top:1em; }
+.spacer5t { margin-top:5px; }
+.spacer10t { margin-top:10px; }
+.spacer20t { margin-top:20px; }
+.spacer30t { margin-top:30px; }
+
+/*warning*/
+.style_warning { color: #333333; font-size: 26px; text-align: left; padding-left: 10px; }
+
+/*midashi_bar*/
+.bar { font-size:22px; color: #ffffff; line-height: 1; word-spacing: -0.2em; text-align:center; }
+
+/*data*/
+.data th, .data td { border:1px #666666 solid; color:#333333; text-align:justify; padding:5px 10px; font-size:20px; }
+.data th { white-space:nowrap; text-align:center; }
+.data td { width:99%; }
+
+/*float box*/
+.floatright { float:right; clear:both; margin-left:10px; }
+.floatleft { float:left; clear:both; margin-right:10px; }
+
+/*icon style*/
+img.icon_large { vertical-align:-6px; }
+img.icon_normal { vertical-align:-4px; }
+img.icon_small { vertical-align:-2px; }
+
+
+/*sub page end*/

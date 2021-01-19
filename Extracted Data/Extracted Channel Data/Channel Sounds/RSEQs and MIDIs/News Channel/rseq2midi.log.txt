@@ -1,0 +1,42 @@
+News-Channel_news-6.rseq.brseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 6336 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 3968 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to News-Channel_news-6.rseq.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  WARNING: Unknown command F0
+  Trk 02 started from 0xA5...
+  Trk 03 started from 0xAF...
+  Trk 04 started from 0x103...
+  Trk 05 started from 0x10B...
+  WARNING: Unknown command DE
+  Trk 00 OK
+  Trk 02: Jump to 0x88
+  Trk 02 OK
+  WARNING: Unknown command DE
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  Trk 03 OK
+  Trk 04: Jump to 0xB1
+  Trk 04 OK
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  WARNING: Unknown command DC
+  Trk 05 OK

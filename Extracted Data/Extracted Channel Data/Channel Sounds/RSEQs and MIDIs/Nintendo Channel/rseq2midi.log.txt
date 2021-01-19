@@ -1,0 +1,513 @@
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000001.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 1184 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 608 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000001.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x54...
+  Trk 02 started from 0x60...
+  Trk 00 OK
+  Trk 01: Jump to 0x39
+  Trk 01 OK
+  Trk 02 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000002.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 7072 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 5536 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000002.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0xD5...
+  Trk 02 started from 0x141...
+  Trk 03 started from 0x25E...
+  Trk 04 started from 0x28D...
+  Trk 05 started from 0x385...
+  Trk 06 started from 0x77C...
+  Trk 07 started from 0xACF...
+  Trk 08 started from 0xB7B...
+  Trk 09 started from 0x1448...
+  Trk 10 started from 0x1479...
+  Trk 00: Jump to 0x74
+  Trk 00 OK
+  Trk 01: Call to 0x128
+  Trk 01: Call to 0x128
+  Trk 01: Jump to 0xE5
+  Trk 01 OK
+  Trk 02: Jump to 0x151
+  Trk 02 OK
+  Trk 03: Jump to 0x270
+  Trk 03 OK
+  Trk 04: Call to 0x2F1
+  Trk 04: Call to 0x312
+  Trk 04: Call to 0x33B
+  Trk 04: Call to 0x35C
+  Trk 04: Call to 0x2F1
+  Trk 04: Call to 0x312
+  Trk 04: Call to 0x33B
+  Trk 04: Call to 0x35C
+  Trk 04: Jump to 0x29D
+  Trk 04 OK
+  Trk 05: Call to 0x4F4
+  Trk 05: Call to 0x559
+  Trk 05: Call to 0x5BE
+  Trk 05: Call to 0x61B
+  Trk 05: Call to 0x672
+  Trk 05: Call to 0x6D3
+  Trk 05: Call to 0x4F4
+  Trk 05: Call to 0x559
+  Trk 05: Call to 0x5BE
+  Trk 05: Call to 0x61B
+  Trk 05: Call to 0x672
+  Trk 05: Call to 0x6D3
+  Trk 05: Call to 0x4F4
+  Trk 05: Call to 0x559
+  Trk 05: Call to 0x5BE
+  Trk 05: Call to 0x61B
+  Trk 05: Call to 0x672
+  Trk 05: Call to 0x6D3
+  Trk 05: Call to 0x4F4
+  Trk 05: Call to 0x559
+  Trk 05: Call to 0x5BE
+  Trk 05: Call to 0x61B
+  Trk 05: Jump to 0x39B
+  Trk 05 OK
+  Trk 06: Call to 0x8CF
+  Trk 06: Call to 0x908
+  Trk 06: Call to 0x94D
+  Trk 06: Call to 0x99A
+  Trk 06: Call to 0x9E7
+  Trk 06: Call to 0xA3A
+  Trk 06: Call to 0x8CF
+  Trk 06: Call to 0x908
+  Trk 06: Call to 0x94D
+  Trk 06: Call to 0x99A
+  Trk 06: Call to 0x9E7
+  Trk 06: Call to 0xA3A
+  Trk 06: Call to 0x8CF
+  Trk 06: Call to 0x908
+  Trk 06: Call to 0x94D
+  Trk 06: Call to 0x99A
+  Trk 06: Call to 0x9E7
+  Trk 06: Call to 0xA3A
+  Trk 06: Call to 0x8CF
+  Trk 06: Call to 0x908
+  Trk 06: Call to 0x94D
+  Trk 06: Call to 0x99A
+  Trk 06: Jump to 0x792
+  Trk 06 OK
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Call to 0xB5D
+  Trk 07: Jump to 0xADF
+  Trk 07 OK
+  Trk 08: Jump to 0xB91
+  Trk 08 OK
+  Trk 09: Jump to 0x1458
+  Trk 09 OK
+  Trk 10: Call to 0x1592
+  Trk 10: Call to 0x1592
+  Trk 10: Jump to 0x1489
+  Trk 10 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000003.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 544 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 256 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000003.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0xA2...
+  Trk 00: Jump to 0x4B
+  Trk 00 OK
+  Trk 01: Jump to 0xB6
+  Trk 01 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000004.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 1952 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 1536 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000004.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x88...
+  Trk 02 started from 0xCF...
+  Trk 03 started from 0x36E...
+  Trk 00: Jump to 0x80
+  Trk 00 OK
+  Trk 01: Jump to 0xC7
+  Trk 01 OK
+  Trk 02: Jump to 0x2B1
+  Trk 02 OK
+  Trk 03: Jump to 0x550
+  Trk 03 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000005.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 544 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 224 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000005.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x8E...
+  Trk 00: Jump to 0x4B
+  Trk 00 OK
+  Trk 01: Jump to 0xA2
+  Trk 01 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000006.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 1120 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 608 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000006.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x80...
+  Trk 02 started from 0xBA...
+  Trk 04 started from 0xF2...
+  Trk 05 started from 0x1B8...
+  Trk 00: Jump to 0x78
+  Trk 00 OK
+  Trk 01: Jump to 0xB2
+  Trk 01 OK
+  Trk 02: Jump to 0xCB
+  Trk 02 OK
+  Trk 04: Jump to 0x103
+  Trk 04 OK
+  Trk 05: Jump to 0x1C9
+  Trk 05 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000007.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 12640 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 8800 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000007.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x638...
+  Trk 02 started from 0xBA1...
+  Trk 03 started from 0xE23...
+  Trk 04 started from 0x1224...
+  Trk 05 started from 0x1625...
+  Trk 06 started from 0x188A...
+  Trk 00: Call to 0x4C9
+  Trk 00: Call to 0x4F7
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 00: Jump to 0xD1
+  Trk 00 OK
+  Trk 01: Call to 0xA31
+  Trk 01: Call to 0xA50
+  Trk 01: Call to 0xA80
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 01: Jump to 0x698
+  Trk 01 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 02: Jump to 0xBF4
+  Trk 02 OK
+  Trk 03: Call to 0x116A
+  Trk 03: Call to 0x1189
+  Trk 03: Call to 0x11A8
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 03: Jump to 0xE64
+  Trk 03 OK
+  Trk 04: Call to 0x156B
+  Trk 04: Call to 0x158A
+  Trk 04: Call to 0x15A9
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 04: Jump to 0x1265
+  Trk 04 OK
+  Trk 05: Call to 0x181A
+  Trk 05: Call to 0x1836
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 05: Jump to 0x165F
+  Trk 05 OK
+  Trk 06: Call to 0x20AA
+  Trk 06: Call to 0x2118
+  Trk 06: Call to 0x2189
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 06: Jump to 0x1988
+  Trk 06 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000008.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 18752 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 12288 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000008.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x280...
+  Trk 02 started from 0x3AD...
+  Trk 03 started from 0x638...
+  Trk 04 started from 0x702...
+  Trk 05 started from 0x97F...
+  Trk 06 started from 0x13AF...
+  Trk 07 started from 0x1C8F...
+  Trk 08 started from 0x1F9C...
+  Trk 09 started from 0x2CF8...
+  Trk 10 started from 0x2DC8...
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 00: Jump to 0x9B
+  Trk 00 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 01: Jump to 0x2B9
+  Trk 01 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 02: Jump to 0x409
+  Trk 02 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 03: Jump to 0x660
+  Trk 03 OK
+  Trk 04: Call to 0x93D
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 04: Jump to 0x759
+  Trk 04 OK
+  Trk 05: Call to 0x1186
+  Trk 05: Call to 0x11E3
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 05: Jump to 0xB0B
+  Trk 05 OK
+  Trk 06: Call to 0x1AD2
+  Trk 06: Call to 0x1B21
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 06: Jump to 0x14FF
+  Trk 06 OK
+  Trk 07: Call to 0x1F7E
+  Trk 07: Call to 0x1F7E
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 07: Jump to 0x1D0C
+  Trk 07 OK
+  Trk 08: Call to 0x2755
+  Trk 08: Call to 0x27A8
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 08: Jump to 0x210A
+  Trk 08 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 09: Jump to 0x2D1F
+  Trk 09 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 10: Jump to 0x2E18
+  Trk 10 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000009.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 5760 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 2496 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000009.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x116...
+  Trk 02 started from 0x1AB...
+  Trk 03 started from 0x273...
+  Trk 04 started from 0x362...
+  Trk 05 started from 0x459...
+  Trk 06 started from 0x8A6...
+  Trk 07 started from 0x93B...
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 00: Jump to 0x9E
+  Trk 00 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 01: Jump to 0x133
+  Trk 01 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 02: Jump to 0x1FB
+  Trk 02 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 03: Jump to 0x2EA
+  Trk 03 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 04: Jump to 0x3E1
+  Trk 04 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 05: Jump to 0x82E
+  Trk 05 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 06: Jump to 0x8C3
+  Trk 06 OK
+  WARNING: Unknown command F0
+  WARNING: Unknown command 90
+  WARNING: Unknown command A2
+  Trk 07: Jump to 0x95C
+  Trk 07 OK
+Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000000.rseq:
+  State reset successfully
+  Attempting to read RSEQ chunk...
+  RSEQ chunk OK
+    Chunk ID          = 0x51455352
+    Chunk Magic       = 0xFEFF0100
+    Chunk size        = 896 bytes
+    Chunk header size = 32 bytes
+    Chunk block count = 2 blocks
+  Have DATA chunk
+    Chunk ID     = 0x41544144
+    Chunk size   = 384 bytes
+    Chunk offset = 12 bytes (relative)
+    Seq. offset  = 44 bytes (absolute)
+  Have LABL chunk
+  Writing to Z:\Downloads\My Stuff\CustomizeMii 3.11\prmSound_CUT\prmSound_00000000.mid
+  Begin decoding...
+  Trk 00 started from 0x2C...
+  Trk 01 started from 0x41...
+  Trk 00 OK
+  Trk 01 OK
