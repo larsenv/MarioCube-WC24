@@ -1,0 +1,2224 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    color: #8c8c8c;
+    font-family: Arial, Helvetica, clean, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+body {
+     position: relative; 
+    min-height:101%;
+}
+body * {
+    line-height: 1.4em;
+}
+a:link, a:visited, a:active {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+a:hover {
+    color: #34beed;
+    text-decoration: underline;
+}
+img {
+    border: none;
+}
+strong {
+    color: #34beed;
+    font-weight: bold;
+}
+:focus {
+    -moz-outline-style: none;
+}
+input, select, textarea {
+    font: 99% Arial, Helvetica, clean, sans-serif;
+}
+.fullwidth {
+    width:100%;
+}
+.clearfix {
+    display: block; 
+}
+/* ************************************************** COMMON ************************************************** */
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.vspacer {
+    height: 20px;
+}
+.vspacerSmall {
+    height: 10px;
+}
+.vspacerBig {
+    height: 40px;
+}
+.hspacerRight_small {
+    padding-right: 10px;
+}
+.subline {
+    font-size: 92%;
+    clear:both;
+}
+.strong {
+  font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+.subtitle_dot{
+    float:left;
+    width: 15px;
+    height:20px;
+    background-image:url(/wii/images/siteware/software_subcat.gif);
+    background-position:left;
+    background-repeat:no-repeat;    
+}
+#content .single_title_row{
+    margin: 0px 0px 21px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 35px;
+    overflow:hidden;
+    line-height:0px;
+ }
+.default_headline{
+    margin:2px 0px 0px 10px;
+}
+/* ************************************************** */
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 780px;
+  /*  padding-top: 20px; */
+    padding-bottom: 40px;
+    text-align:left;
+    width: 780px;
+}
+#header {
+    background-image: url(/wii/images/siteware/dotline_x.gif);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 69px;
+}
+#header ul {
+    list-style-type: none;
+}
+#header ul.nav li {
+    float: left;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+#header ul.wiicom_logo li {
+    float: right;
+    margin-top: 41px;
+}
+#header ul.nav li.activ_nav_button{
+    margin-top: 31px;
+    display:block;
+}
+#warning {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+#content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 780px;
+}
+#content_no_headline {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 780px;
+}
+#content .title_row {
+    height: 30px;
+    width:  auto;
+    }
+    
+#content .dot_blue{
+    background-image: url(/wii/images/siteware/h1_bar.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+#content .dot_grey{
+    background-image: url(/wii/images/siteware/h2_bar_grey.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+#content .dot_green{
+    background-image: url(/wii/images/siteware/h1_bar_green.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+#content .dot_orange{
+    background-image: url(/wii/images/siteware/h1_bar_orange.gif);
+    background-position:0px 3px;
+    background-repeat:no-repeat;
+}
+#cont_right .title_row {
+    height: 16px;
+    width:200px;  
+    margin-bottom: 18px;
+    padding-bottom: 5px;
+}
+.follow {
+    margin-top: 20px;
+}
+.h1_bar,
+.h2_bar {
+}
+    
+.h1_title{
+    vertical-align:top;
+    height:30px;
+}
+.h1_title img{
+    vertical-align:top;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 15px;
+}
+.h1_dot_grey {
+    background-image: url(/wii/images/siteware/h1_bar_grey.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+.h2_title img {
+    margin: 5px 0px 0px 15px;
+    padding: 0px 0px 0px 0px;
+}
+.games_content_title {
+    padding: 2px 0px 0px 10px;
+}
+.games_content_pes_teaser{
+    height:60px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    overflow:hidden;
+    width:740px;
+    
+}
+.games_content_pes_teaser img{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+.games_content_pes_text{
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    line-height:1.4em;
+}
+.games_content_pes_button{
+    margin:0px 0px 0px 0px;
+    padding:25px 0px 0px 0px;
+    height:30px;
+}
+.h2_dot_green {
+    background-image: url(/wii/images/siteware/h2_bar_green.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+.h2_dot_grey {
+    background-image: url(/wii/images/siteware/h2_bar_grey.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+.h2_dot_orange {
+    background-image: url(/wii/images/siteware/h2_bar_orange.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+.h2_dot_blue {
+    background-image: url(/wii/images/siteware/h2_bar.gif);
+    background-position:left;
+    background-repeat:no-repeat;
+}
+.h2_bottom_spacer {
+    margin-bottom:10px;
+}
+.games_content_logo{
+    margin:-5px 0px 10px 0px;
+    
+}        
+.locator {
+    text-align: right;
+}
+#page_footer {
+    background-image: url(/wii/images/siteware/dotline_x.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+    height: 52px;
+    width: 780px;
+}
+#software_page_footer {
+    height: 32px;
+    width: 780px;    
+}
+#baseLine {
+  background-image:url(/wii/images/siteware/dotline_x.gif);
+  background-position: top;
+  background-repeat: repeat-x;
+  height: 1px;
+  width: 780px;
+    clear: both;
+}
+.dotLine {
+  background-image:url(/wii/images/siteware/dotline_x.gif);
+  background-position: left top;
+  background-repeat: repeat-x;
+  height: 1px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow:hidden;
+  clear:both;
+}
+.dotLineGrey {
+  background-image:url(/wii/images/siteware/dot_x_grey.gif);
+  background-position: center top;
+  background-repeat: repeat-x;
+  height: 1px;
+  width: 100%;
+  clear: both;
+  overflow:hidden;
+}
+#page_footer img.button_back {
+    margin-top: 21px;
+}
+#page_footer img.button_top {
+    margin-top: 21px;
+}
+#footer {
+    background-image: url(/wii/images/siteware/footer_line.gif);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 50px;
+}
+#footer ul.subnav li {
+    float: left;
+    list-style-type: none;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+#footer .nintendo_logo {
+    float: right;
+    margin-top: 11px;
+    width: 85px;
+}    
+/* ************************************************** NEWS ************************************************** */
+#left_column_news {
+    width: 200px;
+}
+#right_column_news {
+    width: 560px;
+}
+#more_news_container .item{
+    font-size:inherit;
+    padding:0px 10px 0px 10px;
+}
+#more_news_container .dot{
+  background-image:url(/wii/images/siteware/more_news_dot.gif);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.rss_news_feed{
+    margin-top:5px;
+}
+    
+/* ************************************************** */
+.bar_top {
+    background-image: url(/wii/images/siteware/news_linetop.gif);
+    background-repeat: no-repeat;
+    height: 4px;
+    overflow: hidden;
+}
+.bar_bottom {
+    background-image: url(/wii/images/siteware/news_linebottom.gif);
+    background-repeat: no-repeat;
+    clear: both;
+    height: 4px;
+    overflow: hidden;
+}
+.year_container {
+    width: 200px;
+    background-image: url(/wii/images/siteware/34beed_4.gif);
+    background-repeat: repeat-y;
+}    
+.year_container .year_content {
+    font-size: 85%;
+    height: 60px;
+    padding-left: 15px;
+    width: 185px;
+}
+.year_container .year_content img {
+        margin-bottom: 2px;
+}
+.newsitem {
+    background-image: url(/wii/images/siteware/34beed_4.gif);
+    background-repeat: repeat-y;
+    font-size: 11px;
+    margin-bottom: 20px;
+    width: 560px;
+}
+.newsitem .newsdate {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 75px;
+}    
+.newsitem .newstext {
+    background-image: url(/wii/images/siteware/dotline_y.gif);
+    background-repeat: repeat-y;
+    padding-left: 11px;
+    width: 450px;
+}    
+.newsitem .newstext p {
+    font-size: 12px;
+    font-weight: bold;
+}
+.newsitem .newstext p a:link, .newsitem .newstext p a:visited, .newsitem .newstext p a:active {
+    color: #34beed;
+}
+.newsitem .newstext .newstext_ext img{
+    margin: 5px 0px;
+}
+.newsitem .newstext .newstext_ext em{
+    color: rgb(174, 174, 174);
+    font-size: 10px;
+}
+/* ************************************************** standard_list_general_videos / standard_list_external_games ************************************************** */
+.movieitem {
+    height: 161px;
+    margin: 0 9px 20px 0;
+    padding: 0;
+    width: 148px;
+}
+
+#movieListModal .movieitem {
+  height: 117px;
+  margin: 0 9px 0 0;
+  padding: 0;
+  width: 148px;
+}
+#movieListModal .movieitem.center {
+  height: 117px;
+  margin: 0 157px 0 9px;
+  padding: 0;
+  width: 148px;
+}
+.gamesitem {
+  height: 136px;
+  margin: 0 9px 20px 0;
+    padding: 0;
+  width: 148px;
+}
+.softwareitem {
+  /*height: 101px;*/
+  margin-bottom: 20px;
+  width: 350px;
+}
+.softwareitem.left {
+    clear: both;
+}
+.exptitem {
+  margin: 0 12px 12px 0;
+  padding: 0;
+  width: 120px;
+}
+.first {
+    margin-left: 0;    
+}
+.last {
+    margin-right: 0;    
+}
+.movieitem .preview {
+    height: 111px;
+    margin-bottom: 6px;
+    width: 148px;
+}
+.gamesitem .preview {
+  height: 86px;
+  margin-bottom: 6px;
+}
+.softwareitem .preview {
+  height: 101px;
+  width: 350px;
+}
+.exptitem .preview {
+  height: 90px;
+  width: 120px;
+}    
+.movieitem .preview .image,
+.gamesitem .preview .image,
+.softwareitem .preview .image,
+.exptitem .preview .image {
+    float: left;
+  position: relative;
+}
+.movieitem .preview .new {
+    float: left;
+    margin-top: -111px; 
+  position: relative;
+}
+.gamesitem .preview .new {
+    float: left;
+    margin-top: -86px; 
+  position: relative;
+}
+.exptitem .preview .new {
+    float: left;
+    margin-top: -90px; 
+  position: relative;
+}
+.movieitem .title {
+    background-image: url(/wii/images/siteware/movietitle_bg.gif);
+    background-repeat:no-repeat;
+    font-size: 10px;
+    height: 29px;
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+    width: 138px;
+}
+.movieitem .title_big {
+    background-image: url(/wii/images/siteware/movietitle_big_bg.gif);
+    background-repeat:no-repeat;
+    font-size: 10px;
+    height: 58px;
+    padding: 10px 5px 7px 5px;
+    text-align: center;
+    width: 138px;
+}
+.movieitem .title_296 {
+    background-image: url(/wii/images/siteware/movietitle_296.gif);
+    background-repeat:no-repeat;
+    font-size: 10px;
+    height: 58px;
+    padding: 10px 5px 7px 5px;
+    text-align: center;
+    width: 296px;
+}
+.movieitemWM .title {
+    background-image: url(/wii/images/siteware/movietitle_bg_orange.gif);
+    background-repeat:no-repeat;
+    font-size: 10px;
+    height: 44px;
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+    width: 148px;
+}
+.gamesitem .title {
+    font-size: 10px;
+    text-align: center;
+    width: 146px;
+    min-height: 44px;
+    background-color:#FFFFFF;
+}
+.gamesitem .title span {
+    display: block;
+    padding: 5px;  
+}
+.softwareitem .title {
+    width: 348px;
+    background-color:#FFFFFF;
+}
+.exptitem .title {
+    width: 120px;
+    height: 17px;
+}
+.softwareitem .title span {
+    display:block;
+    font-size:15px;
+    font-weight:bold;
+    line-height:15px;
+    padding:5px;
+    text-align:center;  
+}
+
+#movieList_1997 .movieitem .movieitem_296{
+    width: 296px;
+}
+
+.movieitem_296 {
+    width: 296px;
+}
+
+
+/* ************************************************** CHANNELS OVERVIEW/DETAILS/MOVIES ************************************************** */
+.left_margin{
+    margin-left: 10px;
+}
+.right_margin{
+    margin: 0px 10px 20px 0px;
+}
+.channel_banner{
+    padding-bottom:15px;
+}
+#channel_overview .channel_overview_teaser{
+    float: left;
+    width: 253px;
+    height: 208px;
+}    
+#channel_overview .channel_overview_teaser img{
+     width:253px;
+     height:208px;
+}
+#channel_overview .last {
+  margin: 0px;
+}
+#channel_details_contents{
+    display:block;
+}
+#channel_details_contents .top_teaser{
+
+}
+#channel_details_contents{
+    display:block;
+}
+#channel_details_contents .top_teaser .teaser img{
+    margin:0px 0px 5px 20px;
+}
+#channel_details_contents .top_teaser .teaser_text{
+    margin-bottom:22px;
+}
+#channel_details_contents .top_teaser .teaser_text p{
+     color:#8C8C8C;
+     font-size:10px;
+     line-height:12px;
+     font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+#channel_details_contents .top_teaser .teaser{
+    float:right;
+    width:504px;
+}
+.channel_details_contents .top_teaser{
+     margin-bottom:30px;
+}
+.channel_details_contents .top_teaser .teaser_text{
+     margin-bottom:30px;
+}
+.channel_details_contents .top_teaser .teaser{
+    float:right;
+    width:504px;
+}
+.story_banner_list{
+    padding-bottom: 15px;
+}
+/* ************************************************** TERMS ************************************************** */
+.content_disclaimer{
+    margin:0px 0px 20px;
+}
+.content_disclaimer .title_row {
+    padding-bottom: 15px;
+}
+.content_disclaimer dl {
+    margin:0px 1em 20px;
+}
+.content_disclaimer dt {
+    color:#34BEED;
+    font-size:92%;
+    font-weight:bold;
+    margin:0px;
+    padding-bottom:0.6em;
+}
+.content_disclaimer dd {
+    font-size:92%;
+    margin:0px;
+    padding-left:1.5em;
+}
+.content_disclaimer ul {
+    margin:0px 1.5em;
+    padding:0px;
+}
+.content_disclaimer strong {
+    color:#34BEED;
+    font-weight:bold;
+}
+.content_disclaimer strong.gray {
+    color:#8C8C8C;
+}
+#content p.lead {
+    font-size:92%;
+    margin:0px 0px 20px 0px;
+    padding:0px;
+}
+.content_disclaimer li {
+    padding-bottom:0.6em;
+    list-style-type:disc;
+    display:list-item;
+}    
+/* ************************************************** standard_list_videos ************************************************** */
+#cont_left {
+  float:left;
+  padding-bottom:10px;
+  width:560px;
+  
+}
+#cont_right {
+  float:right;
+  width:200px;
+}
+#blow {
+  background-image:url(/wii/images/siteware/blow_up_l.gif);
+  background-position:center top;
+  background-repeat:repeat-x;
+  height:11px;
+  line-height:0px;
+  overflow:visible;
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+}
+#comment_base {
+  background-image:url(/wii/images/siteware/dot_pat.gif);
+  background-position:-1px 50%;
+  padding:0px 1px 1px;
+}
+#comment {
+  background-color:#FFFFFF;
+  padding:20px;
+}
+.legal_text{
+    padding:5px;
+    font-size:9px;
+}
+#comment p {
+  font-size:92%;
+}
+    
+/* ************************************************** standard_list_videos / standard_list_software ************************************************** */    
+#recent {
+}
+#link {
+}
+#comment img {
+    float:left;
+    margin: 2px 3px 0 0px;
+} 
+/* ************************************************** standard_list_videos / standard_list_software ************************************************** */    
+#recent {
+}
+#link {
+}
+/*
+#link #title_row_2col_right {
+ margin-top: 20px;    
+}
+*/
+ul.vThumbList {
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 200px;
+    list-style: none;
+}
+ul.vThumbList li {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.moviethumb {
+    width: 80px;
+}
+.movieblow { 
+  background-image: url(/wii/images/siteware/blow.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-height: 60px;
+    height: 100%;     
+    width:6px;
+}
+.movietxt {
+  background-image:url(/wii/images/siteware/dot_pat.gif);
+  background-position:3px 50%;
+  padding:1px 1px 1px 0;
+  vertical-align:top;
+}
+.movietxt div {
+  background-color:#FFFFFF;
+  min-height:58px;
+  width:113px;
+    display: block;
+}
+/* ************************************************** WARE ************************************************** */    
+#wiiware_footernav_baseline {
+  margin:20px 0px 0px 0px;
+  background-image:url(/wii/images/siteware/dotline_x.gif);
+  background-position: top;
+  background-repeat: repeat-x;
+  height: 1px;
+  width: 780px;
+  clear: both;
+}
+#wiiware_footernav {
+  margin:0px 55px;
+  padding: 13px 0px 0px 0px;
+}
+#wiiware_footernav .button {
+  text-align:center;
+  vertical-align:middle;
+}
+#wiiware_footernav .left {
+  float:left;
+}
+#wiiware_footernav .right {
+  float:right;
+}
+#wiiware_footernav .button img {
+}    
+span.movieflag {
+    padding-left: 5px;
+}
+span.moviedate {
+    color:#34BEED;
+    font-size:11px;
+    font-weight:bold;
+    margin:0pt;
+}
+span.movietext {
+    display:block;
+    font-family:arial;
+    line-height:12px;
+    padding:0px 5px 0.5em 5px;
+    font-size: 77%;
+}
+#cont_left .banner {
+    margin:20px 0px 10px;
+}
+#cont_left .banner  li.banner_left {
+    float:left;
+    list-style-type:none;
+}
+#cont_right #link {
+    margin:0px 0px 10px;
+    padding:0px;
+}
+#cont_right .small_title_row {
+    width: 200px;
+    margin-bottom: 5px; 
+    height:20px;
+}
+#cont_right .small_title_row .subtitle_dot{
+    float:left;
+    width: 15px;
+    height:20px;
+    background-image:url(/wii/images/siteware/software_subcat.gif);
+    background-position:left;
+    background-repeat:no-repeat;    
+}
+.dot_line{
+    clear:both;
+    background-image: url(/wii/images/siteware/dotted_underline.gif);
+    background-repeat:repeat-x;
+    background-position:bottom; 
+    height:1px;
+    width:100%;
+}
+.interview_head_space{
+    margin-bottom:20px;
+    
+}
+#cont_right #link li.linkbutton {
+    list-style-type:none;
+    margin:0px 0px 7px;
+}    
+#cont_right #link li.b_detail {
+    list-style-type:none;
+    margin:17px 0px 20px;
+}
+/* ************************************************** Home ************************************************** */    
+#content_home {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 780px;
+}
+#cont_right .home_right_teaser{
+    margin:5px 0px 20px 0px;
+}
+/* ************************************************** Wii Conncet ************************************************** */    
+#promo_connect {
+    width:920px;
+    height:610px;
+    text-align:center;
+    margin-left:-70px;
+    margin-top:30px;
+}
+*html .spacer {
+    height: 610px;
+    width: 780px;
+    margin-top: 30px;
+    
+}
+*html #promo_c onnect {    
+    position: absolute;
+    width: 920px;
+    height: 610px;
+    text-align: center;
+    margin: 0 0 0 -70px;
+}
+/* ************************************************** Channel Interview ************************************************** */     
+#channel_interview {
+}
+#channel_interview .left_element{
+    line-height:0px;
+    padding:0px 0px 0px 20px;
+    margin:0px 0px 0px 0px;
+    
+}
+.channel_interview_top_img{
+    vertical-align:text-bottom;    
+}
+#channel_interview .right_element{
+    line-height:0px;
+    padding:0px 20px 0px 0px;
+    margin:0px 0px 0px 0px;
+    overflow:hidden;
+}
+#body_channel_interview_video{
+    background-color:#FFFFFF;
+    color:#8C8C8C;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.thickbox{
+    cursor:pointer;
+    text-decoration:none;
+    line-height:1.4em;
+    color:#34BEED;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:12px;
+    line-height:18px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+#flvplayer_title{ 
+    color:#34BEED;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    vertical-align:middle;
+}
+.middle_L {
+    padding-left: 50px;
+    padding-right: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+    line-height: 18px;
+    
+}
+.middle_L p{
+    line-height: 18px;
+}
+.middle_R {
+    padding-left: 30px;
+    padding-right: 50px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+    line-height: 18px;
+}
+#interview_cat_title {
+    color:#43BEED;
+    font-size:10px;
+    font-weight:bold;
+    margin:0px;
+    padding:15px 0px;
+    width:100%;
+    line-height:20px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#publisher {
+    padding:1px 0px 5px;
+}
+#paragram .note {
+    font-size:77%;
+    margin-top:10px;
+}
+.style1 {
+    color:#666666;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    line-height:14px;
+    text-align:left;
+}
+/* ************************************************** WARE ************************************************** */    
+#wareArt {
+    width: 780px;
+    height: 325px;
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    z-index: 0;
+    margin-bottom:20px;
+}
+.wareArtImg {
+    position: absolute;
+    display: block; 
+    z-index: -1;
+}
+    
+.gamesitem .blowup {
+    background-image:url(/wii/images/siteware/blow_up.gif);
+    background-position: center bottom;
+    background-repeat:no-repeat;
+    height: 6px;
+    width: 148px;
+}
+.softwareitem .blowup {
+  background-image:url(/wii/images/siteware/blow_up350.gif);
+    background-position: center top;
+    background-repeat:no-repeat;
+    height: 6px;
+    width: 350px;
+    line-height:0px;
+    overflow:hidden;
+    padding:0px 0px 0px 0px;
+    margin:3px 0px 0px 0px;
+}
+.interviewitem .blowup {
+  background-image:url(/wii/images/siteware/blow_up778.gif);
+    background-position: center bottom;
+    background-repeat:no-repeat;
+    height: 6px;
+    width: 778px;
+}
+.blowupComment {
+  background-image:url(/wii/images/siteware/dot_pat.gif);
+  background-position:-1px 50%;
+  padding:0px 1px 1px;
+    /*width: 148px;*/
+}
+/* ************************************************** SOFTWARE ************************************************** */  
+#gameArt {
+    width: 780px;
+    height: 325px;
+    position:relative;
+    z-index:1;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    background-position: left top;
+}
+.gameLogo {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.gameDescriptionHeader {
+    position: relative;
+    left: 0;
+    top: 0;    
+    width: 235px;
+}
+.gameDate {
+    color:#43BEED;
+  font-size:12px;
+  font-weight:bold;
+    display:block;
+}
+.gameText span {
+    color:#8C8C8C;
+    font-size:10px;
+    line-height:12px;
+    margin:0px;
+    padding:10px 0px;
+    display:block;
+}
+    
+.gameDescriptionFooter {
+    position: absolute;
+    left: 0;    
+    bottom: 5px;
+    width: auto;
+    height: auto;
+    z-index: 3;
+}
+.gamePublisher {
+    color:#34BEED;
+    font-weight:bold;
+    font-size:10px;
+    line-height:12px;
+    padding-bottom: 5px;
+    display: block; 
+}
+.gameDescriptionFooter a {
+    display: block;
+    width:auto;
+}
+#gameDetail {
+    color:#8C8C8C;
+    font-size:10px;
+    line-height:12px;
+    margin:0px;
+    padding:15px 0px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size-adjust:none;
+}
+#gameDetail img {
+    float:left;
+    margin:0px 50px 10px 0px;
+}
+#gameDetail .gamepage_ssx_anchor img{
+    padding: 0px 0px 24px 0px; 
+    margin: 0px;
+}
+#gameDetail .gamepage_ssx_anchor {
+    font-family: arial,helvetica,clean,sans-serif;
+    font-size:13px;
+    color:#34BEED;
+    font-weight:bold;
+}
+.software_content img{
+    margin-top:12px;
+}
+
+#gameSubDescription {
+    color:#43BEED;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    margin:0;
+    padding:3px 0px 3px 13px;
+}
+.h2_dot_orange #gameSubDescription {
+    color: #FF9900 
+}
+
+.btn-software {
+    margin-top:20px;
+}
+ul#anchormenu{
+    margin-top:5px;
+}
+ul#anchormenu li {
+    display:block;
+    float:left;
+    list-style-type:none;
+    margin-left:30px;
+}
+
+
+/* ************************************************** INTERVIEW ************************************************** */
+#interviewTeaser {
+    background: url(/wii/images/interview_siteware/crv_base.gif) top left no-repeat;
+    width: 780px;
+    height: 160px;
+    padding-bottom: 40px;
+} 
+#interviewTeaser div {
+    padding: 10px 0 0 10px;
+}
+#interviewTeaser ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display:block;
+    margin: 0;
+    padding: 0;
+    
+}
+.interviewTeaserImg {
+    float: left;
+}
+#interviewTeaser li a {
+    display:block;
+    height:100%;
+    overflow:hidden;
+    text-indent:-3000px;
+    width:100%;
+}
+#interviewTeaser dd a {
+    display:block;
+    height:100%;
+    overflow:hidden;
+    text-indent:-3000px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+#interviewTeaser .bigButton a:hover,
+#interviewTeaser .singleButton a:hover {
+  background-position: 0 -64px;
+}
+#interviewTeaser .smallButton a:hover {
+  background-position: 0 -32px;
+}
+#interviewTeaser .buttonList {
+    float: left;
+    width: 246px;
+    margin-left: 10px;
+}
+.bigButton {
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-bottom: 12px;
+    height: 64px;
+}
+.smallButton {
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 32px;
+    margin-bottom: 4px;
+}
+.singleButton {
+    margin-top: 37px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-bottom: 12px;
+    height: 64px;
+}
+.interviewitem {
+    margin-bottom: 20px;
+    width: 780px;
+}
+.interviewitem .blowupInner {
+    background-color:#FFFFFF;
+    height:auto;
+    width:auto;
+    padding: 20px;
+}
+.blowupComment img {
+    float:left;
+    margin:-5px 20px 0 0;
+}
+
+/* PES FOOTER */
+#pagefooterSW {
+    clear:both;
+    height:10px;
+}
+#pagefooterSW ul.pnkzSW li {
+    float:left;
+    list-style-type:none;
+    margin:10px 0;
+}
+.standard_interview_img{
+    text-align:center;
+    margin: 25px 114px 0px 114px;
+}
+sup {
+    vertical-align:super;
+    font:smaller;
+}
+#blow_orange {
+background-image:url(/wii/images/interview_content/blow_up.gif);
+background-position:center bottom;
+background-repeat:repeat-x;
+height:11px;
+width:320px;
+}
+#items_base {
+background-image:url(/wii/images/interview_content/dot_pat.gif);
+clear:both;
+margin-bottom:40px;
+padding:0 1px 1px;
+width:320px;
+}
+#items_area {
+background-color:#FFFFFF;
+background-position:30px 30px;
+background-repeat:no-repeat;
+padding:10px;
+}
+
+/* ************************************************** INTERVIEW Typen ************************************************** */
+#subMenu {
+    background:transparent url(/wii/images/siteware/dot_pat_gray.gif) repeat scroll 0% 0%;
+    padding:1px;
+    width:778px;
+}
+#subMenu .subMenuInner {
+    background-color:#FFFFFF;
+    height:100%;
+    padding:10px;
+    }
+    
+#subMenu li.subMenuActive {
+    background-position:0px -21px;
+}
+#subMenu li.subMenuActive a {
+    font-family:arial,helvetica,clean,sans-serif;
+    font-size:13px;
+    color:#666666;
+    background-position:right -21px;
+    font-weight:bold;
+}
+#subMenu li.subMenuActive a:hover {
+    font-family:arial,helvetica,clean,sans-serif;
+    font-size:13px;
+    color:#666666;
+    background-position:right -21px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+#subMenu li {
+    background: url(/wii/images/interview_siteware/submenu_bg1.gif) no-repeat;
+    display:block;
+    height:21px;
+    list-style-type:none;
+    margin:2px;
+    white-space:nowrap;
+    width:100%;
+}
+#subMenu li a {
+    background: url(/wii/images/interview_siteware/submenu_bg2.gif) right top no-repeat;
+    display:block;
+    float:left;
+    height:100%;
+    text-indent:20px;
+    width:100%;
+}
+#pagingMenu {
+    width: 780px;
+  height: 31px;
+}
+.previousPage {
+    background: url(/wii/images/interview_siteware/prev_bg.gif) top left no-repeat;
+    float: left;    
+    width: auto;
+}
+.nextPage {
+    background: url(/wii/images/interview_siteware/next_bg.gif) top left no-repeat;
+    float: right;    
+    width: auto;
+}
+.previousPage a {
+    display:block;
+    font-size: 12px;
+    height: 25px;
+    letter-spacing:0px;
+    margin: 0px 8px 0pt 20px;
+    width: 340px;
+    text-align: center;
+    padding-top:7px;
+}
+
+ .nextPage a {
+    display:block;
+    font-size: 12px;
+    height: 25px;
+    letter-spacing:0px;
+    margin: 0px 20px 0pt 8px;
+    width: 340px;
+    text-align: center;
+    padding-top:7px;
+}
+
+
+#paragram {
+    margin-left:150px;
+    position:relative;
+    width:480px;
+}
+#paragram .utterance {
+    clear:both;
+    padding-top:30px;
+}
+#paragram h3 {
+    color:#666666;
+    font-size:130%;
+    left:-4em;
+    margin:30px 0 0;
+    padding:0;
+    position:relative;
+}
+#paragram .name {  
+    padding-top:1px;
+    color:#666666;
+    font-weight:bold;
+    left:-10em;
+    position:absolute;
+    text-align:right;
+    white-space:nowrap;
+    width:120px;
+    
+}
+#paragram .message {
+    color:#666666;
+    line-height:1.6em;
+    width:auto;
+}
+#paragram .message img{
+  vertical-align:middle;
+}
+#paragram .message a{
+  text-decoration:underline;
+  color:#34BEED;
+}
+#paragram .photo {
+    color:#666666;
+    font-size:77%;
+    margin:0 auto;
+    padding-top:30px;
+    width:250px;
+}
+
+#paragram .photo2 {
+     margin:0 auto;
+     text-align:center;
+}
+
+/* interview detail wii music */
+#menuThreeButtons {
+    margin-top:20px;
+    width:100%;
+    position:relative;
+}
+#menuThreeButtons li {    
+    float:left;    
+    list-style-type:none;
+    margin:0pt 1px 0pt 0pt;    
+}
+#menuThreeButtons li a {
+    display:block; 
+    width:258px; 
+    height:46px; 
+    overflow:hidden; 
+    text-indent:-1000px;
+    background-position:center bottom;
+}
+#menuThreeButtons li a:hover {
+  background-position:0 -46px;
+}
+#menuThreeButtons li.inActive a {
+  cursor:default;
+}
+#menuThreeButtons li.inActive a:hover {
+  background-position:center bottom;
+}
+#menuThreeButtons li.menuActive a {
+  background-position:center top;
+}
+#menuThreeButtons li.menuActive a:hover {
+  background-position:center top;
+}
+
+/* interview detail wii fit */
+#menuFourButtons {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height:0px;
+    height:46px;
+    overflow:hidden;
+}
+#menuFourButtons li {
+    display:block;
+    float:left;
+    height:46px;
+    list-style-type:none;
+    margin:0pt 1px 0pt 0pt;
+    width:194px;
+}
+#menuFourButtons li a {
+    background-position: left bottom;
+    display:block;
+    height:100%;
+    overflow:hidden;
+    text-indent:-3000px;
+    width:100%;    
+}
+#menuFourButtons li a:hover { 
+    background-position: left -46px;
+}
+#menuFourButtons li.menuActive a {
+    background-position:left top;
+}
+
+#menuSevenButtons {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height:0px;
+    height:46px;
+    overflow:hidden;
+} 
+#menuSevenButtons li {
+    display:block;
+    float:left;
+    height:46px;
+    list-style-type:none;
+    margin: 0 1px 0 0;
+    width:110px;
+}
+#menuSevenButtons li.last {
+    margin: 0;
+}
+#menuSevenButtons li a {
+    background-position: left bottom;
+    display:block;
+    height:100%;
+    overflow:hidden;
+    text-indent:-3000px;
+    width:100%; 
+}
+#menuSevenButtons li a:hover { 
+    background-position: left -46px;
+}
+#menuSevenButtons li.menuActive a {
+    background-position:left top;
+}
+#menuTwoButtons {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height:0px;
+    height:46px;
+    overflow:hidden;
+}
+#menuTwoButtons li {
+    display:block;
+    float:left;
+    height:46px;
+    list-style-type:none;
+    margin:0pt 1px 0pt 0pt;
+    width:388px;
+}
+#menuTwoButtons li a {
+    background-position: left bottom;
+    display:block;
+    height:100%;
+    overflow:hidden;
+    text-indent:-3000px;
+    width:100%;
+}
+#menuTwoButtons li a:hover {
+  background-position: left -46px;
+}
+#menuTwoButtons li.menuActive a {
+  background-position:left top;
+}
+#mainimg {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height:0px;
+    overflow:hidden;
+} 
+#paragram .utterance a strong{
+    color:#666666;
+    font-weight:bold;
+}
+
+/* interview wii music 3 volumes*/
+#menuThreeNavs {    
+    height:46px;
+    width:100%;
+    position:relative;
+}
+#menuThreeNavs li {    
+    float:left;    
+    list-style-type:none;
+    margin:0pt 1px 0pt 0pt;    
+}
+#menuThreeNavs li a {
+    display:block; 
+    width:259px; 
+    height:46px; 
+    overflow:hidden; 
+    text-indent:-1000px;
+    background-position:bottom;
+}
+#menuThreeNavs li a:hover {
+  background-position:0 -46px;
+}
+#menuThreeNavs li.menuActive a {
+  background-position:top;
+}
+
+
+
+
+/* ******************************************************** */
+table {
+    font-size:inherit;
+}
+#interview_main p a:link {color: #34beed;}
+#interview_main p a:visited {color: #34beed;}
+#interview_main p a:hover {color: #34beed;}
+#interview_main p a:active {color: #34beed;}
+#pes {
+    display:block;
+    background-image: url(/wii/images/interview_siteware/v_bg.gif);
+    /*overflow:hidden;*/
+}
+
+#interview_footer {
+  clear:both;
+  overflow:hidden;
+  height:4px;
+  /*background-image: url(../asset_manager/interview_content/pes/images/v_bg_bottom.gif);*/
+}
+#interview_main {
+  display:block;
+  float:left;
+  width:550px;
+  color: #666666;
+}
+#interview_main p {
+  line-height: 1.5em;
+  font-size: 13px;
+}
+#interview_info {
+  display:block;
+  float:right;
+  width:190px;
+  margin:0px;
+  padding: 20px 10px 0 10px;
+  background-image: url(/wii/images/interview_siteware/v_bg_top.gif);
+  background-repeat:no-repeat;
+  background-position: right top;
+  font-size:92%;
+  color: #666666;
+  
+}
+#interview_main .title_row {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+#interview_main .emphasis {
+  font-weight:bold;
+  margin: 0 0 8px 0;
+    clear: both;
+}
+#interview_main table.notes { margin:0 0 0 0; }
+#interview_main table.notes02 { margin:0 0 20px 0; }
+#interview_main table.notes td {
+  vertical-align: top;
+  font-size: 85%;
+  text-align: left;
+}
+#interview_main table.notes .number { font-weight:bold; }
+#interview_main sup { font-weight:bold; }
+#interview_main p { margin:0 0 20px 0; }
+#interview_info .emphasis {
+    font-size:120%;
+    *font-size:111%;
+    font-weight:bold;
+}
+#interview_info table.datatxt td {
+    vertical-align: top;
+    text-align: left;
+}
+#interview_info table.datatxt td.sd_left {
+}
+#interview_info .datatxt .sd_left_fullwidth{
+    width:100%;
+    clear:both;
+    font-family:Arial,Helvetica,clean,sans-serif;
+    font-size:9px;
+}
+#interview_info p {
+  line-height: 1.6em;
+}
+#interview_info .copy {
+  font-size:77%;
+}
+#paragraph_lead {
+  margin: 40px 0 40px 0;
+}
+span.name {
+  margin:0 10px 0 0;
+  font-weight:bold;
+}
+#interview .paragraph {
+  margin: 0px 0 40px 0;
+}
+#interview .caption {
+  clear:both;
+  padding: 40px 0 20px 0; 
+}
+#anchor { 
+    height:30px; margin-bottom: 30px;
+}
+#anchor ul li{ 
+    float: left; 
+    margin:0px 35px 0px 0px; 
+    list-style-type: none; 
+}
+#anchor ul { 
+    margin-left:0px; 
+}
+table.movieitem { 
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    width:148px;
+    float: left;
+}
+table.movieitemleft { 
+    clear: left;  
+    margin:0px 0px 0px 0px; 
+    padding:0px;  width:148px;  
+    float: left;
+}
+table.opmovieitem {
+    width:148px; 
+    float: right;
+}
+table.opmovieitemleft {
+    width:148px; 
+    float: left;
+}
+td.movietitle {
+    height:26px;   
+    vertical-align: top;
+}
+td.moviethumb {
+    background-repeat: no-repeat;
+}
+td.movieblow {  
+    height:6px; 
+    /*background-image: url(../asset_manager/siteware/blow_up_g.gif);  */
+    background-repeat: repeat-x;  
+    background-position: bottom;
+}
+td.movietxt { 
+    background-image: url(/wii/images/siteware/dot_pat.gif);  
+    padding: 0px 1px 1px 1px; 
+    background-position: -1px;
+}
+td.movietxt div { 
+    width:146px;  
+    background-color: #FFFFFF;  
+    text-align: center;
+}
+td.movietxt div a:link {
+    color: #8c8c8c;
+}
+td.movietxt div a:visited {
+    color: #8c8c8c;
+}
+.arrow_right {
+  float:left;
+  display:block;
+  width: 50px;
+  height:140px;
+  /*background-image: url(../asset_manager/siteware/arrow_right.gif);*/
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.arrow_return {
+  clear:both;
+  display:block;
+  width: 530px;
+  height:40px;
+  /*background-image: url(../asset_manager/siteware/arrow_return.gif);*/
+  background-repeat: no-repeat;
+  background-position:center;
+}
+#right_movie { list-style-type: none; }
+#right_movie li { margin-left:18px; }
+#right_movie li.blue_arrow {
+  /*background-image:url(../asset_manager/siteware/ba.gif);*/
+  background-repeat: no-repeat;
+  background-position:left;
+  padding-left:18px;
+  margin-left: 0px;
+}
+#right_movie a:link {color: #34beed;}
+#right_movie a:visited {color: #34beed;}
+#right_movie a:hover {color: #34beed;}
+#right_movie a:active {color: #34beed;}
+#right_movie li.blue_arrow a:link {color: #666666;}
+#right_movie li.blue_arrow a:visited {color: #666666;}
+#right_movie li.blue_arrow a:hover {color: #34beed;}
+#right_movie li.blue_arrow a:active {color: #666666;}
+#pagefooter2 {
+  clear:both;
+  MARGIN:0;
+  padding:0;
+  background-repeat: repeat-x;
+  background-position: top;
+}
+#pagefooter2 a:link {
+    text-decoration: none; 
+    color: #8c8c8c;
+}
+#pagefooter2 a:visited {
+    text-decoration: none;  
+    color: #8c8c8c;
+}
+#pagefooter2 a:hover {
+    text-decoration: underline; 
+    color: #34beed;
+}
+#pagefooter2 a:active {
+    text-decoration: none; 
+    color: #8c8c8c;
+}
+.size-small {
+    *font-size: 70%;
+    display:block;
+    font-size:9px;
+    font-family:Arial,Helvetica,clean,sans-serif;
+    
+}
+/* **************************************** modal layer wii fit ***************************** */
+#exp_popup { 
+    width:700px; 
+    height: auto; 
+    background:url(/wii/images/siteware/exp_pop_bg.gif) no-repeat left top; 
+    overflow:hidden;
+}
+.exp_popup_bottom { 
+    width:700px; height:22px; 
+    background:url(/wii/images/siteware/exp_pop_bg_b.gif) no-repeat left bottom; 
+}
+#exp_popup .inner { 
+    padding:20px 11px 0px 20px; 
+}
+#exp_popup .title { }
+#exp_popup .caption { 
+    padding: 0 0 10px 0; 
+    text-align: left; 
+}
+#movieListModal {
+  width: 471px;
+  position: relative;
+}
+#exp_popup .back_btn { 
+  display:block;
+  position: absolute;
+  bottom: 0;
+  right: 9px;
+}
+#exp_popup a:link {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+#exp_popup a:visited {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+#exp_popup a:hover {
+  text-decoration: underline;
+  color: #34beed;
+}
+#exp_popup a:active {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+#footerList {
+    width:800px;
+    margin-bottom:30px;
+}
+#footerList .footerItem {
+    margin: 0 8px 0 0;
+}
+.subheadline_small {
+    color:#43BEED;
+    font-size:10px;
+    font-weight:bold;
+    margin-bottom:4px;
+    width:100%;
+    line-height:20px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+/* **************************************** terms_and_conditions ***************************** */
+.terms_and_conditions {
+    font-size: 13px;
+    font-size: 93%;
+}
+.terms_and_conditions p{
+    display:block;
+    padding:0px 0px 0px 31px;
+    margin: 0px;
+}
+.terms_and_conditions ul{
+    padding:0px 0px 0px 31px;
+}
+.terms_and_conditions ul strong{
+     color: #8c8c8c;
+     font-size: 100%;
+     font-weight: bold;
+}
+.terms_and_conditions ul li{
+    list-style-type:disc;
+    display:list-item;
+    margin:10px 0 0 14px;
+}
+.terms_and_conditions a:link{
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.terms_and_conditions a:visited{
+    text-decoration: none;
+      color: #8c8c8c;
+}
+.terms_and_conditions a:hover{
+    text-decoration: underline;
+      color: #34beed;
+}
+.terms_and_conditions a:active{
+    text-decoration: none;
+     color: #8c8c8c;
+}
+.terms_and_conditions h2{
+    padding: 20px 0px 10px 13px;
+    color: #34beed;    
+    margin: 0px;
+    font-size: 100%;
+}
+.error {
+    background:url(/wii/images/teaser_moods/404_bg.jpg) no-repeat;
+    height:243px;
+    padding:60px 0 0 228px;
+    
+}
+.error .error_text{
+    font-family: Arial;
+    font-size:14px;
+    color: #898989;
+    font-weight:bold;
+    width:400px;
+}
+.error .error_text h2{
+    color:#34beed;
+    font-size:24px;
+}
+.wii_music_box {
+  width:780px;
+  margin-bottom:32px;
+  margin-top:32px;
+}
+.wii_music_box .border{
+  background-image: url(/wii/images/siteware/dot_pat_orange.gif);  
+  padding:1px 1px 1px 1px;
+}
+.wii_music_box .border_blue{
+  background-image: url(/wii/images/siteware/dot_pat.gif);  
+  padding:1px 1px 1px 1px;
+}
+.wii_music_box .content{
+  background-color:#ffffff;
+  padding:18px;
+}
+ 
+/* WiiMusic - Game - Video teaser */
+#game_movieTeaser {
+    background: url(/wii/images/interview_siteware/crv_base.gif) top left no-repeat;
+    width: 780px;
+    height: 160px;
+    padding-bottom: 20px;
+}
+#game_movieTeaser .game_movieTeaser_top {
+    padding: 20px 0 0 15px;
+}
+#game_movieTeaser .game_movieTeaserImg {
+    float: left;
+    margin-right:15px;
+}
+#game_movieTeaser .game_movieTeaser_top .game_TeaserTxt {
+    width:390px;
+    background: #ffffff url(/wii/images/siteware/orange_dotline_y.gif) top right repeat-y;
+    float:left;
+    padding-right: 10px;
+}
+#game_movieTeaser .game_movieTeaser_top .game_TeaserButton {
+    height:120px;
+    float:right;
+    margin: 0 25px;
+    width: 140px;
+}
+.valign_maindiv{
+    display: table;
+    height: 120px;
+    #position: relative;
+    overflow: hidden;
+}
+.valign_maindiv .valign_div{
+    #position: absolute;
+    #top: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.valign_maindiv .valign_div .content_div{
+    #position: relative;
+    #top: -50%;
+}
+.main_div_wiimusic{
+    width:570px;
+    float:right;
+}
+.main_div_wiimusic .content_div{
+    margin-top:12px;
+}
+.main_div_wiimusic .content_div_links{
+    margin-top:12px;
+}
+
+/* ---------------------------------------------------- */
+/*    Survey Layer                                          */
+/* ---------------------------------------------------- */
+/* Overlayer */
+#overlayer{
+    margin:0;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000000 none repeat scroll 0 0;
+    position:absolute;
+    display:block;
+    z-index:999;
+    opacity:0.6;
+    filter:alpha(opacity=60); 
+}
+.survey_layer {
+     margin:0 0 0 -198px;
+     top:200px;
+     left:50%;
+     display:block;
+     position:absolute;
+     z-index:9999;
+     color:#000000;
+     width:396px;
+}
+.survey_layer img {
+    display:block;
+}
+.survey_layer .middle {
+    height:212px;
+}
+.survey_layer .top {
+    height:19px;
+    width:396px;
+} 
+.survey_layer .left {
+    float:left;
+    width:12px;
+}
+.survey_layer .left,
+.survey_layer .right{
+    float:left;
+    width:12px;
+}
+.survey_layer .content {
+    float:left;
+    width:327px;
+    height:202px;
+    background-color:#FFFFFF;
+    padding:10px 20px 0 20px;
+    color: #808080;
+    text-align:left;
+}
+.survey_layer p, .survey_layer .middle .content a {
+    width:327px;
+    margin:4px 0 14px;
+}
+.survey_layer .middle .content a{
+    font-weight:bold;
+    text-decoration:underline;
+    
+}
+.survey_layer .close_button {
+    position: absolute;
+    right:29px;
+    top:20px;
+}
+* html .survey_layer .close_button {
+      bottom: 38px;
+}    
+.survey_layer img.footer_logo{
+    text-align:center;
+    position:absolute;
+    bottom: 30px;
+    left: 147px;
+}
+ 
+.wiimusic {
+    margin-bottom:13px;
+    text-align:center;
+    color:#FFFFFF;
+}
+.wiimusic .wiimusic_teaser{    
+    float:left;
+    height:184px;
+    width:260px;
+}
+
+/* wiimusic interview teaser */
+#interviewTeaser .buttonListMultiple {
+    float: left;
+    width: 375px;
+    margin-left: 10px;
+}
+.threeButtons {    
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-bottom: 4px;
+    height: 44px;
+} 
+#interviewTeaser .threeButtons a:hover {
+  background-position: 0 -44px;
+}
+.software_teaser{
+    background:transparent url(/wii/images/siteware/box_blue_top.gif) no-repeat 0 0;
+    width:780px;
+    margin:0 0 40px 0;
+    padding:40px 0 0 0;
+}
+.software_teaser .soft_area {
+    clear:both;
+    width:720px;
+    margin:0px auto 20px auto;
+}
+.software_teaser .soft_area .game_packshot{
+    float:left;
+    margin:0 10px 0 0;
+    width:125px;
+}
+.software_teaser .soft_area .soft_data {
+    background-image:url(/wii/images/siteware/dotline_y.gif);
+    background-position:right center;
+    background-repeat:repeat-y;
+    float:left;
+    margin:0;
+    padding:0 10px 0 0;    
+    width:190px;
+    font-size:10px;
+}
+.software_teaser .soft_area .soft_data table{
+    width:175px;
+    margin-bottom:20px;
+    margin-right:5px;
+}
+.software_teaser .soft_area .soft_data img{
+    margin:5px 5px 0 0px;
+    float:right;
+}
+.software_teaser .soft_area .soft_text {
+    float:left;
+    margin:0 0 0 20px;
+    padding:0;
+    width:355px;
+}
+.software_teaser .soft_area .soft_mov_teaser {
+    float:left;
+    width:188px;
+}
+.software_teaser .soft_area .soft_mov_teaserr2 {
+    float:left;
+    width:500px;
+}
+.software_teaser .soft_footer{
+    height:8px;
+    margin:0px;
+    padding:0px;
+    clear:both;
+}
+/* ---------------------------------------------------- */
+/*    Wii Connect Teaser Home                           */
+/* ---------------------------------------------------- */ 
+ul#bnr_vc_ww{
+    height:62px;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    width:560px;
+    background-repeat:no-repeat;
+}
+ul#bnr_vc_ww li{
+    margin:0px;
+    padding:0px;
+}
+ul#bnr_vc_ww #btn_vc {
+    left:3px;
+}
+ul#bnr_vc_ww #btn_ww {
+    left:284px;
+}
+ul#bnr_vc_ww #btn_vc, ul#bnr_vc_ww #btn_ww {
+    background-repeat:no-repeat;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    position:absolute;
+    top:23px;
+}
+ul#bnr_vc_ww #btn_vc a, ul#bnr_vc_ww #btn_ww a {
+    display:block;
+    height:36px;
+    overflow:hidden;
+    text-indent:-1000px;
+    width:274px;
+}
+ul#bnr_vc_ww #btn_vc a:hover, ul#bnr_vc_ww #btn_ww a:hover {
+    background-position:center bottom;
+}
+#connect_teaser {
+    margin:20px 0px 20px 0px;
+    padding:0px;
+}
+/* ---------------------------------------------------- */
+/*    Wii Channel Video Button                          */
+/* ---------------------------------------------------- */ 
+#video_connect{
+    width:780px;
+}
+#video_connect.video_connect_bg{
+    height:42px;
+    background-image:url(/wii/images/teaser_moods/channel_video_connect_btt_bg.gif);
+}
+#video_connect .container{
+    padding-top:5px;
+    text-align:center;
+}
+#video_connect a img{
+    border:none;
+    text-decoration:none;
+}
+.clearer{
+    clear:both;
+}
+/* ---------------------------------------------------- */
+/*    NPC Page Teaser                                   */
+/* ---------------------------------------------------- */ 
+.software_teaser .soft_area .soft_data_npc {
+    float:left;
+    margin:0;
+    padding:0 10px 0 0;    
+    width:190px;
+    font-size:10px;
+}
+.software_teaser .soft_area .soft_text_npc {
+    background-image:url(/wii/images/siteware/dotline_y.gif);
+    background-position:left center;
+    background-repeat:repeat-y;
+    float:left;
+    padding:0 0 0 17px;
+    width:345px;
+}
+.software_teaser .soft_teaser_wrapper_npc {
+    float:left;
+    clear:both;
+    margin-top:20px;
+}
+.software_teaser .soft_area .soft_data_npc table{
+    width:175px;
+    margin-bottom:20px;
+    margin-right:5px;
+}
+.software_teaser .soft_area .soft_data_npc img{
+    margin:5px 5px 0 0px;
+    float:right;
+}
