@@ -129,7 +129,7 @@
     U: ['##....##','##....##','##....##','##....##','##....##','##....##','##....##','##....##','##....##','.######.','..####..'],
     D: ['######..','#######.','##...###','##....##','##....##','##....##','##....##','##....##','##...###','#######.','######..']
   };
-  const GH = 11, GG = 2, LGAP = 2, KERN = {};   // glyph height, letter gap, line gap (cells)
+  const GH = 11, GG = 2, LGAP = 2, KERN = { F: 2 };   // glyph height, letter gap, line gap (cells); extra gap after F so the tilt never makes it touch the O (keep even so rows stay on the grid)
   function buildBits() {
     const lines = ['NOT', 'FOUND'], cells = [];
     const widths = lines.map(t => [...t].reduce((w, ch, i) => w + GLYPH[ch][0].length + (i < t.length - 1 ? GG + (KERN[ch] || 0) : 0), 0));
